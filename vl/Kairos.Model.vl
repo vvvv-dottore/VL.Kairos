@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="QaFEz8nplaBQVATKTS2rKL" LanguageVersion="2019.1.0-0217-gafab38f09e" Version="0.128">
+<Document xmlns:p="property" Id="QaFEz8nplaBQVATKTS2rKL" LanguageVersion="2019.1.0-0232-g3dad19dbce" Version="0.128">
   <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="0.96.6" />
   <Patch Id="Psv0au7NCNRNhP5X940Z5d">
     <Canvas Id="RPrWlmod17SPS9Gfp3kroA" DefaultCategory="Kairos.Model" CanvasType="FullCategory">
@@ -278,7 +278,7 @@
                 <Pin Id="NFdknIVxNKfQQafsmv7h2x" Name="Input" Kind="InputPin" />
                 <Pin Id="RnDPgTrbRMgNYyM998RD7f" Name="Base Name" Kind="InputPin" />
                 <Pin Id="IuU7UFgihH7LaEUPMPwGPK" Name="Index" Kind="InputPin" />
-                <Pin Id="QOHK3GnVyoGMt8tGuJQ5eJ" Name="Container_M Create Delegate" Kind="InputPin" />
+                <Pin Id="QOHK3GnVyoGMt8tGuJQ5eJ" Name="New IChannel" Kind="InputPin" />
                 <Pin Id="CYZRmi2u9XUNsR4Rwoqqle" Name="Output" Kind="OutputPin" />
                 <Pin Id="Rn7sNaSAVgZNBJEC2zA0Bz" Name="Model" Kind="InputPin" />
               </Node>
@@ -1098,7 +1098,7 @@
                 <Pin Id="VP1PpbMoWx2LSIyiRIyia8" Name="Input" Kind="StateInputPin" />
                 <Pin Id="KXr9yvs8YchLL8ZSZYOEz9" Name="Base Name" Kind="InputPin" />
                 <Pin Id="FbC4OtKjxZKMlZ62dQrcph" Name="Index" Kind="InputPin" />
-                <Pin Id="AQO3JYDknUCLfqiOzDjhSG" Name="Container_M Create Delegate" Kind="InputPin" />
+                <Pin Id="AQO3JYDknUCLfqiOzDjhSG" Name="New IChannel" Kind="InputPin" />
                 <Pin Id="BlkJJ6YGCzTNASWXEEHRav" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="KGZbXdjPYfLQG7KTDDbgUK" Name="Model" Kind="InputPin" />
               </Node>
@@ -1173,7 +1173,7 @@
                 <Pin Id="SGREWYLTSecPKr5MNFh80s" Name="Input" Kind="StateInputPin" />
                 <Pin Id="Sbcmk1N3Nv1OV5WB6vjWRZ" Name="Base Name" Kind="InputPin" />
                 <Pin Id="BcdYraQIiKULQlodBLWGKD" Name="Index" Kind="InputPin" />
-                <Pin Id="PbL2wwS9lKINmFvDsPQQjQ" Name="Container_M Create Delegate" Kind="InputPin" />
+                <Pin Id="PbL2wwS9lKINmFvDsPQQjQ" Name="New IChannel" Kind="InputPin" />
                 <Pin Id="E1D4g3LesoELef1y89lYwu" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="Dou2GfSi3PUMn1pHu3IML7" Name="Model" Kind="InputPin" />
               </Node>
@@ -1404,27 +1404,23 @@
                 <Pin Id="Hfpgi4nK202LNMbe6NnW2v" Name="Default Name" Kind="InputPin" />
                 <Pin Id="FOSXqr7GmKkLCs866VWMkr" Name="Spread Count" Kind="InputPin" />
                 <Pin Id="Pr46FUizGL4OTZ6EXTJfSA" Name="Base Names List" Kind="InputPin" />
-                <Pin Id="RxdPxkgoWgxNiAYhOqe03D" Name="Container_M Create Delegate" Kind="InputPin" />
                 <Pin Id="IIvKA53qPETP7N4AFvEeSt" Name="Output" Kind="OutputPin" />
-                <Patch Id="Q72WhlB4XczLOUY8n7jQnr" Name="Create" ManuallySortedPins="true">
-                  <Pin Id="RZe4hTqgQKZNN6okKwfOhw" Name="Result" Kind="OutputPin" />
-                  <ControlPoint Id="IxlRuoW488vQUsD7TmcZ3M" Bounds="514,128" />
-                  <Node Bounds="518,75,64,26" Id="NqeaSmCpDwCPc6MRnjqdzK">
-                    <p:NodeReference LastCategoryFullName="Kairos.Model.Matrix.Scene_M" LastSymbolSource="Kairos.Model.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="Scene_M" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="E1xP3mdXLOgPhb6XgeE8ht" Name="Name" Kind="InputPin" />
-                    <Pin Id="R37lncJ1lhVParT4EWrh1M" Name="Output" Kind="StateOutputPin" />
-                  </Node>
+                <Patch Id="Rdyg52IfMESN4Ve4i2CXfm" Name="IChannel Create Delegate">
+                  <Pin Id="PQvQNP6ulI3OGwOq1bvdaC" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Node Bounds="477,366,119,80" Id="BGD80rSOnN0QURrQKr12HE">
-                <p:NodeReference LastCategoryFullName="Kairos.Model.IChannel" LastSymbolSource="Kairos.Model.vl">
+                <p:NodeReference LastCategoryFullName="Kairos.Model.Core.IChannel" LastSymbolSource="Kairos.Model.vl">
                   <Choice Kind="OperationCallFlag" Name="CreateSpread" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
+                <Pin Id="Gg6DSsz3P6NMbOfUqk9ONQ" Name="Default Name" Kind="InputPin" />
+                <Pin Id="UGqdWAJGsd0NWdUolMjtkO" Name="Spread Count" Kind="InputPin" />
+                <Pin Id="Q1aOvdzQnLwLmrosHs9xfP" Name="Base Names List" Kind="InputPin" />
+                <Pin Id="VoC5nfDg5HkNPuQVcrGUkq" Name="Output" Kind="OutputPin" />
+                <Patch Id="FmHGfPDUdSAMnJso4vO4Yt" Name="IChannel Create Delegate">
+                  <Pin Id="F14ZLwuyzcfOj32s9MPprr" Name="Result" Kind="OutputPin" />
+                </Patch>
                 <Patch Id="TtfVuEknau6O7LzMiXhosK" Name="Create" ManuallySortedPins="true">
                   <Pin Id="VBeLBp22Tn9MSi0pO2BW6X" Name="Result" Kind="OutputPin" />
                   <ControlPoint Id="BHTK3HppSwyPjMtUQl7p5z" Bounds="486,440" />
@@ -1440,10 +1436,6 @@
                     <Pin Id="UWLNeS1Q39cMct6XQZWmLk" Name="Scenes" Kind="InputPin" />
                   </Node>
                 </Patch>
-                <Pin Id="Gg6DSsz3P6NMbOfUqk9ONQ" Name="Default Name" Kind="InputPin" />
-                <Pin Id="UGqdWAJGsd0NWdUolMjtkO" Name="Spread Count" Kind="InputPin" />
-                <Pin Id="Q1aOvdzQnLwLmrosHs9xfP" Name="Base Names List" Kind="InputPin" />
-                <Pin Id="VoC5nfDg5HkNPuQVcrGUkq" Name="Output" Kind="OutputPin" />
               </Node>
               <Pad Id="KcvI2YcIsv6OkwMUBCCPaD" SlotId="IVSWXjzTF6zPvdR6YhkkaJ" Bounds="2577,586">
                 <p:ValueBoxSettings />
@@ -1698,8 +1690,8 @@
               <Fragment Id="SMcMfDEeftzQcmOsNsBt93" Patch="UcNFTFYMgtpOamzNJ6cz1t" Enabled="true" />
               <Fragment Id="PcL83cVNiKkO2rDkWlxbGz" Patch="C0nCeQKvBTBQAlfADZvYma" Enabled="true" />
             </ProcessDefinition>
-            <Link Id="VEHF4OtB5kfOdjD21qmyCm" Ids="IxlRuoW488vQUsD7TmcZ3M,RZe4hTqgQKZNN6okKwfOhw" IsHidden="true" />
-            <Link Id="HKpehOrEprsPnXpLc47xER" Ids="R37lncJ1lhVParT4EWrh1M,IxlRuoW488vQUsD7TmcZ3M" />
+            <Link Id="VEHF4OtB5kfOdjD21qmyCm" Ids="UeXcWrNhlcBMofBoThzFaP,EIBLgjd2weDP0rTwhD8tek" IsHidden="true" />
+            <Link Id="HKpehOrEprsPnXpLc47xER" Ids="OrY9vz0JmgVN2gfvz0Y6VP,UeXcWrNhlcBMofBoThzFaP" />
             <Link Id="LKYsb6QvDqHMWwgfUU9WOC" Ids="IIvKA53qPETP7N4AFvEeSt,QW9uiM1XdZvPy6Ea3kklqL" />
             <Link Id="P3Yxs1ZFRf3LErnULZQFCs" Ids="BPzehgG3jX6Mr8mPdMRImZ,Hfpgi4nK202LNMbe6NnW2v" />
             <Link Id="K3iJzEponfbOK56P2XKmJu" Ids="OrMnFBnDqbeMgUN0zc54k4,FOSXqr7GmKkLCs866VWMkr" />
@@ -5102,21 +5094,7 @@
                     <Pin Id="EA1cMcxNNL7MMNjkAblPIG" Name="Output" Kind="StateOutputPin" />
                   </Node>
                   <Link Id="RCjXFjNSPiqLNKKbSxLgAD" Ids="EA1cMcxNNL7MMNjkAblPIG,PubnB4r4x5COMUjJW9G98c" />
-                  <Node Bounds="1257,801,55,26" Id="IpASR0Z8MbjMRNz3oWfac7">
-                    <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="IChannel" />
-                    </p:NodeReference>
-                    <Pin Id="TUtFpUDit6pPMwKZsNCe0x" Name="Name" Kind="InputPin" />
-                    <Pin Id="Cfb0xHUWxOtOrhrwdDqFEY" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="OJYc3uv7Y9JM3WmV4cp15d" Name="Container_M Create Delegate" Kind="InputPin" />
-                  </Node>
-                  <Link Id="MxP8yFUFnf1Ox87SDBM6Hn" Ids="KhVzpTY33d6MpeaFhW8IJl,TUtFpUDit6pPMwKZsNCe0x" />
-                  <Link Id="QyIycaZhPkHQSbpnXs5BzP" Ids="Cfb0xHUWxOtOrhrwdDqFEY,VgcjZPgDLmkQZhH7vGfX2h" />
-                  <Link Id="RqAqgfjsYMJMpIQ2NYTlHq" Ids="Cfb0xHUWxOtOrhrwdDqFEY,HClN3CnA6UWOLIbaQoCpKl" />
-                  <ControlPoint Id="HpOmDX0I531Py8IJsjheRu" Bounds="1308,772" />
-                  <Link Id="LhOiw2PGyWvLQRa8r8vqfC" Ids="HpOmDX0I531Py8IJsjheRu,OJYc3uv7Y9JM3WmV4cp15d" />
+                  <ControlPoint Id="HpOmDX0I531Py8IJsjheRu" Bounds="1257,789" />
                   <Link Id="SGNMNNvq4IyMx0jl71FHAB" Ids="BgbtC5WDaXeNBxX5mWzW1M,HpOmDX0I531Py8IJsjheRu" IsHidden="true" />
                   <Pin Id="M4RxtOCWfq1Pv8J1lmRFgr" Name="Input" Kind="InputPin" />
                   <Pin Id="U1Ht9IzcEhnOXhZWVWurvy" Name="Base Name" Kind="InputPin" Bounds="830,820" DefaultValue="Name">
@@ -5129,8 +5107,22 @@
                       <Choice Kind="TypeFlag" Name="Integer32" />
                     </p:TypeAnnotation>
                   </Pin>
-                  <Pin Id="BgbtC5WDaXeNBxX5mWzW1M" Name="Container_M Create Delegate" Kind="InputPin" Bounds="1308,772" />
+                  <Pin Id="BgbtC5WDaXeNBxX5mWzW1M" Name="New IChannel" Kind="InputPin" Bounds="1308,772" />
                   <Pin Id="ARRwMEtzWqMPDTrIncTg9k" Name="Output" Kind="OutputPin" Bounds="551,962" />
+                  <Node Bounds="1255,821,56,26" Id="LHmltIVSVm9NIkKzRLz6rQ">
+                    <p:NodeReference LastCategoryFullName="Kairos.Model.Core.IChannel" LastSymbolSource="Kairos.Model.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="RecordType" Name="IChannel" />
+                      <Choice Kind="OperationCallFlag" Name="SetName" />
+                    </p:NodeReference>
+                    <Pin Id="GNYxNWpFYOgL1N75uXlDFf" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="T8waWyPFQ53O21CFxgOI3G" Name="Name" Kind="InputPin" />
+                    <Pin Id="GwdUBFRTnz4OYTYrwSblsc" Name="Output" Kind="StateOutputPin" />
+                  </Node>
+                  <Link Id="HgP3ds5ncyeL5YEAtdmZoA" Ids="HpOmDX0I531Py8IJsjheRu,GNYxNWpFYOgL1N75uXlDFf" />
+                  <Link Id="LTWRX3KK4oGP1NDEYCDRKC" Ids="KhVzpTY33d6MpeaFhW8IJl,T8waWyPFQ53O21CFxgOI3G" />
+                  <Link Id="HUPtt66RHbJMkkMLJltej6" Ids="GwdUBFRTnz4OYTYrwSblsc,VgcjZPgDLmkQZhH7vGfX2h" />
+                  <Link Id="EigvMj3EwZIP3qDkw0V3LC" Ids="GwdUBFRTnz4OYTYrwSblsc,HClN3CnA6UWOLIbaQoCpKl" />
                 </Patch>
               </Node>
               <!--
@@ -5179,15 +5171,24 @@
                         <Pin Id="RIPzNiEPp7VOosxzFWF3hz" Name="Item" Kind="InputPin" />
                         <Pin Id="Sx67VuLpP8hQck8PgnTISa" Name="Output" Kind="OutputPin" />
                       </Node>
-                      <Node Bounds="1573,800,55,26" Id="C3h8uSawsqPL10zY8Hg4XX">
-                        <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                          <Choice Kind="OperationCallFlag" Name="Create" />
+                      <Node Bounds="1573,798,56,26" Id="FhmkYdg6eVpPA31XXCSzDU">
+                        <p:NodeReference LastCategoryFullName="Kairos.Model.Core.IChannel" LastSymbolSource="Kairos.Model.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="Category" Name="IChannel" />
+                          <CategoryReference Kind="RecordType" Name="IChannel" />
+                          <Choice Kind="OperationCallFlag" Name="SetName" />
                         </p:NodeReference>
-                        <Pin Id="IctDscw2iBxLRpb2lmM30O" Name="Name" Kind="InputPin" />
-                        <Pin Id="D3g8kDpzWNsOJ7p1pm9juH" Name="Output" Kind="StateOutputPin" />
-                        <Pin Id="VafHEoT7xK7QF6VI2fe9gx" Name="Container_M Create Delegate" Kind="InputPin" />
+                        <Pin Id="TfAePmTq0XEPYYMpzjEKFV" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="Cg5Bxh3hY9TMc2jl1J3WFi" Name="Name" Kind="InputPin" />
+                        <Pin Id="KCz7JupjliCMzhU76Ol8OY" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                      <Node Bounds="1573,755,79,26" Id="ORzgOkh0RnfOZpk3iG6Bei">
+                        <p:NodeReference LastCategoryFullName="Primitive.Delegates.Delegate (0 -&gt; 1)" LastSymbolSource="CoreLibBasics.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="FuncType" Name="Delegate (0 -&gt; 1)" />
+                          <Choice Kind="OperationCallFlag" Name="Invoke" />
+                        </p:NodeReference>
+                        <Pin Id="BwVZqUYcRcdLVXPm6n0xwc" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="KNMxbBZiXZ2Lo4SFjPIvpe" Name="Result" Kind="OutputPin" />
                       </Node>
                     </Patch>
                     <ControlPoint Id="MXGnp0M9OpGOktQXtHtejF" Bounds="1575,840" Alignment="Bottom" />
@@ -5244,16 +5245,17 @@
                   <Link Id="EpuTgI5xbaNLIIx3BwdtSd" Ids="HhDKWHxsii1Ouym1bcjLHf,Q01BClWqw6SNI6A67IpAKU" IsHidden="true" />
                   <Link Id="BlPzWrNDZbCQdldwFsuz84" Ids="Q01BClWqw6SNI6A67IpAKU,DW67eEUFp57NfZVrW4TQhQ" />
                   <Link Id="SB2hRdeEqkPLrj1NMc2RQg" Ids="JFVoAtHvAIEMHcxWsmYmi1,THa0PlMMgytQNtuodevObR" />
-                  <Link Id="AjeeFAHnjd3PWkyzKXJ5zC" Ids="LKOO9G0W9d6PuGdr6kDLlS,IctDscw2iBxLRpb2lmM30O" />
-                  <Link Id="HYPzXLc9S62OjyEP2FLuD8" Ids="D3g8kDpzWNsOJ7p1pm9juH,MXGnp0M9OpGOktQXtHtejF" />
-                  <Link Id="TVaNMPtHW0lOUKYmAgnifR" Ids="K3NIt9iEMKFPPTz5xqzgzN,VafHEoT7xK7QF6VI2fe9gx" />
-                  <ControlPoint Id="K3NIt9iEMKFPPTz5xqzgzN" Bounds="1599,687" />
+                  <ControlPoint Id="K3NIt9iEMKFPPTz5xqzgzN" Bounds="1576,688" />
                   <Link Id="BQCrvg1ay4zM9pCrM2IlZm" Ids="SGsYPX4y9OlQMcGA3pyqCM,K3NIt9iEMKFPPTz5xqzgzN" IsHidden="true" />
                   <Pin Id="KrNVRntXJhsPJ2DQ5kUnRa" Name="Default Name" Kind="InputPin" Bounds="659,162" />
                   <Pin Id="Bwnulyp5uwhNMrXELRFfal" Name="Spread Count" Kind="InputPin" Bounds="489,162" />
                   <Pin Id="HhDKWHxsii1Ouym1bcjLHf" Name="Base Names List" Kind="InputPin" />
-                  <Pin Id="SGsYPX4y9OlQMcGA3pyqCM" Name="Container_M Create Delegate" Kind="InputPin" Bounds="1585,652" />
+                  <Pin Id="SGsYPX4y9OlQMcGA3pyqCM" Name="IChannel Create Delegate" Kind="InputPin" Bounds="1585,652" />
                   <Pin Id="O6vMaidtWBILfyarcCCPoU" Name="Output" Kind="OutputPin" Bounds="1158,970" />
+                  <Link Id="DSb4uhZMvc6OHqqRzhrFgS" Ids="LKOO9G0W9d6PuGdr6kDLlS,Cg5Bxh3hY9TMc2jl1J3WFi" />
+                  <Link Id="RY4ITkHeWVfQWupwZ5LiLB" Ids="KCz7JupjliCMzhU76Ol8OY,MXGnp0M9OpGOktQXtHtejF" />
+                  <Link Id="CJa8uthRnBKO0m9kcZUCpE" Ids="KNMxbBZiXZ2Lo4SFjPIvpe,TfAePmTq0XEPYYMpzjEKFV" />
+                  <Link Id="Rh3FyEho7ASQaX6MeHkCL9" Ids="K3NIt9iEMKFPPTz5xqzgzN,BwVZqUYcRcdLVXPm6n0xwc" />
                 </Patch>
               </Node>
               <!--
@@ -6274,78 +6276,39 @@
                   </Pad>
                   <ControlPoint Id="AWcDR3xpvs2PbcQBPp2SUB" Bounds="587,337" />
                   <ControlPoint Id="UcCNdqv6pAGO0EFIELmQck" Bounds="587,507" />
-                  <Pad Id="MnodaTBgz0xLUsnroKhSnU" SlotId="GwyOOXRPffTOlXqglwYsU5" Bounds="788,409">
+                  <ControlPoint Id="RrjuIJBKLjILbH5gLfkgjC" Bounds="792,447" />
+                  <ControlPoint Id="R9iIX83ifVQP1SHAnyw74U" Bounds="768,511" />
+                  <Pad Id="Rg0JIpCbn1vNTIpngHggIZ" SlotId="AZpUEI8k586NN7Sua6MxwF" Bounds="768,409">
                     <p:ValueBoxSettings />
                   </Pad>
-                  <Node Bounds="786,262,45,19" Id="M8XNp3LigBLPhSS7lTiABE">
-                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                  <Node Bounds="766,267,40,19" Id="MkqrixFFyatNxYa0jktTqm">
+                    <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Empty" />
-                      <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true">
-                        <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true">
-                          <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
-                        </p:OuterCategoryReference>
-                      </CategoryReference>
+                      <Choice Kind="OperationCallFlag" Name="NULL" />
                     </p:NodeReference>
-                    <Pin Id="Tm9tawiD8JgNGIbs22uDh3" Name="Empty" Kind="OutputPin" />
+                    <Pin Id="TVXzrJ0AYa8PhnKsQ4Njdn" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <ControlPoint Id="RrjuIJBKLjILbH5gLfkgjC" Bounds="924,507" />
-                  <Node Bounds="786,449,34,19" Id="Q2TXvaOvdBwMEc6MvrOnix">
-                    <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
+                  <Node Bounds="788,300,40,19" Id="Upjrvec6mRjLqrgZE5kl47">
+                    <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Any" />
-                      <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationCallFlag" Name="NULL" />
                     </p:NodeReference>
-                    <Pin Id="JFVFnjnQQNVL1Zq0qbBHI9" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="PgdBbHA5UaUQB8WYBf255H" Name="Result" Kind="OutputPin" />
+                    <Pin Id="FqS4165uYwhPMrmdVicSE6" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <ControlPoint Id="R9iIX83ifVQP1SHAnyw74U" Bounds="788,507" />
-                  <Node Bounds="847,449,80,19" Id="NvFIJbP3FptLAlxYGY7qrw">
-                    <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
+                  <ControlPoint Id="NyRQD0xItWoNxhOIhEqRMa" Bounds="807,343" />
+                  <Node Bounds="766,475,65,19" Id="VtslDi9crsCOpXTCdMbiPK">
+                    <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="FirstOrDefault" />
-                      <CategoryReference Kind="MutableInterfaceType" Name="Sequence" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationCallFlag" Name="IsAssigned" />
                     </p:NodeReference>
-                    <Pin Id="OeiFNUqju87Ooo5dqyvyRN" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="B2hnEPoZheuP0U26Bldkcc" Name="Default Value" Kind="InputPin" />
-                    <Pin Id="AVnZomjtI4SP3dMcSEIKPT" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="Q4CxpDNzYqpPI0X6QnqiMU" Name="Result" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="816,292,45,19" Id="VRS9cb8QoZ1M700wL2002a">
-                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Empty" />
-                      <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true">
-                        <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true">
-                          <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
-                        </p:OuterCategoryReference>
-                      </CategoryReference>
-                    </p:NodeReference>
-                    <Pin Id="Qy76TQCEt9PO39dANbfmE1" Name="Empty" Kind="OutputPin" />
-                  </Node>
-                  <ControlPoint Id="SerSLmf1xqVQEoqRlPf4fg" Bounds="837,335" />
-                  <Node Bounds="835,351,65,19" Id="VSV9k2Z21gXLoqh67EdXcf">
-                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="FromValue" />
-                      <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true">
-                        <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true">
-                          <p:OuterCategoryReference Kind="Category" NeedsToBeDirectParent="true" />
-                        </p:OuterCategoryReference>
-                      </CategoryReference>
-                    </p:NodeReference>
-                    <Pin Id="PNpVkQDhRFgMUsRhrkFKRQ" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="RQrhVrUVH6mNPtBAApqTfC" Name="Result" Kind="OutputPin" />
+                    <Pin Id="O3nDSAlIrKiP0plx7KZ3H6" Name="X" Kind="InputPin" />
+                    <Pin Id="H2JOocotF8PNTu5Sy3D1Xp" Name="Result" Kind="OutputPin" />
+                    <Pin Id="UAduBT8zPEOQRBtHbCUXOs" Name="Not Assigned" Kind="OutputPin" />
                   </Node>
                 </Canvas>
-                <Patch Id="DT6THJ9GFiyP3fYKY2BJqd" Name="Create" ParticipatingElements="KgoHA6y6rdLMIp43s8AhYT">
+                <Patch Id="DT6THJ9GFiyP3fYKY2BJqd" Name="Create" ParticipatingElements="RB0OodkrydvMhnYWncMyRr">
                   <Pin Id="S2OfBYaNTQrQV2hBFcM1zr" Name="Slot Model Key" Kind="InputPin" />
                 </Patch>
-                <!--
-
-    ************************  ************************
-
--->
                 <ProcessDefinition Id="TGl8ZddGz6oPpBEeNQBuvQ" IsHidden="true">
                   <Fragment Id="DmC2rfgg6OUPesr5t92SBT" Patch="DT6THJ9GFiyP3fYKY2BJqd" Enabled="true" />
                   <Fragment Id="MYk1HWppzLGMoWhhK6PcPb" Patch="Uay1potfQ7hNIett5qbZYc" Enabled="true" />
@@ -6366,37 +6329,30 @@
                 <Link Id="LOzY8HyHyi9LKHypU2V3EN" Ids="S2OfBYaNTQrQV2hBFcM1zr,AWcDR3xpvs2PbcQBPp2SUB" IsHidden="true" />
                 <Link Id="F34Xgy3VBA9PcMMXtRwtci" Ids="PCS9mSobRfTQQudoLbkfi1,UcCNdqv6pAGO0EFIELmQck" />
                 <Link Id="KKm2DrGZHqBNIQj4LGZoD0" Ids="UcCNdqv6pAGO0EFIELmQck,I4IAu2E1TGuLGNzQaWiBcf" IsHidden="true" />
-                <Slot Id="GwyOOXRPffTOlXqglwYsU5" Name="Block_M">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Spread" />
-                    <p:TypeArguments>
-                      <TypeReference>
-                        <Choice Kind="TypeFlag" Name="Block_M" />
-                      </TypeReference>
-                    </p:TypeArguments>
-                  </p:TypeAnnotation>
-                </Slot>
-                <Link Id="KgoHA6y6rdLMIp43s8AhYT" Ids="Tm9tawiD8JgNGIbs22uDh3,MnodaTBgz0xLUsnroKhSnU" />
-                <Link Id="O9g6q5ncyvoPSBYgoqIsCh" Ids="MnodaTBgz0xLUsnroKhSnU,OeiFNUqju87Ooo5dqyvyRN" />
                 <Link Id="KShMJPUrquxOlTjNAlW2hL" Ids="RrjuIJBKLjILbH5gLfkgjC,VUWAiDdBYUnNHL6MapmLwj" IsHidden="true" />
                 <Patch Id="Ec82XJo9PwtLSYqaDTawnj" Name="GetBlock">
                   <Pin Id="VUWAiDdBYUnNHL6MapmLwj" Name="Block" Kind="OutputPin" />
                 </Patch>
-                <Link Id="TmqeI1ZmJSBNYfamJIXrGo" Ids="MnodaTBgz0xLUsnroKhSnU,JFVFnjnQQNVL1Zq0qbBHI9" />
-                <Link Id="FE5DT82p9KUMS5625kNJIp" Ids="PgdBbHA5UaUQB8WYBf255H,R9iIX83ifVQP1SHAnyw74U" />
                 <Link Id="K8Z9zsHtUJHQROxEDGzZvO" Ids="R9iIX83ifVQP1SHAnyw74U,QBlTTLljh8rOpvo0pr2Oan" IsHidden="true" />
-                <Link Id="JCbjNza9GZKMgRe99T2B6o" Ids="Q4CxpDNzYqpPI0X6QnqiMU,RrjuIJBKLjILbH5gLfkgjC" />
                 <Patch Id="CJWXcoZIASUO2BjgoqdZFG" Name="GetHasBlock">
                   <Pin Id="QBlTTLljh8rOpvo0pr2Oan" Name="Has Block" Kind="OutputPin" />
                 </Patch>
-                <Link Id="DYDRF4pF1iKQVxScrMj3SH" Ids="Qy76TQCEt9PO39dANbfmE1,MnodaTBgz0xLUsnroKhSnU" />
-                <Patch Id="DPTuq2wtrJYLIcnm4ArtaK" Name="EmptySlot" ParticipatingElements="DYDRF4pF1iKQVxScrMj3SH" />
-                <Link Id="Ub0bTlcaUeqN3nbrYZHN62" Ids="SerSLmf1xqVQEoqRlPf4fg,PNpVkQDhRFgMUsRhrkFKRQ" />
-                <Link Id="Fs5ZwkJK0uaNtUK9UuV8SC" Ids="A3OHojfXwqJMDrdrQJ884C,SerSLmf1xqVQEoqRlPf4fg" IsHidden="true" />
+                <Patch Id="DPTuq2wtrJYLIcnm4ArtaK" Name="EmptySlot" ParticipatingElements="C6YbPHAaOvaLNqY2QZPTwE" />
                 <Patch Id="TxrqQSea38POuyR3yt567N" Name="SetBlock_M">
                   <Pin Id="A3OHojfXwqJMDrdrQJ884C" Name="Block_M" Kind="InputPin" />
                 </Patch>
-                <Link Id="Jlxx3a4ENbwPQtO0sCua7m" Ids="RQrhVrUVH6mNPtBAApqTfC,MnodaTBgz0xLUsnroKhSnU" />
+                <Slot Id="AZpUEI8k586NN7Sua6MxwF" Name="Block_M">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Block_M" />
+                  </p:TypeAnnotation>
+                </Slot>
+                <Link Id="RB0OodkrydvMhnYWncMyRr" Ids="TVXzrJ0AYa8PhnKsQ4Njdn,Rg0JIpCbn1vNTIpngHggIZ" />
+                <Link Id="C6YbPHAaOvaLNqY2QZPTwE" Ids="FqS4165uYwhPMrmdVicSE6,Rg0JIpCbn1vNTIpngHggIZ" />
+                <Link Id="T9FdzqFSz0lOHp07n7aB93" Ids="A3OHojfXwqJMDrdrQJ884C,NyRQD0xItWoNxhOIhEqRMa" IsHidden="true" />
+                <Link Id="RFWf3u148V0OHNDTo9u9BX" Ids="NyRQD0xItWoNxhOIhEqRMa,Rg0JIpCbn1vNTIpngHggIZ" />
+                <Link Id="AiGtJlaylvnNeD2jbvzRrn" Ids="Rg0JIpCbn1vNTIpngHggIZ,O3nDSAlIrKiP0plx7KZ3H6" />
+                <Link Id="SyV5amDlyyhMpJ7Dr2DC1e" Ids="H2JOocotF8PNTu5Sy3D1Xp,R9iIX83ifVQP1SHAnyw74U" />
+                <Link Id="HXlI4swfsxtPVDGOvaZZzs" Ids="Rg0JIpCbn1vNTIpngHggIZ,RrjuIJBKLjILbH5gLfkgjC" />
               </Patch>
             </Node>
           </Canvas>
@@ -6987,7 +6943,7 @@
                 <Pin Id="T0uzx4oTA8cOtvWX2plGoO" Name="Input" Kind="StateInputPin" />
                 <Pin Id="DEuU6c7B2PrL9wF5zrfQjW" Name="Base Name" Kind="InputPin" />
                 <Pin Id="B5tukhIGJ1fMB1hJi4o1HR" Name="Index" Kind="InputPin" />
-                <Pin Id="GUzW6XIVGXtQWgbMLrFXeh" Name="Container_M Create Delegate" Kind="InputPin" />
+                <Pin Id="GUzW6XIVGXtQWgbMLrFXeh" Name="New IChannel" Kind="InputPin" />
                 <Pin Id="GhYUSF1mVtIOLVo4EZXeZy" Name="Output" Kind="StateOutputPin" />
                 <Pin Id="TCE22QSvgPDMrMiDtJXxlP" Name="Model" Kind="InputPin" />
               </Node>
@@ -7303,20 +7259,9 @@
                 <Pin Id="DQlXYfv7kc9OqxROBeEhOK" Name="Default Name" Kind="InputPin" />
                 <Pin Id="AmIls5VQRHoNqk9uErhxbE" Name="Spread Count" Kind="InputPin" />
                 <Pin Id="GCZAbEfv6PINI3IYrI5WFx" Name="Base Names List" Kind="InputPin" />
-                <Pin Id="MoUpktag4H8QbTx3FmktNo" Name="Container_M Create Delegate" Kind="InputPin" />
                 <Pin Id="JlT0I5cqcKeNRQ7v2Q0hwp" Name="Output" Kind="OutputPin" />
-                <Patch Id="TmmPBiPCmiWMPsDlGJ45au" Name="Create" ManuallySortedPins="true">
-                  <Pin Id="QdewHzDsj3yMC4rum5Y2Fw" Name="Result" Kind="OutputPin" />
-                  <ControlPoint Id="DoKIuPU33iEL8pt4tlK3HK" Bounds="514,128" />
-                  <Node Bounds="518,75,64,26" Id="AAeiccibAOXMel0M4cUkhz">
-                    <p:NodeReference LastCategoryFullName="Kairos.Model.Matrix.Scene_M" LastSymbolSource="Kairos.Model.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="Scene_M" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="EnGiWYWQOj3OqfyelRyDZ5" Name="Name" Kind="InputPin" />
-                    <Pin Id="S78WTsr9jf0LmFNZAaJUFi" Name="Output" Kind="StateOutputPin" />
-                  </Node>
+                <Patch Id="Qx7dOZY7pIxNHS8hTjXsb6" Name="IChannel Create Delegate">
+                  <Pin Id="JgL6XqvFsaEOCYvsbIvJuG" Name="Result" Kind="OutputPin" />
                 </Patch>
               </Node>
               <Pad Id="HCXp1Tcs3bfP253y16WAtt" SlotId="OM8SrmAl38HQQC2zAO11TA" Bounds="2577,586">
@@ -7373,26 +7318,15 @@
               </Pad>
               <ControlPoint Id="D8QjLjT9JD7OpZy9nSPMC1" Bounds="719,1208" />
               <ControlPoint Id="RwEoNmRLbfcO7BVu2OnOzI" Bounds="719,1130" />
-              <Node Bounds="476,330,84,125" Id="KOoKrWuLVzQMAV62NsMctU">
+              <Node Bounds="476,330,102,125" Id="KOoKrWuLVzQMAV62NsMctU">
                 <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
                   <Choice Kind="OperationCallFlag" Name="CreateSpread" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   <CategoryReference Kind="Category" Name="IChannel" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
-                <Patch Id="F3GQLGaPfr2NQ6K60qFUZf" Name="Container_M Create Delegate" ManuallySortedPins="true">
-                  <Pin Id="IufyRZGro3uLvs027mHdn1" Name="Arg" Kind="InputPin" />
-                  <Pin Id="E4tvpN9iNViP8B3uKiWy2G" Name="Result" Kind="OutputPin" />
+                <Patch Id="F3GQLGaPfr2NQ6K60qFUZf" Name="IChannel Create Delegate" ManuallySortedPins="true">
                   <ControlPoint Id="FPidZBZAq7iO7vHT4ZwfjI" Bounds="491,337" />
                   <ControlPoint Id="KBogKqslNNdPInmIlPoJYl" Bounds="490,449" />
-                  <Node Bounds="488,404,60,26" Id="My8du2H4vS8PxtsddUr8nv">
-                    <p:NodeReference LastCategoryFullName="Kairos.Model.Old.Core.ValueHolder" LastSymbolSource="Kairos.Model.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="RecordType" Name="ValueHolder" />
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                    </p:NodeReference>
-                    <Pin Id="A4tkSN67aRhNRrNrR7lBVB" Name="Value" Kind="InputPin" />
-                    <Pin Id="DdI4LY3PVZxQCSn3sufqeA" Name="Output" Kind="StateOutputPin" />
-                  </Node>
                   <Node Bounds="489,364,56,26" Id="QFJAirpln2LNzOcXi6nEq1">
                     <p:NodeReference LastCategoryFullName="Kairos.Model.Matrix_OLD.Switcher_M" LastSymbolSource="Kairos.Model.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7404,6 +7338,21 @@
                     <Pin Id="UAbgre7v62YMcOfaHHDTwS" Name="Scenes" Kind="InputPin" />
                     <Pin Id="BsfAVy6workLCOPY1zasK6" Name="Output" Kind="StateOutputPin" />
                   </Node>
+                  <Pin Id="E4tvpN9iNViP8B3uKiWy2G" Name="Result" Kind="OutputPin" />
+                  <Pin Id="IufyRZGro3uLvs027mHdn1" Name="Arg" Kind="InputPin" />
+                  <Node Bounds="488,404,78,26" Id="PWqwlITKS1LO5h00KasJAc">
+                    <p:NodeReference LastCategoryFullName="Kairos.Model.Matrix.MatrixChannel_M" LastSymbolSource="Kairos.Model.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <CategoryReference Kind="RecordType" Name="MatrixChannel_M" />
+                      <Choice Kind="OperationCallFlag" Name="Create" />
+                      <CategoryReference Kind="RecordType" Name="MatrixChannel_M" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Matrix" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                    </p:NodeReference>
+                    <Pin Id="U2vlxJ4x0ccLWWjlznawnu" Name="Name" Kind="InputPin" />
+                    <Pin Id="F0BBAsFV6sTPqWgP96Qc6e" Name="Slots Model Key" Kind="InputPin" />
+                    <Pin Id="R4pTEBhaYiEQTg33HURSM8" Name="Output" Kind="StateOutputPin" />
+                  </Node>
                 </Patch>
                 <Pin Id="RRXYLiSG6pDOJB5G2QMcRL" Name="Default Name" Kind="InputPin" />
                 <Pin Id="AdX7QQFBq1GPCABTRgCGaI" Name="Spread Count" Kind="InputPin" DefaultValue="1">
@@ -7412,7 +7361,6 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="PMiidA1GeBzOMQ7HZa6IDY" Name="Base Names List" Kind="InputPin" />
-                <Pin Id="NHuBaij0RXhOM2rtBA0o4I" Name="Container_M Create Delegate" Kind="InputPin" />
                 <Pin Id="Oblf0VvnbZ3PjYokZht7lK" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1097,378,84,93" Id="GJFn1XLJdSuP8lkMnT0fSQ">
@@ -7430,7 +7378,7 @@
                 <Pin Id="VSSZyWQpVYvQUHLux4qBkR" Name="Input" Kind="InputPin" />
                 <Pin Id="UUCI710VNicMNodNBjgfG9" Name="Base Name" Kind="InputPin" />
                 <Pin Id="AGIsG7zsBzBOo5diWwyFNU" Name="Index" Kind="InputPin" />
-                <Pin Id="CwASmD8TPPlMFrFI1VN6zL" Name="Container_M Create Delegate" Kind="InputPin" />
+                <Pin Id="CwASmD8TPPlMFrFI1VN6zL" Name="New IChannel" Kind="InputPin" />
                 <Pin Id="JuRLYDIXq8yLweFOg9YXpt" Name="Output" Kind="OutputPin" />
               </Node>
               <!--
@@ -7688,8 +7636,6 @@
               <Fragment Id="Q1cVo8U8dKHPBqrskd4OA2" Patch="Ctu4D5PYPFJOK8ISIpiiAh" Enabled="true" />
               <Fragment Id="Mc9viFjr8pzLWh32tUewus" Patch="RQwVWN83nuePywA9voYHep" Enabled="true" />
             </ProcessDefinition>
-            <Link Id="OpR6PYV5IxCP8Xtw1VqSIV" Ids="DoKIuPU33iEL8pt4tlK3HK,QdewHzDsj3yMC4rum5Y2Fw" IsHidden="true" />
-            <Link Id="HEk0XLnUkCQMJYffCBmKVX" Ids="S78WTsr9jf0LmFNZAaJUFi,DoKIuPU33iEL8pt4tlK3HK" />
             <Link Id="SpY9HFdo76cOTL4IfHldQk" Ids="JlT0I5cqcKeNRQ7v2Q0hwp,O8YXRcXKwI2QdMWN67Xnj3" />
             <Link Id="Rtv2UcuJeXgN0c6pxz1bNL" Ids="KGYR2lQmHpMQCTeUK94j9E,DQlXYfv7kc9OqxROBeEhOK" />
             <Link Id="OEJ37M7mrFfMp6cis58joT" Ids="JHnKJPCKjvjO4ET01EqsLe,AmIls5VQRHoNqk9uErhxbE" />
@@ -7735,8 +7681,6 @@
             <Link Id="JQitBqqdMDeNNslXqvdQXD" Ids="IufyRZGro3uLvs027mHdn1,FPidZBZAq7iO7vHT4ZwfjI" IsHidden="true" />
             <Link Id="Rz3vhmHdtMnME4lBG3wGs4" Ids="KBogKqslNNdPInmIlPoJYl,E4tvpN9iNViP8B3uKiWy2G" IsHidden="true" />
             <Link Id="RnVy9GnU4t5OipMbmw6jSE" Ids="Oblf0VvnbZ3PjYokZht7lK,IPoI3ESCQTYNZYKCQY7eoj" />
-            <Link Id="KbjmV9gzZHjPWBrh7VzMXh" Ids="DdI4LY3PVZxQCSn3sufqeA,KBogKqslNNdPInmIlPoJYl" />
-            <Link Id="S5cnIO5Y0krNkq7qPNOXf9" Ids="BsfAVy6workLCOPY1zasK6,A4tkSN67aRhNRrNrR7lBVB" />
             <Link Id="KXgFKCYZHLHP6KD7N2gd7h" Ids="FPidZBZAq7iO7vHT4ZwfjI,Ow28PAjAJNLO4HiakHMqtY" />
             <Link Id="BfCqEJRJidNQOIk2FH52O5" Ids="IJDk0Jl4vVCNiOZmnnBXPy,UAbgre7v62YMcOfaHHDTwS" />
             <Link Id="Rzs5msDKIX5PRIPyDwMJgu" Ids="LxsKo1F8VhnODurUe6pLmw,RRXYLiSG6pDOJB5G2QMcRL" />
@@ -7750,6 +7694,7 @@
             <Link Id="Pjerfcxvt6sQdgpPchdyqQ" Ids="KcT5otdqCP6O7RTBlOqicN,IrPNv5lXGScLxRWuhzRBd2" />
             <Link Id="EfcShtrmoW5LNfshlJcbjt" Ids="AYTrvQB8UGNN8xRRJfvVHo,LGx6jZXjwzvLdd5H8uM0VC" />
             <Link Id="MjvGmg31tV7N9hZ1fnKqRu" Ids="B5DPQ9W7zATQMqrE3EnaZo,PPBBIkdMAw5Oa7HHcXTiLO" />
+            <Link Id="L7IvOG6R6pSOLmBrjDvDw7" Ids="R4pTEBhaYiEQTg33HURSM8,KBogKqslNNdPInmIlPoJYl" />
           </Patch>
         </Node>
         <!--
@@ -7761,6 +7706,11 @@
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="RecordDefinition" Name="Record" />
           </p:NodeReference>
+          <p:Interfaces>
+            <TypeReference>
+              <CategoryReference Kind="RecordType" Name="IChannel" />
+            </TypeReference>
+          </p:Interfaces>
           <Patch Id="NS9RSe83CUdOkOkOEzBLMK">
             <Canvas Id="TrD56GZFcl0PllGgUbZsxU" CanvasType="Group">
               <Pad Id="VR9mt3XIaiQPiSrR895Sfy" SlotId="HGAdhgRWrSfOxmBDvCdxaA" Bounds="297,343">
@@ -8074,275 +8024,6 @@
                   <Link Id="TyUFHgnZImRMXWMEpB3PBm" Ids="JHp1viD4Mr2QDpRJIEuEMO,K804MC1u5HXM7TIe69S7DB" IsHidden="true" />
                   <Link Id="MJQYVJHd6f3Ppxf1sSclyF" Ids="AdCbWewhnGAMrbVTBvMhSC,JHp1viD4Mr2QDpRJIEuEMO" />
                   <Link Id="ApcToMiSoQzPhdaBWXElv6" Ids="NBcEJ6hdjrjM9TFnYrqGrF,PUP9FhrcqE8Ppf426zRVrE" />
-                </Patch>
-              </Node>
-              <!--
-
-    ************************ AddChannel ************************
-
--->
-              <Node Name="AddChannel" Bounds="1176,546,330,511" Id="QpyvUvkw1Q7N9nSfXrRdkD">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
-                  <Choice Kind="OperationDefinition" Name="Operation" />
-                </p:NodeReference>
-                <Patch Id="BqCgk29Ki1uOBappmQs1QA" IsGeneric="true" ManuallySortedPins="true">
-                  <Node Bounds="1189,876,116,26" Id="TzfJVX4JLc0OXpa1Dd86JI">
-                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Add" />
-                      <CategoryReference Kind="TypeFlag" Name="Spread" NeedsToBeDirectParent="true" />
-                    </p:NodeReference>
-                    <Pin Id="DIbSH4eRWcWLynt9WeEicZ" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="AbgR884UMyjPnxCs4CvVDD" Name="Item" Kind="InputPin" />
-                    <Pin Id="STCE17JQj49NEOYVB7WAHy" Name="Apply" Kind="InputPin" />
-                    <Pin Id="Rye7a8XUf73LHxYJomcreO" Name="Output" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="1245,592,93,76" Id="ApBTC1M0mZhMsHW1oFuCMr">
-                    <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
-                      <FullNameCategoryReference ID="Primitive" />
-                    </p:NodeReference>
-                    <Pin Id="NJgulJl274HQb8xgQ8FHMG" Name="Break" Kind="OutputPin" />
-                    <Patch Id="J0l0mLVIkSoQSwSO3NQIHr" ManuallySortedPins="true">
-                      <Patch Id="OyuGqXSrXzwLvhFzojMza7" Name="Create" ManuallySortedPins="true" />
-                      <Patch Id="AyQdK9JdnGzN7kEY5AHkZU" Name="Update" ManuallySortedPins="true" />
-                      <Patch Id="MaVUUSNU9J8OENwE2jtBap" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="1257,619,69,26" Id="UDEYyCdsFaxNkOS7CE3UIo">
-                        <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationCallFlag" Name="GetName" />
-                          <CategoryReference Kind="Category" Name="IChannel" NeedsToBeDirectParent="true" />
-                        </p:NodeReference>
-                        <Pin Id="RdhgSW3CAVLPImZZJRLRcB" Name="Input" Kind="StateInputPin" />
-                        <Pin Id="A1OS6gfkDs9MA9UXPHnmT3" Name="Output" Kind="OutputPin" />
-                        <Pin Id="Q5wAPbTX877QN3ck89n7Xn" Name="Name" Kind="OutputPin" />
-                      </Node>
-                    </Patch>
-                    <ControlPoint Id="Sa7eAv92hSmLlXa6hB1hwG" Bounds="1259,599" Alignment="Top" />
-                    <ControlPoint Id="HAi6mAT0CZpNhIcDs8M2po" Bounds="1259,662" Alignment="Bottom" />
-                  </Node>
-                  <Node Bounds="1257,711,109,19" Id="EPeQtgKAu0eNbrksem10yZ">
-                    <p:NodeReference LastCategoryFullName="Gea.Utils.Primitives.String" LastSymbolSource="Gea.Utils.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="AutoIndexedNaming" />
-                    </p:NodeReference>
-                    <Pin Id="RPnJVFb0kStLa5470XHSLI" Name="Names List" Kind="InputPin" />
-                    <Pin Id="JMeOL66aHDlNTOgRuQZv6i" Name="Base Name" Kind="InputPin" />
-                    <Pin Id="MUR8DF9jwbsOYXdQXOOQM0" Name="Padding Separator" Kind="InputPin" />
-                    <Pin Id="QVYi3ZXtOq6N3ZXzeKjaiW" Name="Max Iteration Count" Kind="InputPin" />
-                    <Pin Id="C7bIVppI71SLlVuEsEUG9i" Name="Name" Kind="OutputPin" />
-                    <Pin Id="Kamg9fggpyoL9R5AN0QuU3" Name="Success" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="1189,987,106,26" Id="C8hlamxLMt3PCOifq7ckm0">
-                    <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="InsertSlice" />
-                    </p:NodeReference>
-                    <Pin Id="V4HQUPeXBQhN6B55hChvK2" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="BIWxxA3wilWMUAHB8xcFR1" Name="Index" Kind="InputPin" />
-                    <Pin Id="NOPtZT2HEwILU6MHBKkI3G" Name="Value" Kind="InputPin" />
-                    <Pin Id="UHnHGgkeQXiPoKYRGhqlc5" Name="Apply" Kind="InputPin" />
-                    <Pin Id="IxREE1pbRxKOlNoosm3y7P" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <ControlPoint Id="HWfNLgl8AKvNY7tNICTqTA" Bounds="1351,806" />
-                  <Link Id="RokIiZENM9fPldJBXrm1e4" Ids="Sa7eAv92hSmLlXa6hB1hwG,RdhgSW3CAVLPImZZJRLRcB" />
-                  <Link Id="ELd6ZLOy5ZfPYiD2k8eD31" Ids="Q5wAPbTX877QN3ck89n7Xn,HAi6mAT0CZpNhIcDs8M2po" />
-                  <Link Id="Od63WaxYZHlOCGclPPHWBe" Ids="HAi6mAT0CZpNhIcDs8M2po,RPnJVFb0kStLa5470XHSLI" />
-                  <Link Id="K0h3FWDwYRaNqkicoa8cab" Ids="Rye7a8XUf73LHxYJomcreO,V4HQUPeXBQhN6B55hChvK2" />
-                  <Link Id="DNFXDqZ4vsQPPUVdhYP6Uf" Ids="RxVaJHLjZkwPvcgHGtPgkr,HWfNLgl8AKvNY7tNICTqTA" IsHidden="true" />
-                  <ControlPoint Id="DI9kXXX20omNvPH8bz15ev" Bounds="1190,563" />
-                  <Link Id="F7SQNoRJqjaNygcl2UXqXc" Ids="PN5iAi40m6EOr8JPM5lk7M,DI9kXXX20omNvPH8bz15ev" IsHidden="true" />
-                  <Link Id="UxobhlCkEZROipWrPvsZXX" Ids="DI9kXXX20omNvPH8bz15ev,Sa7eAv92hSmLlXa6hB1hwG" />
-                  <Link Id="E1hoPnB5IMTNjK8YrnIW68" Ids="DI9kXXX20omNvPH8bz15ev,DIbSH4eRWcWLynt9WeEicZ" />
-                  <ControlPoint Id="IwGybFl0yHDN1aCE8Pw1zs" Bounds="1191,1041" />
-                  <Link Id="CkaN0Itm1u3NJ1w9eQXnhn" Ids="IxREE1pbRxKOlNoosm3y7P,IwGybFl0yHDN1aCE8Pw1zs" />
-                  <Link Id="DlSyKPN5w1IQWxKEguqXtA" Ids="IwGybFl0yHDN1aCE8Pw1zs,OSchk8ZkvVFK9w7FBz2p1O" IsHidden="true" />
-                  <ControlPoint Id="MvNcjO5U7B0OIWiQfFamgu" Bounds="1294,688" />
-                  <Link Id="RfZqe6WYMFDPWXoslihwUM" Ids="BC64IhheF2kMCnyftyh1ut,MvNcjO5U7B0OIWiQfFamgu" IsHidden="true" />
-                  <Link Id="GNPwEDryY6WPv2YfvQybVe" Ids="MvNcjO5U7B0OIWiQfFamgu,JMeOL66aHDlNTOgRuQZv6i" />
-                  <Pad Id="SctEkukjx2CLztpImdpmwy" Comment="Padding Separator" Bounds="1368,688,35,13" ShowValueBox="true" isIOBox="true" Value=" ">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pad>
-                  <Link Id="LgT99ChUX91LaFX75ItYaF" Ids="SctEkukjx2CLztpImdpmwy,MUR8DF9jwbsOYXdQXOOQM0" />
-                  <Link Id="CKYE7mscHFQNCn0MLDvoQW" Ids="HWfNLgl8AKvNY7tNICTqTA,HlxTiTINL3MO3Or1t4i9ha" />
-                  <Node Bounds="1349,832,25,19" Id="SUU6q0GpRH2MHo6pDM8pLa">
-                    <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="&lt;" />
-                    </p:NodeReference>
-                    <Pin Id="HlxTiTINL3MO3Or1t4i9ha" Name="Input" Kind="InputPin" />
-                    <Pin Id="EMLRVVfXDP6LEL8FfyBAlr" Name="Input 2" Kind="InputPin" />
-                    <Pin Id="T2g61Hp2QwlQS5uBLolQEy" Name="Result" Kind="OutputPin" />
-                  </Node>
-                  <Link Id="OQL8QXWuLxwQU0mNOHBQyv" Ids="T2g61Hp2QwlQS5uBLolQEy,STCE17JQj49NEOYVB7WAHy" />
-                  <ControlPoint Id="VBtEa7d2vV0N68iH1o4Xia" Bounds="1224,966" />
-                  <Link Id="KDAOPPAGESrN0pMskYJFyq" Ids="RxVaJHLjZkwPvcgHGtPgkr,VBtEa7d2vV0N68iH1o4Xia" IsHidden="true" />
-                  <Link Id="AKLoiKE6TiJNdhX1nUvSxh" Ids="VBtEa7d2vV0N68iH1o4Xia,BIWxxA3wilWMUAHB8xcFR1" />
-                  <Link Id="DyNXydeEjr5NT44q9peyHE" Ids="T2g61Hp2QwlQS5uBLolQEy,U7K7xKnvqt6OYo5hSQ0dhz" />
-                  <Node Bounds="1290,957,37,19" Id="SOLCHdOuKSzOjTUCtcOiAw">
-                    <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="NOT" />
-                      <CategoryReference Kind="BooleanType" Name="Boolean" NeedsToBeDirectParent="true" />
-                    </p:NodeReference>
-                    <Pin Id="U7K7xKnvqt6OYo5hSQ0dhz" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="RsTyq2cYKJ3LQn6bcezphV" Name="Output" Kind="StateOutputPin" />
-                  </Node>
-                  <Link Id="HmGawDCwdTAL6FGbw5hPXH" Ids="RsTyq2cYKJ3LQn6bcezphV,UHnHGgkeQXiPoKYRGhqlc5" />
-                  <Node Bounds="1257,801,55,26" Id="UyXyiFdLWbTMPcW1mHYm97">
-                    <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                      <Choice Kind="OperationCallFlag" Name="Create" />
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="IChannel" />
-                    </p:NodeReference>
-                    <Pin Id="R6FEcItLNv9NEndEKpDJQL" Name="Name" Kind="InputPin" />
-                    <Pin Id="TJ2Rs1ujw1GMaGWY2LYiwC" Name="Output" Kind="StateOutputPin" />
-                    <Pin Id="Udqbn0NAKfMNIyUOv6DnbI" Name="Container_M Create Delegate" Kind="InputPin" />
-                  </Node>
-                  <Link Id="JONGa7qfZMsOmeWlgAdfct" Ids="C7bIVppI71SLlVuEsEUG9i,R6FEcItLNv9NEndEKpDJQL" />
-                  <Link Id="KdqdssSlfHfMGYxuZMyQUV" Ids="TJ2Rs1ujw1GMaGWY2LYiwC,AbgR884UMyjPnxCs4CvVDD" />
-                  <Link Id="MVf2mirPSvnMZUn5BylDQD" Ids="TJ2Rs1ujw1GMaGWY2LYiwC,NOPtZT2HEwILU6MHBKkI3G" />
-                  <ControlPoint Id="KuPAhD2ScJAOzx7qbpySA0" Bounds="1308,772" />
-                  <Link Id="J2VsOH1QDwsME0rTszHKIW" Ids="KuPAhD2ScJAOzx7qbpySA0,Udqbn0NAKfMNIyUOv6DnbI" />
-                  <Link Id="NOAkOz6eWyAQQV3LNxN7qw" Ids="NlnjDU4q0GVLqZzvEEmJRv,KuPAhD2ScJAOzx7qbpySA0" IsHidden="true" />
-                  <Pin Id="PN5iAi40m6EOr8JPM5lk7M" Name="Input" Kind="InputPin" />
-                  <Pin Id="BC64IhheF2kMCnyftyh1ut" Name="Base Name" Kind="InputPin" Bounds="830,820" DefaultValue="Name">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="RxVaJHLjZkwPvcgHGtPgkr" Name="Index" Kind="InputPin" Bounds="1237,271" DefaultValue="-1">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="Integer32" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="NlnjDU4q0GVLqZzvEEmJRv" Name="Container_M Create Delegate" Kind="InputPin" Bounds="1308,772" />
-                  <Pin Id="OSchk8ZkvVFK9w7FBz2p1O" Name="Output" Kind="OutputPin" Bounds="551,962" />
-                </Patch>
-              </Node>
-              <!--
-
-    ************************ CreateSpread ************************
-
--->
-              <Node Name="CreateSpread" Bounds="1514,540,417,351" Id="UuzFDfgsl8zOECAWhvL530">
-                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
-                  <Choice Kind="OperationDefinition" Name="Operation" />
-                </p:NodeReference>
-                <Patch Id="PJZWWjhUKKkLHgmwnYmuS1" IsGeneric="true" ManuallySortedPins="true">
-                  <Node Bounds="1561,710,300,136" Id="GESgP2K65GZMlMouxJijHx">
-                    <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="RegionFlag" Name="Region" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="Primitive" />
-                      <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
-                    </p:NodeReference>
-                    <Pin Id="GAgPCQ9jXyTPY4MMEx2ODZ" Name="Iteration Count" Kind="InputPin" />
-                    <Pin Id="VENlx3ZiZW1QYiFvZEhjjb" Name="Break" Kind="OutputPin" />
-                    <Patch Id="Kr8bVCkaIZmPm9sDInBAMH" ManuallySortedPins="true">
-                      <Patch Id="SHIMSbj3P7iNPh7EeL8yGm" Name="Create" ManuallySortedPins="true" />
-                      <Patch Id="V0T01jr86PGM6RwWgMUnsD" Name="Update" ManuallySortedPins="true" />
-                      <Patch Id="Kl8seyh4CboPPW1nyZ2nhP" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="1740,752,109,19" Id="GIl4AnyTH3uNrBVFGjq2Hc">
-                        <p:NodeReference LastCategoryFullName="Gea.Utils.Primitives.String" LastSymbolSource="Gea.Utils.vl">
-                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationNode" Name="AutoIndexedNaming" />
-                        </p:NodeReference>
-                        <Pin Id="QGH8ChhIj8IMwBjX1QKvK3" Name="Names List" Kind="InputPin" />
-                        <Pin Id="Vqn0OEr4T12NFlo7MYf0VA" Name="Base Name" Kind="InputPin" />
-                        <Pin Id="Uz2fHeXwvAjNzy7tRmkB0j" Name="Padding Separator" Kind="InputPin" />
-                        <Pin Id="Oh7dOqFx7HpP8sQMZySWuj" Name="Max Iteration Count" Kind="InputPin" />
-                        <Pin Id="EGRRQslZGK1NnUXegehQiA" Name="Name" Kind="OutputPin" />
-                        <Pin Id="P1qqUKz4E1wNnc5nu28Lhk" Name="Success" Kind="OutputPin" />
-                      </Node>
-                      <Node Bounds="1668,796,41,26" Id="DPdCTYAgyPYO1VPhOkzByy">
-                        <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationCallFlag" Name="Add" />
-                          <CategoryReference Kind="TypeFlag" Name="Spread" NeedsToBeDirectParent="true">
-                            <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true" />
-                          </CategoryReference>
-                        </p:NodeReference>
-                        <Pin Id="JcBw898npoHLPg00nBkEK8" Name="Input" Kind="StateInputPin" />
-                        <Pin Id="CrbMQo72QlQPsJpykp0xJR" Name="Item" Kind="InputPin" />
-                        <Pin Id="TI06oq07fsALgHkZnqxgnf" Name="Output" Kind="OutputPin" />
-                      </Node>
-                      <Node Bounds="1573,800,55,26" Id="N8uLhkTnsmzMxlDO6SvvQq">
-                        <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                          <Choice Kind="OperationCallFlag" Name="Create" />
-                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <CategoryReference Kind="Category" Name="IChannel" />
-                        </p:NodeReference>
-                        <Pin Id="OoJWg7QHS0DOnJlBXCInVv" Name="Name" Kind="InputPin" />
-                        <Pin Id="RDdlwdmvKBgLa5nJobTKmX" Name="Output" Kind="StateOutputPin" />
-                        <Pin Id="CAtCdWEUHU3PsKnyfLz107" Name="Container_M Create Delegate" Kind="InputPin" />
-                      </Node>
-                    </Patch>
-                    <ControlPoint Id="SuAz9sMbeLFMTRsVjzXJbr" Bounds="1575,840" Alignment="Bottom" />
-                    <ControlPoint Id="EPZG4WbVJ9aM1Aa0IYL2j9" Bounds="1670,840" Alignment="Bottom" />
-                    <ControlPoint Id="HG5zK4uvpVmONyxWJ2A8NG" Bounds="1670,716" Alignment="Top" />
-                  </Node>
-                  <Pad Id="PKmYbBxAfZJLkNgtaOL1hM" Comment="Padding Separator" Bounds="1808,649,20,19" ShowValueBox="true" isIOBox="true" Value=" ">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pad>
-                  <ControlPoint Id="BhzHscsTjv4O574sgRSwdv" Bounds="1561,557" />
-                  <ControlPoint Id="HZOnPywKRBbPyk6UPfxcTf" Bounds="1776,578" />
-                  <Link Id="QXiqzmiQ1oiPFWsuL9F8gM" Ids="EGRRQslZGK1NnUXegehQiA,CrbMQo72QlQPsJpykp0xJR" />
-                  <Link Id="BkTIHK453A3Nh4xpO1A4Ff" Ids="HG5zK4uvpVmONyxWJ2A8NG,EPZG4WbVJ9aM1Aa0IYL2j9" IsFeedback="true" />
-                  <Link Id="Ur8o0SFBqrrNKN0D2QcZXT" Ids="TI06oq07fsALgHkZnqxgnf,EPZG4WbVJ9aM1Aa0IYL2j9" />
-                  <Link Id="QwCpZ9ub6RWNd8p8Rae5bC" Ids="HG5zK4uvpVmONyxWJ2A8NG,JcBw898npoHLPg00nBkEK8" />
-                  <Link Id="A5omsPXaEvZOyAdYtr8PK9" Ids="HG5zK4uvpVmONyxWJ2A8NG,QGH8ChhIj8IMwBjX1QKvK3" />
-                  <Link Id="HdzVZMK6hj6MiiQx9J6X7e" Ids="PKmYbBxAfZJLkNgtaOL1hM,Uz2fHeXwvAjNzy7tRmkB0j" />
-                  <Link Id="MC6Mi8fFlkyPFwUAheN4C6" Ids="BhzHscsTjv4O574sgRSwdv,GAgPCQ9jXyTPY4MMEx2ODZ" />
-                  <Link Id="M5Vdj9sqkTKOTC0yrcJoed" Ids="LdXAikm1ACPQShsKGsaPb8,BhzHscsTjv4O574sgRSwdv" IsHidden="true" />
-                  <Link Id="AXxRGXeNBG8NLG7yxTayAS" Ids="HZOnPywKRBbPyk6UPfxcTf,Vqn0OEr4T12NFlo7MYf0VA" />
-                  <Link Id="NdXYAvjb9s3QDwUh9ssr6h" Ids="SXOSGxw9oE3Or1ffD6MZv1,HZOnPywKRBbPyk6UPfxcTf" IsHidden="true" />
-                  <Link Id="AFxNTeJ73NRLsfLcDDfclM" Ids="SuAz9sMbeLFMTRsVjzXJbr,FUzgt3GvqmmMlb8dRGSpeY" />
-                  <ControlPoint Id="FUzgt3GvqmmMlb8dRGSpeY" Bounds="1575,875" />
-                  <Link Id="SL0EZ00EnLiOzpQprrztQr" Ids="FUzgt3GvqmmMlb8dRGSpeY,Ttjy2HZsTJDMsDBqFVPcyM" IsHidden="true" />
-                  <Node Bounds="1656,581,93,76" Id="FeLrKqP10F8Po2zfbd1Jwb">
-                    <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
-                      <FullNameCategoryReference ID="Primitive" />
-                    </p:NodeReference>
-                    <Pin Id="Oj0HLwW6YMtPrCcZ2Sd2dP" Name="Break" Kind="OutputPin" />
-                    <Patch Id="KCjWMyyyiJ8OGTjsNcQgam" ManuallySortedPins="true">
-                      <Patch Id="PfC4EMxHtyYPZBHShulkVA" Name="Create" ManuallySortedPins="true" />
-                      <Patch Id="OvzVcTnkMLBOBo2hZELNvE" Name="Update" ManuallySortedPins="true" />
-                      <Patch Id="OdapYe7n8AZQIGcxuhyuKl" Name="Dispose" ManuallySortedPins="true" />
-                      <Node Bounds="1668,609,69,26" Id="PbF4nizHd7MNInRdDiyWb2">
-                        <p:NodeReference LastCategoryFullName="Kairos.Model.Core.Channel_M" LastSymbolSource="Kairos.Model.vl">
-                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationCallFlag" Name="GetName" />
-                          <CategoryReference Kind="Category" Name="IChannel" NeedsToBeDirectParent="true" />
-                        </p:NodeReference>
-                        <Pin Id="NWywDMycC84Mu05WUmciFS" Name="Input" Kind="StateInputPin" />
-                        <Pin Id="E5yTdjwXrD9O4LiHmOkQ88" Name="Output" Kind="OutputPin" />
-                        <Pin Id="IN1MOVcVYpFM2qqlYZu82Q" Name="Name" Kind="OutputPin" />
-                      </Node>
-                    </Patch>
-                    <ControlPoint Id="Ry1GhIIy5RUMh9xhKir2i7" Bounds="1670,588" Alignment="Top" />
-                    <ControlPoint Id="IfUAoPyJpLFMeXvXkz1b1r" Bounds="1670,652" Alignment="Bottom" />
-                  </Node>
-                  <ControlPoint Id="F7pq1ro9XnILIYuqy7SpKn" Bounds="1670,560" />
-                  <Link Id="RcE2NVGtDK1Ljl6onOrr7E" Ids="Ry1GhIIy5RUMh9xhKir2i7,NWywDMycC84Mu05WUmciFS" />
-                  <Link Id="RZGXZW3k6pnQFFQwUnUfIJ" Ids="IN1MOVcVYpFM2qqlYZu82Q,IfUAoPyJpLFMeXvXkz1b1r" />
-                  <Link Id="AWrVPR9A4vdPc6nCyzbdG9" Ids="NPRjhQwRx69NAE6NR9K79K,F7pq1ro9XnILIYuqy7SpKn" IsHidden="true" />
-                  <Link Id="VQV7Vg7HvqhNMqAZOXuEfx" Ids="F7pq1ro9XnILIYuqy7SpKn,Ry1GhIIy5RUMh9xhKir2i7" />
-                  <Link Id="PMjGdQRglSGLH6kE7qSjW2" Ids="IfUAoPyJpLFMeXvXkz1b1r,HG5zK4uvpVmONyxWJ2A8NG" />
-                  <Link Id="JWxZ2Mweh6mNAzLElhZMOm" Ids="EGRRQslZGK1NnUXegehQiA,OoJWg7QHS0DOnJlBXCInVv" />
-                  <Link Id="QN7OTnTLH3hO1k2aKrPFpw" Ids="RDdlwdmvKBgLa5nJobTKmX,SuAz9sMbeLFMTRsVjzXJbr" />
-                  <Link Id="JUl2t39WgmQLGBCTirEeOT" Ids="NT3wH8OdGIHM3jM2HhO7Bi,CAtCdWEUHU3PsKnyfLz107" />
-                  <ControlPoint Id="NT3wH8OdGIHM3jM2HhO7Bi" Bounds="1599,687" />
-                  <Link Id="EbffdSi4RRIPVmunMrGJmf" Ids="LsQBHZUW5wNLW2BPnlJIIo,NT3wH8OdGIHM3jM2HhO7Bi" IsHidden="true" />
-                  <Pin Id="SXOSGxw9oE3Or1ffD6MZv1" Name="Default Name" Kind="InputPin" Bounds="659,162" />
-                  <Pin Id="LdXAikm1ACPQShsKGsaPb8" Name="Spread Count" Kind="InputPin" Bounds="489,162" />
-                  <Pin Id="NPRjhQwRx69NAE6NR9K79K" Name="Base Names List" Kind="InputPin" />
-                  <Pin Id="LsQBHZUW5wNLW2BPnlJIIo" Name="Container_M Create Delegate" Kind="InputPin" Bounds="1585,652" />
-                  <Pin Id="Ttjy2HZsTJDMsDBqFVPcyM" Name="Output" Kind="OutputPin" Bounds="1158,970" />
                 </Patch>
               </Node>
               <!--
@@ -8733,8 +8414,6 @@
               <Fragment Id="URkZdSDtZbLL0VG6H9x3ik" Patch="Kw9geU8gFKAL3N3K8Be8qB" />
               <Fragment Id="BGyMHPIQdD5L3ZONLsAYHq" Patch="Edhq5B2Wa6FOlLiJmBTpnQ" />
               <Fragment Id="GMVYpaOgUt3N4lGOsZyFtJ" Patch="L0rKiGyGYJFMNfF8UEBAC7" />
-              <Fragment Id="QBKyMgZTEmIQAtUtlqqDm9" Patch="QpyvUvkw1Q7N9nSfXrRdkD" />
-              <Fragment Id="OUFiTHAg9ByM4283ZX0i5F" Patch="UuzFDfgsl8zOECAWhvL530" />
               <Fragment Id="URSdndrEdnsOeWmn66GvvD" Patch="PA0VTU0BSMeNh9dn24TsrP" />
               <Fragment Id="CZNM6r66DZ2NPHEmOBSMdx" Patch="UVSZwgJ7OgeQR2fLMeeKhf" />
               <Fragment Id="RAsfIoHx9o1NpZW2hk212f" Patch="EHdEAZL8nMWPv35Wfrpc8Z" />
