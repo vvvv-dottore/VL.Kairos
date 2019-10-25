@@ -134,281 +134,94 @@
             <Pin Id="FspIzqjDl2FMPi7NzBIeik" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="348,1363,460,19" Id="Mx1IYO8ie9dMXYyOKp6o4j">
-            <p:NodeReference LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+            <p:NodeReference LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Timeline" />
             </p:NodeReference>
             <Pin Id="S6sGhUBtXztNSCZCPHopxs" Name="Model" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Key="ddc0ddd0-6a5c-4dd5-b049-66fbd947275b" Name="yooo  1">
+              <p:DefaultValue Key="199c3235-59b7-46b8-af3a-ca5052fb7a75" Name="Timeline">
                 <Channels>
-                  <Item Key="PosX">
-                    <Value Parameter_ID="PosX" Parameter_Path="PosX">
+                  <Item Key="Param_15:27:23">
+                    <Value Parameter_ID="Param_15:27:23" Parameter_Path="Param_15:27:23">
                       <Author_IDs>
-                        <Item>Default</Item>
+                        <Item>f7253a96-aae4-4424-96c1-617ffa8d6e00</Item>
                       </Author_IDs>
-                      <Parameter ID="PosX" Name="PosX" Path="PosX">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0.2262433, 0.3173254, 0.2680227, 0.05816119, -0.2939669, 0.0588848, 0.4060271</Default_Value>
+                      <Parameter ID="Param_15:27:23" Name="Param_15:27:23" Path="Param_15:27:23">
+                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[Xenko.Core.Mathematics.Vector2, Xenko.Core.Mathematics, Version=3.1.0.1, Culture=neutral, PublicKeyToken=null]]" xmlns:p14="reflection">
+                          <Item>0, 0</Item>
+                        </Default_Value>
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="Default" Duration="3" Enabled="True" Input_Pin_ID="19:39:12" Key="072fc498-f1f5-44a0-8675-86f0e7bfe4ac" Parameter_Path="PosX" Position="-0.02666712" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="Default" Duration="1.593333" Enabled="True" Input_Pin_ID="19:41:39" Key="274f39bb-b0c2-48f8-9d2b-1cba7676ce5c" Parameter_Path="PosX" Position="4.663334" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
+                          <Item Author_ID="f7253a96-aae4-4424-96c1-617ffa8d6e00" Duration="1.679999" Enabled="True" Key="7ffdf183-2fce-4297-8561-41521da51c5f" Parameter_Path="Param_15:27:23" Position="-1.96" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Timeline.TL_ControlledClip_M" xmlns:p15="reflection" />
                         </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0.2262433, 0.3173254, 0.2680227, 0.05816119, -0.2939669, 0.0588848, 0.4060271</Initial_Value>
+                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[Xenko.Core.Mathematics.Vector2, Xenko.Core.Mathematics, Version=3.1.0.1, Culture=neutral, PublicKeyToken=null]]" xmlns:p14="reflection">
+                          <Item>0, 0</Item>
+                        </Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="Param_20:26:26">
-                    <Value Parameter_ID="Param_20:26:26" Parameter_Path="Param_20:26:26">
+                  <Item Key="Param_15:27:18">
+                    <Value Parameter_ID="Param_15:27:18" Parameter_Path="Param_15:27:18">
                       <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                        <Item>1f5826cd-242d-47eb-b7af-498c3e4c7445</Item>
+                        <Item>f7253a96-aae4-4424-96c1-617ffa8d6e00</Item>
                       </Author_IDs>
-                      <Parameter ID="Param_20:26:26" Name="Param_20:26:26" Path="Param_20:26:26">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
+                      <Parameter ID="Param_15:27:18" Name="Param_15:27:18" Path="Param_15:27:18">
+                        <Default_Value p14:Type="System.Boolean" xmlns:p14="reflection">False</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="3ce50d3f-c59c-4fbe-a254-5492919b866a" Parameter_Path="Param_20:26:26" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="1f5826cd-242d-47eb-b7af-498c3e4c7445" Duration="7.235871" Enabled="True" Kairos_Source_Method="Sample" Key="2f7010e8-7fa0-4b05-a3bc-0cd852fa2801" Parameter_Path="Param_20:26:26" Position="9.960643" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
+                          <Item Author_ID="f7253a96-aae4-4424-96c1-617ffa8d6e00" Duration="1.679999" Enabled="True" Key="46a36569-60f2-47d5-8c51-369fa0606851" Parameter_Path="Param_15:27:18" Position="-1.96" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Timeline.TL_ControlledClip_M" xmlns:p15="reflection" />
                         </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
+                        <Initial_Value p14:Type="System.Boolean" xmlns:p14="reflection">False</Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="My Color">
-                    <Value Parameter_ID="My Color" Parameter_Path="My Color">
+                  <Item Key="Param_15:27:20">
+                    <Value Parameter_ID="Param_15:27:20" Parameter_Path="Param_15:27:20">
                       <Author_IDs>
-                        <Item>Default</Item>
+                        <Item>f7253a96-aae4-4424-96c1-617ffa8d6e00</Item>
                       </Author_IDs>
-                      <Parameter ID="My Color" Name="My Color" Path="My Color">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">0, 0.8400002, 0.4871998, 1</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="1" Key="b8c7c691-d7c8-4b66-9199-47bd798732eb" Position="2.133333" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Value p15:Type="Xenko.Core.Mathematics.Color4">0, 0.8400002, 0.4871998, 1</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="1.446667" Enabled="True" Input_Pin_ID="19:41:12" Key="a19cd802-3417-484d-ad80-b11e46cb3067" Parameter_Path="My Color" Position="5.010001" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">0, 0.8400002, 0.4871998, 1</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_20:36:20">
-                    <Value Parameter_ID="Param_20:36:20" Parameter_Path="Param_20:36:20">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                        <Item>1f5826cd-242d-47eb-b7af-498c3e4c7445</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_20:36:20" Name="Param_20:36:20" Path="Param_20:36:20">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="80e1d372-ae31-44c3-af5a-fbb319d74576" Parameter_Path="Param_20:36:20" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="1f5826cd-242d-47eb-b7af-498c3e4c7445" Duration="7.235871" Enabled="True" Kairos_Source_Method="Sample" Key="40693746-ca2c-4bb3-9600-89f435db8bea" Parameter_Path="Param_20:36:20" Position="9.960643" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_20:39:50">
-                    <Value Parameter_ID="Param_20:39:50" Parameter_Path="Param_20:39:50">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                        <Item>1f5826cd-242d-47eb-b7af-498c3e4c7445</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_20:39:50" Name="Param_20:39:50" Path="Param_20:39:50">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="8acee229-7eb3-41b2-b774-36c0b3ec5b8c" Parameter_Path="Param_20:39:50" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="1f5826cd-242d-47eb-b7af-498c3e4c7445" Duration="7.235871" Enabled="True" Kairos_Source_Method="Sample" Key="06d0464e-4f88-4e8b-abd3-495c70a277a8" Parameter_Path="Param_20:39:50" Position="9.960643" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:32">
-                    <Value Parameter_ID="Param_10:56:32" Parameter_Path="Param_10:56:32">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:56:32" Name="Param_10:56:32" Path="Param_10:56:32">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">1, 1, 1, 1</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="3cb63323-77d2-4e2a-9676-072a2607a610" Parameter_Path="Param_10:56:32" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">1, 1, 1, 1</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:22">
-                    <Value Parameter_ID="Param_10:56:22" Parameter_Path="Param_10:56:22">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:56:22" Name="Param_10:56:22" Path="Param_10:56:22">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="90f0e3ac-d3f4-4a3b-a886-1c8a31be1976" Parameter_Path="Param_10:56:22" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Foo2">
-                    <Value Parameter_ID="Foo2" Parameter_Path="Foo2">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter ID="Foo2" Name="Foo2" Path="Foo2">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">-0.5, -0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="1.17" Key="af8bb78f-08b6-4249-96c5-da5485104ad5" Position="3.346668" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector2">0.5, 0.6</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="2.543851" Key="642f344b-e25b-4cac-86b0-913a3b96148d" Position="18.66441" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector2">1, 0.5</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.5" Enabled="True" Input_Pin_ID="19:42:29" Key="38ab55fd-29bd-41f1-ae68-a45e54ccc9c7" Parameter_Path="Foo2" Position="8.490751" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">-0.5, -0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:27">
-                    <Value Parameter_ID="Param_10:56:27" Parameter_Path="Param_10:56:27">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:56:27" Name="Param_10:56:27" Path="Param_10:56:27">
+                      <Parameter ID="Param_15:27:20" Name="Param_15:27:20" Path="Param_15:27:20">
                         <Default_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="8c9f081c-ed33-4b54-b4da-712e5d08e4d0" Parameter_Path="Param_10:56:27" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
+                          <Item Author_ID="f7253a96-aae4-4424-96c1-617ffa8d6e00" Duration="1.679999" Enabled="True" Key="3aa70b81-70dd-41ff-bb1f-e538bd6d3458" Parameter_Path="Param_15:27:20" Position="-1.96" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Timeline.TL_ControlledClip_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="Param_10:47:05">
-                    <Value Parameter_ID="Param_10:47:05" Parameter_Path="Param_10:47:05">
-                      <Author_IDs>
-                        <Item>ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:47:05" Name="Param_10:47:05" Path="Param_10:47:05">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Duration="1" Enabled="True" Key="ba1dff07-d0d3-4692-92fa-ba54df5362bd" Parameter_Path="Param_10:47:05" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
                 </Channels>
                 <CtrlClips>
-                  <Item Key="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2">
-                    <Value Duration="1" Enabled="True" Input_Pin_ID="10:54:41" Key="ddcb5308-fcc0-4fbb-88c9-49b693e5d6c2" Name="Timeline_Timeline" Position="-3.642372" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
-                  </Item>
-                  <Item Key="1f5826cd-242d-47eb-b7af-498c3e4c7445">
-                    <Value Duration="7.235871" Enabled="True" Input_Pin_ID="19:42:10" Kairos_Source_Method="Sample" Key="1f5826cd-242d-47eb-b7af-498c3e4c7445" Name="Timeline_Timeline" Position="9.960643" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
+                  <Item Key="f7253a96-aae4-4424-96c1-617ffa8d6e00">
+                    <Value Duration="1.679999" Enabled="True" Input_Pin_ID="15:27:11" Key="f7253a96-aae4-4424-96c1-617ffa8d6e00" Name="Timeline_Timeline" Position="-1.96" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
                   </Item>
                 </CtrlClips>
                 <Parameter_List>
-                  <Item>PosX</Item>
-                  <Item>Param_20:26:26</Item>
-                  <Item>My Color</Item>
-                  <Item>Param_20:36:20</Item>
-                  <Item>Param_20:39:50</Item>
-                  <Item>Param_10:56:32</Item>
-                  <Item>Param_10:56:22</Item>
-                  <Item>Foo2</Item>
-                  <Item>Param_10:56:27</Item>
-                  <Item>Param_10:47:05</Item>
+                  <Item>Param_15:27:23</Item>
+                  <Item>Param_15:27:18</Item>
+                  <Item>Param_15:27:20</Item>
                 </Parameter_List>
                 <Timer>
                   <KairosClock_M BPM="60" Speed_Multiplier="1" />
-                  <TMarkers>
-                    <Item Duration="26.21443" Key="1820265a-0719-4668-bd15-b90ca13e50f1" Passages_Count="1" Position_In="-4.669409" Position_Out="21.54502" p12:Type="Kairos.Core.Timer.TMarker_LoopRegion_M" xmlns:p12="reflection" />
-                  </TMarkers>
                 </Timer>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="OnboebzzFzoN9GTKfn3VJQ" Name="19:39:12" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="NxuSIq7F4EsOw3Grpd1fAN" Name="19:41:39" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="QuvHdM2Ohz0MmOUMMuiRF2" Name="19:41:12" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="RGBA" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Q5wEbcjCIb9NmRaWW6kdp8" Name="19:42:29" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Vector2" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="UT5xULoihZkQFRHYHBz6Lu" Name="10:54:41" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="I8f7zDCk4CGM4U6gAt6vDL" Name="19:42:10" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
             <Pin Id="KvtT8ZPBnFmM8PYzRJ6IOm" Name="Output" Kind="OutputPin" />
             <Pin Id="VcNxBv87Be8OTP3ryZSueg" Name="Output Collection" Kind="OutputPin" />
+            <Pin Id="D66qqRB8emSLHND4XvSMR4" Name="15:27:11" Kind="InputPin">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IKSource" />
+              </p:TypeAnnotation>
+            </Pin>
           </Node>
           <Node Bounds="467,1478,45,19" Id="CoCnHFfrgfMMdbyEGIItNx">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
@@ -742,147 +555,86 @@
             <Pin Id="GAP3wAAJ9VJL3a3CDkOs4C" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="1077,738,65,19" Id="GWO8FCePKC1MWdvyc3benI">
-            <p:NodeReference LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+            <p:NodeReference LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Timeline" />
             </p:NodeReference>
             <Pin Id="KpJzScxIqeQOMcVVsbJ8cO" Name="Model" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Key="1b0e7f68-6075-4ef8-a58f-4f507d2221a6" Name="Timeline">
+              <p:DefaultValue Key="daf0ac03-39ea-4b1a-b0dc-9ea8c4e1f018" Name="Timeline">
                 <Channels>
-                  <Item Key="Param_20:26:26">
-                    <Value Parameter_ID="Param_20:26:26" Parameter_Path="Param_20:26:26">
+                  <Item Key="Param_15:27:23">
+                    <Value Parameter_ID="Param_15:27:23" Parameter_Path="Param_15:27:23">
                       <Author_IDs>
                         <Item>Default</Item>
                       </Author_IDs>
-                      <Parameter ID="Param_20:26:26" Name="Param_20:26:26" Path="Param_20:26:26">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
+                      <Parameter ID="Param_15:27:23" Name="Param_15:27:23" Path="Param_15:27:23">
+                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[Xenko.Core.Mathematics.Vector2, Xenko.Core.Mathematics, Version=3.1.0.1, Culture=neutral, PublicKeyToken=null]]" xmlns:p14="reflection">
+                          <Item>0, 0</Item>
+                        </Default_Value>
                       </Parameter>
                       <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.7280002" Key="bef106d9-adbf-4eca-a934-e4bcc53b3113" Position="0.1337285" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="System.Single">0.228</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.5" Enabled="True" Input_Pin_ID="20:28:33" Key="187b4f98-49b5-4f95-bed8-728ef8a2a190" Parameter_Path="Param_20:26:26" Position="2.372536" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.4920002" Key="04ee0971-6ad0-4d04-b297-f86e97c4055d" Position="4.893387" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="System.Single">0.8439999</Value>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" Output_Pin_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_20:36:20">
-                    <Value Parameter_ID="Param_20:36:20" Parameter_Path="Param_20:36:20">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_20:36:20" Name="Param_20:36:20" Path="Param_20:36:20">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.2632712" Key="cbe91b7f-2c8a-4b55-a570-2f08615b8e2d" Position="0.6921402" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.5959994" Key="bc4fdc60-b627-4fb7-bd47-998661004db6" Position="2.41223" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector3">0.6520001, 0.324, 0.1200001</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.5774953" Key="06fb8b61-449a-49c7-8cb3-8cea5f0ec3c0" Position="4.517864" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector3">1, 0.9, 0.7</Value>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Initial_Value>
+                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[Xenko.Core.Mathematics.Vector2, Xenko.Core.Mathematics, Version=3.1.0.1, Culture=neutral, PublicKeyToken=null]]" xmlns:p14="reflection">
+                          <Item>0, 0</Item>
+                        </Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="Param_20:39:50">
-                    <Value Parameter_ID="Param_20:39:50" Parameter_Path="Param_20:39:50">
+                  <Item Key="Param_15:27:18">
+                    <Value Parameter_ID="Param_15:27:18" Parameter_Path="Param_15:27:18">
                       <Author_IDs>
                         <Item>Default</Item>
                       </Author_IDs>
-                      <Parameter ID="Param_20:39:50" Name="Param_20:39:50" Path="Param_20:39:50">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Default_Value>
+                      <Parameter ID="Param_15:27:18" Name="Param_15:27:18" Path="Param_15:27:18">
+                        <Default_Value p14:Type="System.Boolean" xmlns:p14="reflection">False</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="Default" Duration="1.332" Enabled="True" Input_Pin_ID="20:39:53" Key="b70269e1-0df4-4f0c-99f0-04b656d43012" Parameter_Path="Param_20:39:50" Position="0.04560733" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                          <Item Author_ID="Default" Duration="1.003379" Enabled="True" Input_Pin_ID="20:40:18" Key="4b125495-1f7b-4b35-a7ee-34ea73e192e4" Parameter_Path="Param_20:39:50" Position="5.745232" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
+                          <Item Author_ID="Default" Duration="0.5" Enabled="True" Input_Pin_ID="15:27:43" Key="965e175b-768c-4ec4-b293-fb09d4a2caa6" Parameter_Path="Param_15:27:18" Position="-1.003333" p15:Type="Kairos.Core.Timeline.TL_LiveDataClip_M" xmlns:p15="reflection">
                             <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
                           </Item>
                         </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Initial_Value>
+                        <Initial_Value p14:Type="System.Boolean" xmlns:p14="reflection">False</Initial_Value>
+                      </Sampler1D_M>
+                      <Settings Enabled="True" Output_Collection_Enabled="True" />
+                    </Value>
+                  </Item>
+                  <Item Key="Param_15:27:20">
+                    <Value Parameter_ID="Param_15:27:20" Parameter_Path="Param_15:27:20">
+                      <Author_IDs>
+                        <Item>Default</Item>
+                      </Author_IDs>
+                      <Parameter ID="Param_15:27:20" Name="Param_15:27:20" Path="Param_15:27:20">
+                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Default_Value>
+                      </Parameter>
+                      <Sampler1D_M>
+                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
                 </Channels>
                 <Parameter_List>
-                  <Item>Param_20:26:26</Item>
-                  <Item>Param_20:36:20</Item>
-                  <Item>Param_20:39:50</Item>
+                  <Item>Param_15:27:23</Item>
+                  <Item>Param_15:27:18</Item>
+                  <Item>Param_15:27:20</Item>
                 </Parameter_List>
                 <Timer>
                   <KairosClock_M BPM="60" Speed_Multiplier="1" />
-                  <TMarkers>
-                    <Item Duration="5.826209" Key="39720939-a834-4240-adfb-bb5514ec78cc" Passages_Count="-1" Position_In="-0.07270241" Position_Out="5.753506" p12:Type="Kairos.Core.Timer.TMarker_LoopRegion_M" xmlns:p12="reflection" />
-                  </TMarkers>
                 </Timer>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="JXdmjmOKjE0MfAjvvJQDTS" Name="20:28:33" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="J6RbMai5R3bPnYcpqSldB7" Name="20:39:53" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="LLocmUDtlkyNRk9YnWuu4h" Name="20:40:18" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Spread" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
             <Pin Id="BdFP604bdn2NXohpcMJ9xn" Name="Output" Kind="StateOutputPin" />
             <Pin Id="ITbcXS1nykvPJv6cRJZQW3" Name="Output Collection" Kind="OutputPin" />
-            <Pin Id="L2gHkBSxew6PxYcosM5h4u" Name="Param_20:26:26" Kind="OutputPin" PinGroupName="Output Pins">
+            <Pin Id="DsaikBOjbAtPtUSgiE1Tcn" Name="15:27:43" Kind="InputPin">
               <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float32" />
+                <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
           </Node>
-          <Pad Id="Ai0OGL2QThCOlmnzF91sT4" Comment="Param_20:26:26" Bounds="1139,800,40,40" ShowValueBox="true" isIOBox="true">
-            <p:ValueBoxSettings>
-              <p:maximum p:Type="Single">1</p:maximum>
-              <p:minimum p:Type="Single">0</p:minimum>
-              <p:showslider p:Type="Boolean">true</p:showslider>
-            </p:ValueBoxSettings>
-          </Pad>
           <Node Bounds="1169,639,54,19" Id="GTWCPmNq7YEQGXAl9Dvp86">
             <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -960,196 +712,82 @@
             <Pin Id="LIaKe4t9bagPX4p790tUwv" Name="Cycles" Kind="OutputPin" />
           </Node>
           <Node Bounds="247,214,55,19" Id="VSkAlfn663RLZhtTF3wDYb">
-            <p:NodeReference LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+            <p:NodeReference LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Timeline" />
             </p:NodeReference>
             <Pin Id="NRG8DhXhjoCP50VvD34YbC" Name="Model" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+              <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Key="fa241690-e8ed-4606-bfff-aee3fa8023f3" Name="Timeline">
+              <p:DefaultValue Key="f932adb9-d31d-443f-9a60-6061cc9546fd" Name="Timeline">
                 <Channels>
-                  <Item Key="Param_20:26:26">
-                    <Value Parameter_ID="Param_20:26:26" Parameter_Path="Param_20:26:26">
+                  <Item Key="Param_15:24:43">
+                    <Value Parameter_ID="Param_15:24:43" Parameter_Path="Param_15:24:43">
                       <Author_IDs>
-                        <Item>2d376415-e9a9-4429-93de-da157ba54a31</Item>
-                        <Item>c27d633e-2f60-465b-9474-a13551f43140</Item>
+                        <Item>Default</Item>
                       </Author_IDs>
-                      <Parameter ID="Param_20:26:26" Name="Param_20:26:26" Path="Param_20:26:26">
+                      <Parameter ID="Param_15:24:43" Name="Param_15:24:43" Path="Param_15:24:43">
                         <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="c27d633e-2f60-465b-9474-a13551f43140" Duration="1" Enabled="True" Key="f1bc8df9-a55b-42a0-939d-ca9b8806101e" Parameter_Path="Param_20:26:26" Position="2.043475" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="2d376415-e9a9-4429-93de-da157ba54a31" Duration="7.836189" Enabled="True" Kairos_Source_Method="Sample" Key="8bb2e1e8-daf9-4b5a-a8f3-e274f5f2efa6" Parameter_Path="Param_20:26:26" Position="3.53444" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="Param_20:36:20">
-                    <Value Parameter_ID="Param_20:36:20" Parameter_Path="Param_20:36:20">
-                      <Author_IDs>
-                        <Item>2d376415-e9a9-4429-93de-da157ba54a31</Item>
-                        <Item>c27d633e-2f60-465b-9474-a13551f43140</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_20:36:20" Name="Param_20:36:20" Path="Param_20:36:20">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="c27d633e-2f60-465b-9474-a13551f43140" Duration="1" Enabled="True" Key="4e57a008-073c-493b-bba3-47af437f3410" Parameter_Path="Param_20:36:20" Position="2.043475" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="2d376415-e9a9-4429-93de-da157ba54a31" Duration="7.836189" Enabled="True" Kairos_Source_Method="Sample" Key="4cbd3b93-61d0-42e1-960c-1675bab1faf2" Parameter_Path="Param_20:36:20" Position="3.53444" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector3" xmlns:p14="reflection">0, 0, 0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_20:39:50">
-                    <Value Parameter_ID="Param_20:39:50" Parameter_Path="Param_20:39:50">
-                      <Author_IDs>
-                        <Item>2d376415-e9a9-4429-93de-da157ba54a31</Item>
-                        <Item>c27d633e-2f60-465b-9474-a13551f43140</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_20:39:50" Name="Param_20:39:50" Path="Param_20:39:50">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="c27d633e-2f60-465b-9474-a13551f43140" Duration="1" Enabled="True" Key="51dea147-a4ea-4a67-8c0b-7662bb3ca505" Parameter_Path="Param_20:39:50" Position="2.043475" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                          <Item Author_ID="2d376415-e9a9-4429-93de-da157ba54a31" Duration="7.836189" Enabled="True" Kairos_Source_Method="Sample" Key="17d5c053-5f3f-4b44-9568-0932bcc91ba3" Parameter_Path="Param_20:39:50" Position="3.53444" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.TL_ControlledClip_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:32">
-                    <Value Parameter_ID="Param_10:56:32" Parameter_Path="Param_10:56:32">
+                  <Item Key="Param_15:24:47">
+                    <Value Parameter_ID="Param_15:24:47" Parameter_Path="Param_15:24:47">
                       <Author_IDs>
                         <Item>Default</Item>
                       </Author_IDs>
-                      <Parameter ID="Param_10:56:32" Name="Param_10:56:32" Path="Param_10:56:32">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">1, 1, 1, 1</Default_Value>
+                      <Parameter ID="Param_15:24:47" Name="Param_15:24:47" Path="Param_15:24:47">
+                        <Default_Value p14:Type="System.Int32" xmlns:p14="reflection">0</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.5" Enabled="True" Input_Pin_ID="10:56:34" Key="acd2bf98-76cb-40cd-b8b6-da7c37a11e49" Parameter_Path="Param_10:56:32" Position="-0.5380001" p15:Type="Kairos.Core.Clip.TL_LiveDataClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Color4" xmlns:p14="reflection">1, 1, 1, 1</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:22">
-                    <Value Parameter_ID="Param_10:56:22" Parameter_Path="Param_10:56:22">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:56:22" Name="Param_10:56:22" Path="Param_10:56:22">
-                        <Default_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="1.004" Key="5d08c201-28c4-4b2a-be49-4fe2a8b26151" Position="1.734" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="VL.Lib.Collections.Spread`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"></Value>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="VL.Lib.Collections.Spread`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:56:27">
-                    <Value Parameter_ID="Param_10:56:27" Parameter_Path="Param_10:56:27">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:56:27" Name="Param_10:56:27" Path="Param_10:56:27">
-                        <Default_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.7640001" Key="7afbe16d-a5df-48e3-afe6-5a3d740dde08" Position="0.678" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="Xenko.Core.Mathematics.Vector2">0.5120001, 0.248</Value>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="Xenko.Core.Mathematics.Vector2" xmlns:p14="reflection">0, 0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" Output_Collection_Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_10:47:05">
-                    <Value Parameter_ID="Param_10:47:05" Parameter_Path="Param_10:47:05">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter ID="Param_10:47:05" Name="Param_10:47:05" Path="Param_10:47:05">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.916" Key="008260f7-ba24-4bc6-9a66-4f9547465ba9" Position="-0.9060006" p15:Type="Kairos.Core.Clip.TL_ConstantValueClip_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                            <Value p15:Type="System.Single">0.6799999</Value>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
+                        <Initial_Value p14:Type="System.Int32" xmlns:p14="reflection">0</Initial_Value>
                       </Sampler1D_M>
                       <Settings Enabled="True" Output_Collection_Enabled="True" />
                     </Value>
                   </Item>
                 </Channels>
-                <CtrlClips>
-                  <Item Key="2d376415-e9a9-4429-93de-da157ba54a31">
-                    <Value Duration="7.836189" Enabled="True" Input_Pin_ID="10:48:23" Kairos_Source_Method="Sample" Key="2d376415-e9a9-4429-93de-da157ba54a31" Name="Timeline_Timeline" Position="3.53444" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
-                  </Item>
-                  <Item Key="c27d633e-2f60-465b-9474-a13551f43140">
-                    <Value Duration="1" Enabled="True" Input_Pin_ID="10:48:21" Key="c27d633e-2f60-465b-9474-a13551f43140" Name="Timeline_Timeline" Position="2.043475" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
-                  </Item>
-                </CtrlClips>
                 <Parameter_List>
-                  <Item>Param_20:26:26</Item>
-                  <Item>Param_20:36:20</Item>
-                  <Item>Param_20:39:50</Item>
-                  <Item>Param_10:56:32</Item>
-                  <Item>Param_10:56:22</Item>
-                  <Item>Param_10:56:27</Item>
-                  <Item>Param_10:47:05</Item>
+                  <Item>Param_15:24:43</Item>
+                  <Item>Param_15:24:47</Item>
                 </Parameter_List>
                 <Timer>
                   <KairosClock_M BPM="60" Speed_Multiplier="1" />
                 </Timer>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="TtyTfTCDhcWMbiiMPIJKnZ" Name="10:56:34" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="RGBA" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="OcNAT1CQ4wEQbICdFI4Ql7" Name="10:48:23" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="P7aSO5teLYRPrAiDwJwVns" Name="10:48:21" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
             <Pin Id="O4I0CYH5AAlPJzYHrUm7lK" Name="Output" Kind="StateOutputPin" />
             <Pin Id="KgApcsyb8EQPGcsMmYfsye" Name="Output Collection" Kind="OutputPin" />
           </Node>
+          <Node Bounds="1058,621" Id="LSMr41WyRJjN0zR0XXpQLY">
+            <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="LFO" />
+            </p:NodeReference>
+            <Pin Id="LKBp6esFHRuPunWTucy6Wb" Name="Period" Kind="InputPin" />
+            <Pin Id="Curk0gtg9zlNsteNJjDI4N" Name="Pause" Kind="InputPin" />
+            <Pin Id="BQ5qDtw2XfBLYH1sL2KCi7" Name="Reset" Kind="InputPin" />
+            <Pin Id="UPhAcgfaX9KP1XFhAAgnXG" Name="Phase" Kind="OutputPin" />
+            <Pin Id="NMDCIudDHqGMexpyG7AJBc" Name="On New Cycle" Kind="OutputPin" />
+            <Pin Id="Kym3iBjygqeOfaHDMVVWDN" Name="Cycles" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="1075,675,48,19" Id="RXHNaW5dPyNOtPPxBGsbZj">
+            <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Toggle" />
+              <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="G5Gsqdn4E4YLCGQRq6tIcQ" Name="Flip" Kind="ApplyPin" />
+            <Pin Id="GYgpQJKa5qFNOqtmDJhbyY" Name="Reset" Kind="ApplyPin" />
+            <Pin Id="AE8TzVozFfjLTzTdBt72Uh" Name="Value" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Fu2jL7w5vKMMDy7WlQQfpG" Name="Create" />
-        <Patch Id="KIY1za4NGAZLTWBoQZjx6K" Name="Update" ParticipatingElements="QDYZvnkMIpAQMB9OxqkzGC" />
+        <Patch Id="KIY1za4NGAZLTWBoQZjx6K" Name="Update" ParticipatingElements="QDYZvnkMIpAQMB9OxqkzGC,FvAddqSncKGMLb7T6kLS90" />
         <ProcessDefinition Id="Ckzx4WdZPFLMUDgc80ZAJS">
           <Fragment Id="M1RvvlnCMVDPEAR9DgtAtS" Patch="Fu2jL7w5vKMMDy7WlQQfpG" Enabled="true" />
           <Fragment Id="IYRR1DJeCNhO8Mcf2BXXIr" Patch="KIY1za4NGAZLTWBoQZjx6K" Enabled="true" />
@@ -1174,20 +812,11 @@
         <Link Id="Q86V0KsIaEuMikXQlE5XUX" Ids="KNnm8hpv1rSMnQ34t3shsj,QlMFn9SWcPoLZlhspt3gI4" />
         <Link Id="UArNmiyxw2ZL34oFgZKa6e" Ids="FNrjMpDK8EhLPaRTr5Hkbl,HhvnVLRwuTKNFtNOPINNEt" />
         <Link Id="Hi3pOGIzIYpQHCav1x9Gu9" Ids="UpPF9Hk94hqO0YAni1uIEo,B6F2VKNMpJBPbo39NbyduL" />
-        <Link Id="ENEhMVI75DhOKyw8aSFgfP" Ids="FoZu1rsO8EvLvq8jggfOu3,OnboebzzFzoN9GTKfn3VJQ" />
-        <Link Id="TKK7mzAXEeILpLmGw6pRvR" Ids="KbCNa4sSGpLMjiEIz3JBgW,QuvHdM2Ohz0MmOUMMuiRF2" />
-        <Link Id="Tx9twAWc9uoOen00Dhisht" Ids="GAP3wAAJ9VJL3a3CDkOs4C,NxuSIq7F4EsOw3Grpd1fAN" />
-        <Link Id="CKHAR9Xa5I5QTYp5C3WECH" Ids="Kbjd2wfAdxKPcSaRNNa6NJ,Q5wEbcjCIb9NmRaWW6kdp8" />
-        <Link Id="NGF6S67g7euNwZsIXhrZLh" Ids="L2gHkBSxew6PxYcosM5h4u,Ai0OGL2QThCOlmnzF91sT4" />
         <Link Id="T2116qpIG6OONYa1llWNE0" Ids="R6fKXe3JyeWQPmPDirAWVc,QVjKMomnt7kQc1MMKq3oJQ" />
-        <Link Id="SxpcxvKUeB3Lxpg4GaHsJW" Ids="BdFP604bdn2NXohpcMJ9xn,I8f7zDCk4CGM4U6gAt6vDL" />
-        <Link Id="Cfksp00gFROO7dHYEgUzjI" Ids="A7FOAmMfFRTLBa8Tm55D0t,JXdmjmOKjE0MfAjvvJQDTS" />
-        <Link Id="L0PXPphMJmePFyTfXcyDe4" Ids="QDY4wRjqXNDPxQCZsPEWwQ,J6RbMai5R3bPnYcpqSldB7" />
-        <Link Id="Q6IRZLPfHsnPEDrGnuRgvK" Ids="ISUoYKriEDkPtMigcFJQ1M,LLocmUDtlkyNRk9YnWuu4h" />
         <Link Id="DvBLfJGnLLuORVsJYx7hSz" Ids="AvM0gOUYp5UNHiYBd1EXRw,QrVMzwnmKZPNQrsHm8EVM6" />
-        <Link Id="HxFU0qDkoDjLm87EwElRsn" Ids="O4I0CYH5AAlPJzYHrUm7lK,UT5xULoihZkQFRHYHBz6Lu" />
-        <Link Id="L6pFP6ilXQXL58iOJVxOZ5" Ids="BdFP604bdn2NXohpcMJ9xn,OcNAT1CQ4wEQbICdFI4Ql7" />
-        <Link Id="AJ3TEgfLqSyO7988TAN8xV" Ids="BdFP604bdn2NXohpcMJ9xn,P7aSO5teLYRPrAiDwJwVns" />
+        <Link Id="M1LzKg45zsaLHSh1ASaqAd" Ids="BdFP604bdn2NXohpcMJ9xn,D66qqRB8emSLHND4XvSMR4" />
+        <Link Id="FvAddqSncKGMLb7T6kLS90" Ids="NMDCIudDHqGMexpyG7AJBc,G5Gsqdn4E4YLCGQRq6tIcQ" />
+        <Link Id="UONT92Mf2wCPl5rC1mFz1g" Ids="AE8TzVozFfjLTzTdBt72Uh,DsaikBOjbAtPtUSgiE1Tcn" />
       </Patch>
     </Node>
   </Patch>
