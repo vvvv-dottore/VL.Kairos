@@ -3006,7 +3006,7 @@
                   <p:OuterCategoryReference Kind="Category" Name="Graphics" NeedsToBeDirectParent="true" />
                 </CategoryReference>
               </p:NodeReference>
-              <Pin Id="Cm7asLDNqVoORGuzA7Z3LM" Name="Bounds" Kind="InputPin" DefaultValue="1572, 156, 836, 838">
+              <Pin Id="Cm7asLDNqVoORGuzA7Z3LM" Name="Bounds" Kind="InputPin" DefaultValue="350, -2, 836, 838">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -8209,7 +8209,7 @@
                   <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="GetPosition" />
-                    <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="Tu1lPFlWvV8MMAEjrlYId7" Name="Input" Kind="StateInputPin" />
                   <Pin Id="AYpAaDEtaDpM5SM9RSFfWl" Name="Output" Kind="StateOutputPin" />
@@ -8224,8 +8224,8 @@
                 <Node Bounds="1265,475,71,26" Id="DrXS6rXNbXgLEgjYoWMywH">
                   <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
                     <Choice Kind="OperationCallFlag" Name="GetDuration" />
+                    <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="MJAwiI5ELJCPiAaNJzmXIH" Name="Input" Kind="StateInputPin" />
                   <Pin Id="UUidYzHYBe1O4P3WVp7Myp" Name="Output" Kind="StateOutputPin" />
@@ -10910,13 +10910,14 @@
                       <Choice Kind="OperationCallFlag" Name="Create" />
                       <CategoryReference Kind="Category" Name="LiveDataClip_M" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
-                    <Pin Id="NSNhoCKykWUNwajdPsrCJe" Name="Position" Kind="InputPin" />
                     <Pin Id="DZeN7nARclFOt1RzriFkBf" Name="Author ID" Kind="InputPin" />
-                    <Pin Id="ScOGIWVMRHoPVC19RycfqO" Name="Duration" Kind="InputPin" />
+                    <Pin Id="PRbyNADyq82PCJnIIn32yP" Name="Transform" Kind="InputPin" />
                     <Pin Id="AoHgVNMke4EQMloZV4sKWQ" Name="Layer Index" Kind="InputPin" />
                     <Pin Id="LsmJmpnXgZpNBaX78298Ur" Name="Blend Model" Kind="InputPin" />
                     <Pin Id="VNKpVn09jawOizF4QORI6O" Name="Interpolation Model" Kind="InputPin" />
                     <Pin Id="ND1onrsfgfkQFafX7NdoJG" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="NSNhoCKykWUNwajdPsrCJe" Name="Position" Kind="InputPin" />
+                    <Pin Id="ScOGIWVMRHoPVC19RycfqO" Name="Duration" Kind="InputPin" />
                   </Node>
                   <Pad Id="Tfaq7ubSyJrQCUtJV18Fxq" Comment="Duration" Bounds="1168,22,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -11157,7 +11158,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetPosition" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="F3AEwlEsBc8MkeRCmvmlaP" Name="Input" Kind="StateInputPin" />
                     <Pin Id="I9f1HVtVlYVLikrks1ew2T" Name="Output" Kind="StateOutputPin" />
@@ -11167,7 +11168,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetDuration" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="Nw353VFjMiJQDHLrYMYRSZ" Name="Input" Kind="StateInputPin" />
                     <Pin Id="RYnvMwLwn5xOtEx45uPRKz" Name="Output" Kind="StateOutputPin" />
@@ -12060,7 +12061,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetPosition" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="HcAJK1w1z88N5C6B8M6ul0" Name="Input" Kind="InputPin" />
                     <Pin Id="H2NCUSccrpLOnlo1iT3xFm" Name="Output" Kind="OutputPin" />
@@ -12116,7 +12117,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetPosition" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="O2N8wcIbcXcPsxsQpmBNm3" Name="Input" Kind="StateInputPin" />
                     <Pin Id="Kj7az1qK0U1LQRIvXbuX6p" Name="Position" Kind="InputPin" />
@@ -12436,7 +12437,7 @@
                 <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetPosition" />
-                  <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="DHl4bteQSzoQMXsuQMF4Ww" Name="Input" Kind="InputPin" />
                 <Pin Id="ITS48aiW2JUOFcBU40TBGI" Name="Output" Kind="OutputPin" />
@@ -12446,7 +12447,7 @@
                 <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="GetDuration" />
-                  <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                  <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="QfxR8RLIbMhN2k9auFcFKl" Name="Input" Kind="StateInputPin" />
                 <Pin Id="JurSCj5XZUTMSkT6rf7Vu4" Name="Output" Kind="OutputPin" />
@@ -12546,7 +12547,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetPosition" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="IualnLno0rALgCzh7mtY7N" Name="Input" Kind="InputPin" />
                     <Pin Id="ChRnPFmmEafOv3NTE5lFpl" Name="Output" Kind="OutputPin" />
@@ -12566,7 +12567,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetPosition" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="Aw888agS7uELzYHUPudvIU" Name="Input" Kind="InputPin" />
                     <Pin Id="BZDnBRl4w7PPHGXM3F12n7" Name="Position" Kind="InputPin" />
@@ -12585,7 +12586,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetDuration" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="KnfSJsSzbjaN2FJWbq2LSE" Name="Input" Kind="StateInputPin" />
                     <Pin Id="UKh4xecBhjWPw6jPTcOLJE" Name="Duration" Kind="InputPin" />
@@ -12595,7 +12596,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetDuration" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="D1EupEughAjLJMnqClMIaw" Name="Input" Kind="StateInputPin" />
                     <Pin Id="Pe7nvbWaH87PzjGeWDFCYl" Name="Output" Kind="StateOutputPin" />
@@ -12713,7 +12714,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="SetDuration" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="RkjjMOj18tjMwMKUMQspWa" Name="Input" Kind="StateInputPin" />
                     <Pin Id="QaWRW0OfxpyMYYn7gdbA3m" Name="Duration" Kind="InputPin" />
@@ -12723,7 +12724,7 @@
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.IClipModel" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="GetDuration" />
-                      <CategoryReference Kind="InterfaceTypeFlag" Name="IClipModel" NeedsToBeDirectParent="true" />
+                      <CategoryReference Kind="Category" Name="IClipModel" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="KyV1ZQstNIQPXZLJTWbdpM" Name="Input" Kind="StateInputPin" />
                     <Pin Id="BTI9spSC5IJQDXCzV7xn64" Name="Output" Kind="StateOutputPin" />
@@ -13594,20 +13595,21 @@
                       <Choice Kind="OperationCallFlag" Name="Create" />
                       <CategoryReference Kind="Category" Name="CtrlClip_M" />
                     </p:NodeReference>
-                    <Pin Id="FtgNDsI9cvhOPtJhDq60tR" Name="Position" Kind="InputPin" />
                     <Pin Id="ASB7v9Pu0NrNvsFB4ioyX5" Name="Kairos Source Method" Kind="InputPin" />
                     <Pin Id="QEUyGUhCfslQKHkGo0hy76" Name="Author ID" Kind="InputPin" />
-                    <Pin Id="QWe2VySIPyKNkyrWDGL9rh" Name="Duration" Kind="InputPin" />
                     <Pin Id="VB6vsdvmwclPl4PPsMwJC6" Name="Name" Kind="InputPin" />
-                    <Pin Id="VurjSuR14X0PrFiFbdBO5m" Name="Layer Index" Kind="InputPin" />
+                    <Pin Id="K8CrzynHuNtPxwNOj52O4t" Name="Transform" Kind="InputPin" />
                     <Pin Id="AOsXss0myevOVY3A0eVwWB" Name="Sampler Path ID" Kind="InputPin" />
-                    <Pin Id="IEl18VAgLFDQMas0O4p0To" Name="Blend Model" Kind="InputPin" />
+                    <Pin Id="VurjSuR14X0PrFiFbdBO5m" Name="Layer Index" Kind="InputPin" />
                     <Pin Id="Dn45RPGNzTENRGAbvXeNEq" Name="Sampler Position In" Kind="InputPin" />
-                    <Pin Id="IlC0cVPFZkGOOxkcXKuAEl" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="IEl18VAgLFDQMas0O4p0To" Name="Blend Model" Kind="InputPin" />
                     <Pin Id="EB1F2ugTYVuLCjBxULwBOS" Name="Sampler Position Out" Kind="InputPin" />
+                    <Pin Id="IlC0cVPFZkGOOxkcXKuAEl" Name="Interpolation Model" Kind="InputPin" />
                     <Pin Id="Pp0SoHQraZMLy4nWGKnv87" Name="Sampler Range Mapping" Kind="InputPin" />
                     <Pin Id="TtR7VizYJZoORs8RgDToeg" Name="Sampler Speed Mult" Kind="InputPin" />
                     <Pin Id="VcGU6RwS735NB4yHkXvGZr" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="FtgNDsI9cvhOPtJhDq60tR" Name="Position" Kind="InputPin" />
+                    <Pin Id="QWe2VySIPyKNkyrWDGL9rh" Name="Duration" Kind="InputPin" />
                   </Node>
                   <Node Bounds="-233,47,94,26" Id="LBoBRAFgZX6ODXc5Xbnx9Y">
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Interpolation.LinearInterpolation_M" LastSymbolSource="Kairos.Core.vl">
@@ -14410,20 +14412,21 @@
                       <Choice Kind="OperationCallFlag" Name="Create" />
                       <CategoryReference Kind="Category" Name="CtrlClip_M" />
                     </p:NodeReference>
-                    <Pin Id="Dx36qURtPSDO7y5g7xQDGi" Name="Position" Kind="InputPin" />
                     <Pin Id="UpcWhGjBvxLQEbL9nmIXEt" Name="Kairos Source Method" Kind="InputPin" />
                     <Pin Id="G29vqNxADPmM8UuSE8f5KI" Name="Author ID" Kind="InputPin" />
-                    <Pin Id="A2YSoUtWkZJNRNuzirdNqT" Name="Duration" Kind="InputPin" />
                     <Pin Id="UNEcoyteoUsN0RkVfghkYi" Name="Name" Kind="InputPin" />
-                    <Pin Id="J1Iz1EkZycCPrrb88KJTbN" Name="Layer Index" Kind="InputPin" />
+                    <Pin Id="A3Y6f8c7xBiMpC6SKfSmZZ" Name="Transform" Kind="InputPin" />
                     <Pin Id="PRW0bsjanlTPriivk1lCSZ" Name="Sampler Path ID" Kind="InputPin" />
-                    <Pin Id="SbSnAVo8Q74OEDZUlSX20w" Name="Blend Model" Kind="InputPin" />
+                    <Pin Id="J1Iz1EkZycCPrrb88KJTbN" Name="Layer Index" Kind="InputPin" />
                     <Pin Id="TqRaSZTqsBdNlwcorsicSu" Name="Sampler Position In" Kind="InputPin" />
-                    <Pin Id="JnWWja6Rv1ZOKoMHjVPMnx" Name="Interpolation Model" Kind="InputPin" />
+                    <Pin Id="SbSnAVo8Q74OEDZUlSX20w" Name="Blend Model" Kind="InputPin" />
                     <Pin Id="VVnS7IStZaZNQI0kh1G3Q8" Name="Sampler Position Out" Kind="InputPin" />
+                    <Pin Id="JnWWja6Rv1ZOKoMHjVPMnx" Name="Interpolation Model" Kind="InputPin" />
                     <Pin Id="KvrTxL4YJYtPYKdmRfg9DQ" Name="Sampler Range Mapping" Kind="InputPin" />
                     <Pin Id="RU444jWE3vkNPKWTtn9uK5" Name="Sampler Speed Mult" Kind="InputPin" />
                     <Pin Id="SQrEEwPs2szOgqANqe5Z0W" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="Dx36qURtPSDO7y5g7xQDGi" Name="Position" Kind="InputPin" />
+                    <Pin Id="A2YSoUtWkZJNRNuzirdNqT" Name="Duration" Kind="InputPin" />
                   </Node>
                   <Node Bounds="319,45,94,26" Id="DI3fb0TyJPbO1SrMFOpO6Q">
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Interpolation.LinearInterpolation_M" LastSymbolSource="Kairos.Core.vl">
@@ -14790,8 +14793,8 @@
                       <CategoryReference Kind="Category" Name="CtrlClip_M" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="SR857WGJInfMhPZ4LF39ZC" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="JerW5YjcXuwMKEf0C8SLEe" Name="Position" Kind="InputPin" />
                     <Pin Id="HFrTmCmPf2QPPpBRkEi9PI" Name="Output" Kind="OutputPin" />
+                    <Pin Id="JerW5YjcXuwMKEf0C8SLEe" Name="Position" Kind="InputPin" />
                   </Node>
                   <Node Bounds="778,1429,160,19" Id="LGBhuvpLiaZMdRdmMYj0mU">
                     <p:NodeReference LastCategoryFullName="Kairos.Utils" LastSymbolSource="Kairos.Utils.vl">
@@ -15176,8 +15179,8 @@
                       <CategoryReference Kind="Category" Name="CtrlClip_M" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="UCUeguILuyILom6Z14Fanx" Name="Input" Kind="InputPin" />
-                    <Pin Id="TeTBVm1YfVpQQY0QMjgUCZ" Name="Position" Kind="InputPin" />
                     <Pin Id="PcZS1dPoGHyLrcSndg5CyQ" Name="Output" Kind="OutputPin" />
+                    <Pin Id="TeTBVm1YfVpQQY0QMjgUCZ" Name="Position" Kind="InputPin" />
                   </Node>
                   <Node Bounds="1585,1308,25,19" Id="OFFdV4fmTrXM08dOjsaqOm">
                     <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -15195,8 +15198,8 @@
                       <CategoryReference Kind="Category" Name="CtrlClip_M" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="A46tF7kvcbiMVd47dn0G1a" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="T4jpb2q6kzKM3TRH2LuuaY" Name="Duration" Kind="InputPin" />
                     <Pin Id="Kmu4hYY9hUZL7gHlQOEh1f" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="T4jpb2q6kzKM3TRH2LuuaY" Name="Duration" Kind="InputPin" />
                   </Node>
                   <Node Bounds="1502,1388,101,26" Id="Al8cfPQs7s1NatIDQwTTHi">
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.TL_CtrlClip_M" LastSymbolSource="Kairos.Core.vl">
@@ -15323,8 +15326,8 @@
                       <CategoryReference Kind="Category" Name="CtrlClip_M" NeedsToBeDirectParent="true" />
                     </p:NodeReference>
                     <Pin Id="GMAnVcSClOCNDZZWj6KkUS" Name="Input" Kind="StateInputPin" />
-                    <Pin Id="UikkzMEh6tFPfFZ9vO0FrD" Name="Duration" Kind="InputPin" />
                     <Pin Id="UMNcCsUS4boOA3MI3PdGmQ" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="UikkzMEh6tFPfFZ9vO0FrD" Name="Duration" Kind="InputPin" />
                   </Node>
                   <Node Bounds="2070,1260,52,19" Id="Mxiw7Xmo1KGQUq6ZFHInj1">
                     <p:NodeReference LastCategoryFullName="Kairos.Core.Clip.TL_CtrlClip_M" LastSymbolSource="Kairos.Core.vl">
