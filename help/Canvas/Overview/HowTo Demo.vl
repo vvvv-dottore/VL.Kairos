@@ -215,13 +215,13 @@
                 </Timer>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="KvtT8ZPBnFmM8PYzRJ6IOm" Name="Output" Kind="OutputPin" />
-            <Pin Id="VcNxBv87Be8OTP3ryZSueg" Name="Output Collection" Kind="OutputPin" />
-            <Pin Id="D66qqRB8emSLHND4XvSMR4" Name="15:27:11" Kind="InputPin">
+            <Pin Id="D66qqRB8emSLHND4XvSMR4" Name="15:27:11" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="KvtT8ZPBnFmM8PYzRJ6IOm" Name="Output" Kind="OutputPin" />
+            <Pin Id="VcNxBv87Be8OTP3ryZSueg" Name="Output Collection" Kind="OutputPin" />
           </Node>
           <Node Bounds="467,1478,45,19" Id="CoCnHFfrgfMMdbyEGIItNx">
             <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
@@ -627,13 +627,13 @@
                 </Timer>
               </p:DefaultValue>
             </Pin>
-            <Pin Id="BdFP604bdn2NXohpcMJ9xn" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="ITbcXS1nykvPJv6cRJZQW3" Name="Output Collection" Kind="OutputPin" />
-            <Pin Id="DsaikBOjbAtPtUSgiE1Tcn" Name="15:27:43" Kind="InputPin">
+            <Pin Id="DsaikBOjbAtPtUSgiE1Tcn" Name="15:27:43" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="BdFP604bdn2NXohpcMJ9xn" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="ITbcXS1nykvPJv6cRJZQW3" Name="Output Collection" Kind="OutputPin" />
           </Node>
           <Node Bounds="1169,639,54,19" Id="GTWCPmNq7YEQGXAl9Dvp86">
             <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
