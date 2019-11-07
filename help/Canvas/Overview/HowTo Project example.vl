@@ -260,7 +260,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="TVaGLGlPGeNOW7UfzvwtcG" Name="Bounds" Kind="InputPin" DefaultValue="2590, 130, 1454, 616">
+            <Pin Id="TVaGLGlPGeNOW7UfzvwtcG" Name="Bounds" Kind="InputPin" DefaultValue="2810, 238, 960, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -638,7 +638,7 @@
             <Pin Id="Q3ok9FFlN26PQzsjSLW0c4" Name="Cycles" Kind="OutputPin" />
           </Node>
           <Pad Id="Dsgm4Ho2DBSMvU8aGaM5iW" Comment="Phase" Bounds="1423,826,35,15" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="1195,1750,128,19" Id="V1wedVAJqNdLVr4xCwJfLk">
+          <Node Bounds="586,1609,128,19" Id="V1wedVAJqNdLVr4xCwJfLk">
             <p:NodeReference LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="WriteKSourceToDatatype" />
@@ -650,7 +650,7 @@
             <Pin Id="DPAHnnG1668MoLeszxOroK" Name="Model" Kind="OutputPin" />
             <Pin Id="Kn5av2DtHJzLBrQIG1V43V" Name="Path" Kind="OutputPin" />
           </Node>
-          <Pad Id="PMaQCiqqWFoLDZrIOPvOhA" Comment="Write to Reference" Bounds="1241,1699,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="PMaQCiqqWFoLDZrIOPvOhA" Comment="Write to Reference" Bounds="632,1558,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -676,7 +676,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="9525c567-49f3-4cab-a691-9f1cde8bfdc9" Parameter_Path="DynamicScreens&lt;3&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="2b4e9496-43bf-4f30-b753-239525c51aaa" Parameter_Path="DynamicScreens&lt;3&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -693,7 +693,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="aedd729d-0402-4048-968f-a59199b9fedf" Parameter_Path="DynamicScreens&lt;14&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="60890e18-d4f8-4cd3-8cb5-1b7002977eb6" Parameter_Path="DynamicScreens&lt;14&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -710,7 +710,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="a97fc565-fe38-4eed-b1af-6d09b33a9a71" Parameter_Path="DynamicScreens&lt;15&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="91c3dea1-e09f-4f70-a6b0-e0053de1580e" Parameter_Path="DynamicScreens&lt;15&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -727,7 +727,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="b857d649-4f69-433f-ac6b-8dd1512e09d0" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="ffd9a5ed-4953-4336-af23-3d157ab241cf" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -744,7 +744,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="b2deb5ef-631a-4b19-8493-9b0abdf4f3f0" Parameter_Path="DynamicScreens&lt;13&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="a30c4c2d-7a65-4c70-841e-5db54733e019" Parameter_Path="DynamicScreens&lt;13&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -761,7 +761,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="369e1823-25f0-484b-89d7-3756ab7755b7" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="f6d21987-acb2-4839-9c36-c7048a8eb43e" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -778,7 +778,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="04183067-b9dd-402a-8361-a9b39d33ecbf" Parameter_Path="DynamicScreens&lt;12&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="b2166333-836d-474b-89f9-17ec06aa35cb" Parameter_Path="DynamicScreens&lt;12&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -795,7 +795,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="b0e9b83b-9664-406c-926a-7192c00649d9" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="92ac013e-efcc-4a3c-b715-2e10e74fdc09" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -812,7 +812,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="dfa71a9c-81cf-4da9-8132-81db052a831e" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="9cb90eba-bc61-48a8-8221-4c3aefca590e" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -829,7 +829,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="48ac493b-6cd3-4cd1-b02d-e03343e960a2" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="1d4288a8-c49d-43c4-804f-909dbdb1e1bb" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -846,7 +846,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="c349d0f5-d185-4663-8903-ae80fc70d1c7" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="961c8e2b-d736-46f5-9890-96b3f4ba969c" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -864,7 +864,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="9e7be533-ada4-43f9-a27d-1b1a01ae7c20" Parameter_Path="DynamicScreens&lt;0&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="5e45463b-c764-4307-aa02-7539316d6dcf" Parameter_Path="DynamicScreens&lt;0&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                           <Item Author_ID="Default" Duration="0.5" Input_Pin_ID="19:55:15" Key="d8364078-d5bc-4417-9105-ccbd983fac49" Position="11.58585" p15:Type="Kairos.Core.Clip.Clip1D_LiveData_M" xmlns:p15="reflection">
                             <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
                           </Item>
@@ -884,7 +884,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="82b1f40a-0a7a-4c1c-82a4-d8a9d96dbe28" Parameter_Path="DynamicScreens&lt;2&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="02eb58af-22ee-457a-acb6-5e677e1c0ac9" Parameter_Path="DynamicScreens&lt;2&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -901,7 +901,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="d83a97dd-636e-479b-84f6-5a74b7766d2b" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="30fba382-565f-45af-9f06-b01542e327cf" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -918,7 +918,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="620ebae7-4072-42ac-a230-38235dd5b536" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="2f940087-dcea-4789-bb0d-84bd85fba77b" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                         </Clips>
                         <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
                       </Sampler1D_M>
@@ -936,7 +936,7 @@
                       </Parameter>
                       <Sampler1D_M>
                         <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="0bed0f63-efbd-4e8c-a186-0c6477cf6237" Parameter_Path="DynamicScreens&lt;1&gt;@PosY" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
+                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="739eb40f-4b35-47b6-be33-3db96ba0151f" Parameter_Path="DynamicScreens&lt;1&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
                           <Item Author_ID="Default" Duration="0.5" Input_Pin_ID="21:49:49" Key="1bcf8d51-48d4-4f7e-a7a2-7ee7d453b60e" Position="11.66421" p15:Type="Kairos.Core.Clip.Clip1D_LiveData_M" xmlns:p15="reflection">
                             <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
                           </Item>
@@ -949,7 +949,7 @@
                 </Channels>
                 <CtrlClips>
                   <Item Key="b0b699f9-bd00-4c95-92fa-1e35da62997a">
-                    <Value Author_ID="Default" Duration="5.557009" Input_Pin_ID="19:23:47" Key="b0b699f9-bd00-4c95-92fa-1e35da62997a" Name="LiveDataProvider_" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
+                    <Value Author_ID="Default" Duration="5.557009" Input_Pin_ID="19:23:47" Key="b0b699f9-bd00-4c95-92fa-1e35da62997a" Name="LiveDataProvider_" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
                   </Item>
                 </CtrlClips>
                 <Parameter_List>
@@ -1126,7 +1126,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1340,1482,145,19" Id="GP41qYTNXZPNDRWynfexD2">
+          <Node Bounds="1137,1446,145,19" Id="GP41qYTNXZPNDRWynfexD2">
             <p:NodeReference LastCategoryFullName="Kairos.Core.Compositor" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Compositor" />
@@ -1144,9 +1144,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="ef6afbbf-0437-4cb7-97b2-202f6d06da65" Parameter_Path="DynamicScreens&lt;3&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="d3d67875-9120-4466-9a08-d99ed9474382" Parameter_Path="DynamicScreens&lt;3&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1165,9 +1165,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="ee2e187a-d1a2-4010-bb58-285302714863" Parameter_Path="DynamicScreens&lt;14&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="6d050238-f014-4e0f-badc-cd7a50d47367" Parameter_Path="DynamicScreens&lt;14&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1186,9 +1186,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="3896070b-5f5c-4d5c-9486-6740cbad78f6" Parameter_Path="DynamicScreens&lt;15&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="d7e21ae1-b01b-4c71-883a-193eadf650f6" Parameter_Path="DynamicScreens&lt;15&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1204,24 +1204,24 @@
                     <Value Parameter_Path="DynamicScreens&lt;10&gt;@PosY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="de1ba4eb-e41b-428f-8e6a-cc75a60dfae0" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="56256503-335d-48b6-b875-8d5a4c42772c" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="9b2069b7-5aa9-40e7-89cc-095eff7696f1" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="3fa000af-9900-4281-8bba-9937b10d0a4e" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="8f995ab1-3b93-4bca-ad4d-4a8729e719be" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="e92bca87-6180-4b73-8a42-28597d1ec2cb" Layer_Index="4" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1240,9 +1240,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="90d7fdbc-f665-44e4-85e4-3bfae21eb3e8" Parameter_Path="DynamicScreens&lt;13&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="c59305c0-fc36-4c5a-993a-ca11b17ccb50" Parameter_Path="DynamicScreens&lt;13&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1258,24 +1258,24 @@
                     <Value Parameter_Path="DynamicScreens&lt;11&gt;@PosY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="e339b261-ed94-457d-b9a9-3e14645c5636" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="f03ef803-f008-491f-87ca-dd70d3879566" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="5f0427e9-1460-4d21-bbb8-63d3f3ee8d90" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="2985d36f-3780-4369-91d1-53dc87da2b39" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="bd3073e9-c514-45a0-9705-0762fb1dd429" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="f6312cae-eb4b-4b65-805f-d029e257c09f" Layer_Index="4" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1294,9 +1294,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="1c786ae9-3a23-47cc-aba6-23d8d06e6e79" Parameter_Path="DynamicScreens&lt;12&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="e26cea68-6f70-4700-8863-b31854100181" Parameter_Path="DynamicScreens&lt;12&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1311,13 +1311,19 @@
                   <Item Key="DynamicScreens&lt;14&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;14&gt;@Color">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>0fb8dd1a-faee-456a-8ac8-f6f85dbd6410</Item>
+                        <Item>4f9de47d-7daa-4ef3-98e4-50439aeafb82</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="d321bcdd-ab61-4402-9a8c-7f1de999f926" Layer_Index="1" Parameter_Path="DynamicScreens&lt;14&gt;@Color" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Duration="5.013145" Key="b422be7b-2455-4707-b1af-d2f4fff98e62" Layer_Index="2" Parameter_Path="DynamicScreens&lt;14&gt;@Color" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="0fb8dd1a-faee-456a-8ac8-f6f85dbd6410" Duration="3.35272" Key="edec2600-127d-4862-a6eb-fb295ee3fec5" Layer_Index="5" Parameter_Path="DynamicScreens&lt;14&gt;@Color" Position="14.52003" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model>
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1332,13 +1338,19 @@
                   <Item Key="DynamicScreens&lt;15&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;15&gt;@Color">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>0fb8dd1a-faee-456a-8ac8-f6f85dbd6410</Item>
+                        <Item>4f9de47d-7daa-4ef3-98e4-50439aeafb82</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="abf4c02b-d518-4e3e-ba2d-accd30b83712" Layer_Index="1" Parameter_Path="DynamicScreens&lt;15&gt;@Color" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Duration="5.013145" Key="8ca40189-f53f-4908-90aa-7d15f49409fd" Layer_Index="2" Parameter_Path="DynamicScreens&lt;15&gt;@Color" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="0fb8dd1a-faee-456a-8ac8-f6f85dbd6410" Duration="3.35272" Key="a387d5b2-2c05-425d-a311-9288933000fa" Layer_Index="5" Parameter_Path="DynamicScreens&lt;15&gt;@Color" Position="14.52003" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model>
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1353,13 +1365,19 @@
                   <Item Key="DynamicScreens&lt;13&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;13&gt;@Color">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>0fb8dd1a-faee-456a-8ac8-f6f85dbd6410</Item>
+                        <Item>4f9de47d-7daa-4ef3-98e4-50439aeafb82</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="7e110d63-bc2b-4d1a-b995-7245adb2996d" Layer_Index="1" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Duration="5.013145" Key="8b3418ff-60c9-42b0-ab44-8adec3935eab" Layer_Index="2" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="0fb8dd1a-faee-456a-8ac8-f6f85dbd6410" Duration="3.35272" Key="9226dc84-5903-423a-976b-5631e73eef18" Layer_Index="5" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="14.52003" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model>
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1374,13 +1392,13 @@
                   <Item Key="DynamicScreens&lt;11&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;11&gt;@Color">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>4f9de47d-7daa-4ef3-98e4-50439aeafb82</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="93f697d9-c77a-46bf-a46e-fbac78255adf" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@Color" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Duration="5.013145" Key="c69ffde0-bb1c-42db-831e-edc0bacdfccc" Layer_Index="2" Parameter_Path="DynamicScreens&lt;11&gt;@Color" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1395,13 +1413,13 @@
                   <Item Key="DynamicScreens&lt;12&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;12&gt;@Color">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>4f9de47d-7daa-4ef3-98e4-50439aeafb82</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="73700664-0ec1-49cc-a16b-1280beb310ff" Layer_Index="1" Parameter_Path="DynamicScreens&lt;12&gt;@Color" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Duration="5.013145" Key="45b9592c-ac3f-4624-8ecc-b9bae88bca5b" Layer_Index="2" Parameter_Path="DynamicScreens&lt;12&gt;@Color" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1417,30 +1435,36 @@
                     <Value Parameter_Path="DynamicScreens&lt;8&gt;@PosY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="e6fd523a-3e66-4f8b-9f84-5fab55fc9c00" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="7c86ea05-779e-420f-af02-5a9d1766226c" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="8a2a8b4c-5c00-485c-80be-379d8db5e7cb" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="8ce03255-2677-4c15-a3dc-6c07b67da80d" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="cf57251d-a375-47d7-9f29-80930c44e659" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="3e9c660b-6735-4d7c-9df3-5751b7c22e97" Layer_Index="3" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="5a541c41-1fbe-4073-afcf-1ea7efe9a29b" Layer_Index="2" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="6525a4e4-fd4f-4ecf-84cf-bc0409d2a858" Layer_Index="4" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="25d8953d-33e3-4fc4-9da1-fd37bcff2e87" Layer_Index="2" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1456,18 +1480,18 @@
                     <Value Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="c329fd01-7737-436c-ac20-0273018d2882" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="1bdba78e-b2eb-409e-b31a-292f59ce573b" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="9f393814-41d7-4fdb-b440-f7bbad8c84fe" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="34b4fb2d-8275-45fd-96b0-ff5ce573e339" Layer_Index="4" Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1483,18 +1507,18 @@
                     <Value Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="c6a8f015-f01e-4fea-ad8a-0068d2ebe154" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="5435b28c-0378-4436-9754-50a96a6853a4" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="94e88011-a2f1-4f93-b039-986f8aece28c" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="c4fc2f75-8609-4798-b3bc-31bc84120a58" Layer_Index="4" Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1509,25 +1533,25 @@
                   <Item Key="DynamicScreens&lt;4&gt;@PosY">
                     <Value Parameter_Path="DynamicScreens&lt;4&gt;@PosY">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="ac8e4b33-9ef3-4464-915b-4a8babb7521a" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="d6bd105f-2168-4f5a-a64a-0b02dc92a6e6" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="e59326ce-98f0-44a6-86c6-c1e6e6d210cc" Layer_Index="1" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="963e9bd9-31b3-4e43-817c-9d363064612b" Layer_Index="3" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="49cf84cb-a06e-43a6-9923-6c9c025e8b54" Layer_Index="2" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="ae143803-dae5-445c-91d6-a0fbc6e189de" Layer_Index="2" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1542,25 +1566,25 @@
                   <Item Key="DynamicScreens&lt;6&gt;@PosY">
                     <Value Parameter_Path="DynamicScreens&lt;6&gt;@PosY">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="4df5520c-ee7a-40c5-81bb-c7bbb5e6fcea" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="fc305750-9763-432f-bded-19d5645d8feb" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="1e0ffcc1-4b5b-45a0-ab93-1df3d7913a01" Layer_Index="1" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="2ccb05e2-c329-47ba-85f4-3feb265c8df5" Layer_Index="3" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="c662b830-86d1-4f72-97d6-68b51948ba09" Layer_Index="2" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="95bc8a85-2f62-4feb-acc5-7bafdbf5968b" Layer_Index="2" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1576,30 +1600,36 @@
                     <Value Parameter_Path="DynamicScreens&lt;9&gt;@PosY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="14997db0-ec8f-457e-a7bb-f455080b680f" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="6d1fcc32-1575-473e-804d-88c941ac7ab0" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="be9ae6af-a7ba-4213-af4a-30e5025e87ad" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="b5c2a33d-c1c1-450c-97db-9022d9f7406c" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="ff40bc78-dd19-408a-b86c-8bc73a19916b" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="9725a156-6a3b-4c53-843d-7e8f4bc1db6e" Layer_Index="3" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="0f4fde5b-551b-4e58-a5cb-aee4b4941767" Layer_Index="2" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="2c9a39eb-8271-4acb-afa8-714e8d8c26fb" Layer_Index="4" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="868ab836-8765-48a0-a8f5-ae67befb9787" Layer_Index="2" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1618,9 +1648,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="ed167469-d638-4630-a040-e92c41094cf1" Parameter_Path="DynamicScreens&lt;0&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="89f5737a-689c-4c29-9717-a2c2bc3b3334" Parameter_Path="DynamicScreens&lt;0&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1639,9 +1669,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="7b2cbf11-1755-4955-9d48-745502804785" Parameter_Path="DynamicScreens&lt;2&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="f1d7b190-ace8-449e-8217-4a57436e3b50" Parameter_Path="DynamicScreens&lt;2&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1656,25 +1686,25 @@
                   <Item Key="DynamicScreens&lt;5&gt;@PosY">
                     <Value Parameter_Path="DynamicScreens&lt;5&gt;@PosY">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="81413ccc-433e-4ef2-9b50-75e3a79a50a4" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="75328b50-8da0-4662-ac3d-2bece9391ac2" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="00d00e5f-d5d3-488e-b5ba-d92d2afa4a72" Layer_Index="1" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="be2dc4d0-1e96-4509-a903-9db82eb60e3d" Layer_Index="3" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="17b51e66-65a5-4261-8181-46fbd71d4886" Layer_Index="2" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="03694fab-6f8c-4706-9e93-d88514db82d5" Layer_Index="2" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1690,18 +1720,18 @@
                     <Value Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="9b185a25-fc6f-4f8e-adce-b3abef4707a9" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="645ca4d0-8f4e-4a26-8a4d-0410dabcb7cb" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="357f70db-4767-4e2b-841a-90462f9f8a67" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="76e562b0-8e7e-4934-83c4-bc21b5ca8ae2" Layer_Index="4" Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1717,18 +1747,18 @@
                     <Value Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY">
                       <Author_IDs>
                         <Item>9a9bd63f-0b78-4710-ba7e-3f2e706872c7</Item>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
+                        <Item>72d8a194-a703-4eea-b7f7-1e1f083efaaa</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="29dfbe38-07cc-4e00-8c50-c7419b03319a" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Duration="4.692441" Key="58c0a0e8-b211-4d47-b6e5-9506ac166354" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="b335c7e5-c291-4c43-887e-ddec95c4e65a" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                          <Item Author_ID="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Duration="3.01162" Key="4e213133-a5be-4573-afae-b09b57cf91b1" Layer_Index="4" Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Multiply">
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1743,25 +1773,25 @@
                   <Item Key="DynamicScreens&lt;7&gt;@PosY">
                     <Value Parameter_Path="DynamicScreens&lt;7&gt;@PosY">
                       <Author_IDs>
-                        <Item>f3a4ea2a-46b9-4e1a-8422-03193f2fecb9</Item>
-                        <Item>6aefdf67-bf52-4d93-9c3c-503999a1dbce</Item>
+                        <Item>af12ae0c-2a48-4c8c-a829-949918d00a40</Item>
+                        <Item>efc7e430-46a4-4761-992a-9987e56368cc</Item>
                         <Item>4673060c-6dba-4dd7-a97d-fd5025a95fd6</Item>
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="111d6843-5da5-4b4a-aede-1bd76d871078" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="f2af05b1-923b-4c77-99e3-66aa21dcd96a" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Duration="9.025836" Kairos_Source_Method="Sample" Key="fc914459-2836-4c63-8904-5e4ae67f5f83" Layer_Index="1" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="af12ae0c-2a48-4c8c-a829-949918d00a40" Duration="2.392154" Key="735e9b17-e32f-4be3-8d61-87eae2d8411d" Layer_Index="3" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Duration="6.751449" Key="3e1a5c41-21bc-486e-b961-e16ac64b2fe2" Layer_Index="2" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="efc7e430-46a4-4761-992a-9987e56368cc" Duration="3.152731" Key="c12f22e7-e8e7-445a-abb3-526763e0a027" Layer_Index="2" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model Mode="Add">
-                              <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1780,9 +1810,9 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="22.10881" Kairos_Source_Method="Sample" Key="f7c93384-d194-48e8-82ed-24b33fbe65d2" Parameter_Path="DynamicScreens&lt;1&gt;@PosY" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Duration="19.41982" Kairos_Source_Method="Sample" Key="09dc44f7-cb43-401c-9e91-0bc1edbcf782" Parameter_Path="DynamicScreens&lt;1&gt;@PosY" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
+                              <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
                         </Clips>
@@ -1797,30 +1827,51 @@
                 </Channels>
                 <CtrlClips>
                   <Item Key="9a9bd63f-0b78-4710-ba7e-3f2e706872c7">
-                    <Value Author_ID="Default" Duration="4.692441" Input_Pin_ID="21:41:03" Key="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Layer_Index="1" Name="LiveDataProvider_" Position="1.62688" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Duration="4.692441" Input_Pin_ID="21:41:03" Key="9a9bd63f-0b78-4710-ba7e-3f2e706872c7" Layer_Index="1" Name="LiveDataProvider_" Position="2.144834" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model>
                         <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
                     </Value>
                   </Item>
-                  <Item Key="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9">
-                    <Value Author_ID="Default" Duration="9.025836" Input_Pin_ID="13:37:22" Kairos_Source_Method="Sample" Key="f3a4ea2a-46b9-4e1a-8422-03193f2fecb9" Layer_Index="1" Name="Compositor_Timeline" Position="7.394157" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                  <Item Key="af12ae0c-2a48-4c8c-a829-949918d00a40">
+                    <Value Author_ID="Default" Duration="2.392154" Input_Pin_ID="21:51:15" Key="af12ae0c-2a48-4c8c-a829-949918d00a40" Layer_Index="3" Name="LiveDataProvider_" Position="9.643311" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model>
-                        <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                        <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
                     </Value>
                   </Item>
-                  <Item Key="6aefdf67-bf52-4d93-9c3c-503999a1dbce">
-                    <Value Author_ID="Default" Duration="6.751449" Input_Pin_ID="14:03:40" Key="6aefdf67-bf52-4d93-9c3c-503999a1dbce" Layer_Index="2" Name="LiveDataProvider_" Position="17.33588" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                  <Item Key="72d8a194-a703-4eea-b7f7-1e1f083efaaa">
+                    <Value Author_ID="Default" Duration="3.01162" Input_Pin_ID="21:53:13" Key="72d8a194-a703-4eea-b7f7-1e1f083efaaa" Layer_Index="4" Name="LiveDataProvider_" Position="11.34869" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Blending_Model Mode="Multiply">
+                        <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeOut="1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                      </Blending_Model>
+                    </Value>
+                  </Item>
+                  <Item Key="0fb8dd1a-faee-456a-8ac8-f6f85dbd6410">
+                    <Value Author_ID="Default" Duration="3.35272" Input_Pin_ID="21:52:41" Key="0fb8dd1a-faee-456a-8ac8-f6f85dbd6410" Layer_Index="5" Name="LiveDataProvider_" Position="14.52003" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Blending_Model>
+                        <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                      </Blending_Model>
+                    </Value>
+                  </Item>
+                  <Item Key="4f9de47d-7daa-4ef3-98e4-50439aeafb82">
+                    <Value Author_ID="Default" Duration="5.013145" Input_Pin_ID="21:47:04" Key="4f9de47d-7daa-4ef3-98e4-50439aeafb82" Layer_Index="2" Name="Compositor_Timeline" Position="4.230662" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Blending_Model>
+                        <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                      </Blending_Model>
+                    </Value>
+                  </Item>
+                  <Item Key="efc7e430-46a4-4761-992a-9987e56368cc">
+                    <Value Author_ID="Default" Duration="3.152731" Input_Pin_ID="21:56:35" Key="efc7e430-46a4-4761-992a-9987e56368cc" Layer_Index="2" Name="LiveDataProvider_" Position="15.78964" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model Mode="Add">
-                        <Alpha_Function Alpha="1" FadeIn="1" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="1" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                        <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
                     </Value>
                   </Item>
                   <Item Key="4673060c-6dba-4dd7-a97d-fd5025a95fd6">
-                    <Value Author_ID="Default" Duration="22.10881" Input_Pin_ID="21:21:22" Kairos_Source_Method="Sample" Key="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Name="Timeline_Timeline" Position="-0.2566653" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Duration="19.41982" Input_Pin_ID="21:21:22" Kairos_Source_Method="Sample" Key="4673060c-6dba-4dd7-a97d-fd5025a95fd6" Name="Timeline_Timeline" Position="0.2612885" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model>
-                        <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Quad" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
+                        <Alpha_Function Alpha="1" FadeIn="2" FadeIn_Tweener_Mode="InOut" FadeIn_Tweener_Transition="Quad" FadeOut="2" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
                     </Value>
                   </Item>
@@ -1862,12 +1913,27 @@
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="R494o2g8lyxPbpK3ccTWlC" Name="13:37:22" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="OL2bcoA9EGvOqPW2t74rSO" Name="21:51:15" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="REID2EdnyOIMfFoGFG2m0T" Name="14:03:40" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="RvKp0B6YNsnMT80RwEl5Fu" Name="21:53:13" Kind="InputPin" PinGroupName="Sources">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IKSource" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="StH9jN8KVHsNH0885p9vAS" Name="21:52:41" Kind="InputPin" PinGroupName="Sources">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IKSource" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="HfsVetfiOcGPxaxLPPi33Z" Name="21:47:04" Kind="InputPin" PinGroupName="Sources">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IKSource" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="TRzvZuCzfRmN3zCV6cAkaM" Name="21:56:35" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
@@ -1950,7 +2016,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="1942,1325,191,19" Id="Swq2pmtcGDNNV1N33T2u5U">
+          <Node Bounds="2633,1209,70,19" Id="Swq2pmtcGDNNV1N33T2u5U">
             <p:NodeReference LastCategoryFullName="Kairos.Core.Compositor" LastSymbolSource="Kairos.Core.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Compositor" />
@@ -1961,48 +2027,6 @@
               </p:TypeAnnotation>
               <p:DefaultValue Key="b0914a13-fda4-4c46-b42c-3df00ee5fd3b" Name="Timeline">
                 <Channels>
-                  <Item Key="DynamicScreens&lt;10&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;10&gt;@PosY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="455fbbd4-60b7-4c0e-9a00-d70df3f194dd" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;10&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;11&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;11&gt;@PosY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="c2b96117-5171-4de2-86e0-971b1226d666" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;11&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
                   <Item Key="DynamicScreens&lt;14&gt;@Color">
                     <Value Parameter_Path="DynamicScreens&lt;14&gt;@Color">
                       <Author_IDs>
@@ -2010,8 +2034,8 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="3.666667" Key="ba591496-24d4-4c35-b93d-19f0aeee6fca" Layer_Index="4" Parameter_Path="DynamicScreens&lt;14&gt;@Color" Position="4.544773" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model Mode="Multiply">
+                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="1" Key="92218d98-66eb-4d58-8b4c-cae9154a4465" Layer_Index="1" Parameter_Path="DynamicScreens&lt;14&gt;@Color" Position="-0.2299986" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Add">
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
@@ -2031,8 +2055,8 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="3.666667" Key="2a6ff18b-8e6b-48e2-9be4-a7e8b00e613e" Layer_Index="4" Parameter_Path="DynamicScreens&lt;15&gt;@Color" Position="4.544773" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model Mode="Multiply">
+                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="1" Key="1e5c28f8-b3b0-4de1-824d-ede1dc51430a" Layer_Index="1" Parameter_Path="DynamicScreens&lt;15&gt;@Color" Position="-0.2299986" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Add">
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
@@ -2053,13 +2077,13 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="3.666667" Key="93902e2c-b25d-489e-8baf-e17e4be32a74" Layer_Index="4" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="4.544773" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model Mode="Multiply">
+                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="1.693333" Key="151b6d89-57bc-4325-9906-da25a227cf74" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="-0.2433329" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="4.36" Key="6d7ccfcd-60bf-4524-8c1e-3572b8b5c4b3" Layer_Index="3" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="6.060229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
+                          <Item Author_ID="23930e7f-d052-4bb4-8a92-f9f683f67907" Duration="1" Key="8eecb530-ddd2-47ab-926a-4d766d210688" Layer_Index="1" Parameter_Path="DynamicScreens&lt;13&gt;@Color" Position="-0.2299986" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                            <Blending_Model Mode="Add">
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
                           </Item>
@@ -2079,7 +2103,7 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="4.36" Key="839fbace-8060-42d0-9056-a29fac44448b" Layer_Index="3" Parameter_Path="DynamicScreens&lt;11&gt;@Color" Position="6.060229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="1.693333" Key="a25eb5d0-e3cf-4dd4-b4bb-20b5b239e7a3" Parameter_Path="DynamicScreens&lt;11&gt;@Color" Position="-0.2433329" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
@@ -2100,7 +2124,7 @@
                       </Author_IDs>
                       <Blender1D_M>
                         <Clips>
-                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="4.36" Key="f945484d-12d8-4848-90e5-36212ce8a841" Layer_Index="3" Parameter_Path="DynamicScreens&lt;12&gt;@Color" Position="6.060229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
+                          <Item Author_ID="b00ec786-8691-4d13-a04d-97a8098f0f73" Duration="1.693333" Key="405601a2-eb1f-474b-a2a6-e54ac74c6df9" Parameter_Path="DynamicScreens&lt;12&gt;@Color" Position="-0.2433329" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
                             <Blending_Model>
                               <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
                             </Blending_Model>
@@ -2114,253 +2138,17 @@
                       <Settings Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="DynamicScreens&lt;8&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;8&gt;@PosY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="4055c852-d68d-4a68-b028-cb1da5539f3f" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="4c8146db-0326-4ae8-8148-04eed9a045a7" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;8&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;9&gt;@ScaleY">
-                    <Value Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="77a04bca-66cd-4a53-9f4d-c6490098fea3" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@ScaleY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="ScaleY" Path="DynamicScreens&lt;9&gt;@ScaleY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;8&gt;@ScaleY">
-                    <Value Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="4c8ebea6-bb97-4646-9c23-467351403b8f" Layer_Index="1" Parameter_Path="DynamicScreens&lt;8&gt;@ScaleY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="ScaleY" Path="DynamicScreens&lt;8&gt;@ScaleY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;4&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;4&gt;@PosY">
-                      <Author_IDs>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="3c88e4c4-9d2c-4b6f-a01a-3647fc6f128b" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;4&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;6&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;6&gt;@PosY">
-                      <Author_IDs>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="b7dc15b9-8f7e-48db-b46e-b4bf295b87f5" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;6&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;9&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;9&gt;@PosY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="f2f32872-f7ee-4871-9e85-eb8ff19793b0" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="a2a845f5-5844-49a7-814d-27ea891c0b8e" Layer_Index="1" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;9&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;5&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;5&gt;@PosY">
-                      <Author_IDs>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="f93f1412-6e70-4b8b-9e4a-2398507f77dd" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;5&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;10&gt;@ScaleY">
-                    <Value Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="157ab82e-649e-4d0b-a02a-040868410a36" Layer_Index="1" Parameter_Path="DynamicScreens&lt;10&gt;@ScaleY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="ScaleY" Path="DynamicScreens&lt;10&gt;@ScaleY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;11&gt;@ScaleY">
-                    <Value Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY">
-                      <Author_IDs>
-                        <Item>634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Duration="4.984564" Key="6af1a656-52ee-4eb5-b2c2-f581e1f22046" Layer_Index="1" Parameter_Path="DynamicScreens&lt;11&gt;@ScaleY" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="ScaleY" Path="DynamicScreens&lt;11&gt;@ScaleY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;7&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;7&gt;@PosY">
-                      <Author_IDs>
-                        <Item>55d1fb0b-7210-453b-a9bf-ae3f47077870</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Clips>
-                          <Item Author_ID="55d1fb0b-7210-453b-a9bf-ae3f47077870" Duration="8.946668" Key="e1050e3a-e8e4-411f-b943-e05e2039e5a2" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection">
-                            <Blending_Model>
-                              <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p15:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;7&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
                 </Channels>
                 <CtrlClips>
                   <Item Key="23930e7f-d052-4bb4-8a92-f9f683f67907">
-                    <Value Author_ID="Default" Duration="3.666667" Input_Pin_ID="21:47:25" Key="23930e7f-d052-4bb4-8a92-f9f683f67907" Layer_Index="4" Name="LiveDataProvider_" Position="4.544773" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Blending_Model Mode="Multiply">
+                    <Value Author_ID="Default" Duration="1" Input_Pin_ID="21:47:25" Key="23930e7f-d052-4bb4-8a92-f9f683f67907" Layer_Index="1" Name="LiveDataProvider_" Position="-0.2299986" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Blending_Model Mode="Add">
                         <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
-                      </Blending_Model>
-                    </Value>
-                  </Item>
-                  <Item Key="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2">
-                    <Value Author_ID="Default" Duration="4.984564" Input_Pin_ID="13:34:33" Key="634e24dd-2a8b-4c8d-8f2f-5d8182d3e2e2" Layer_Index="1" Name="LiveDataProvider_" Position="1.322987" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Blending_Model>
-                        <Alpha_Function Alpha="1" FadeIn="3" FadeIn_Tweener_Mode="Out" FadeIn_Tweener_Transition="Bounce" FadeOut="2" FadeOut_Tweener_Mode="InOut" FadeOut_Tweener_Transition="Cubic" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
                     </Value>
                   </Item>
                   <Item Key="b00ec786-8691-4d13-a04d-97a8098f0f73">
-                    <Value Author_ID="Default" Duration="4.36" Input_Pin_ID="21:47:19" Key="b00ec786-8691-4d13-a04d-97a8098f0f73" Layer_Index="3" Name="LiveDataProvider_" Position="6.060229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Blending_Model>
-                        <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
-                      </Blending_Model>
-                    </Value>
-                  </Item>
-                  <Item Key="55d1fb0b-7210-453b-a9bf-ae3f47077870">
-                    <Value Author_ID="Default" Duration="8.946668" Input_Pin_ID="13:33:34" Key="55d1fb0b-7210-453b-a9bf-ae3f47077870" Name="LiveDataProvider_" Position="-0.144281" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Duration="1.693333" Input_Pin_ID="21:47:19" Key="b00ec786-8691-4d13-a04d-97a8098f0f73" Name="LiveDataProvider_" Position="-0.2433329" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model>
                         <Alpha_Function Alpha="1" FadeIn="0.1" FadeIn_Tweener_Mode="InOut" FadeOut="0.1" FadeOut_Tweener_Mode="InOut" p14:Type="Kairos.Core.Blending.AlphaFunction_FadeInOut" xmlns:p14="reflection" />
                       </Blending_Model>
@@ -2368,23 +2156,11 @@
                   </Item>
                 </CtrlClips>
                 <Parameter_List>
-                  <Item>DynamicScreens&lt;10&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;11&gt;@PosY</Item>
                   <Item>DynamicScreens&lt;14&gt;@Color</Item>
                   <Item>DynamicScreens&lt;15&gt;@Color</Item>
                   <Item>DynamicScreens&lt;13&gt;@Color</Item>
                   <Item>DynamicScreens&lt;11&gt;@Color</Item>
                   <Item>DynamicScreens&lt;12&gt;@Color</Item>
-                  <Item>DynamicScreens&lt;8&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;9&gt;@ScaleY</Item>
-                  <Item>DynamicScreens&lt;8&gt;@ScaleY</Item>
-                  <Item>DynamicScreens&lt;4&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;6&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;9&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;5&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;10&gt;@ScaleY</Item>
-                  <Item>DynamicScreens&lt;11&gt;@ScaleY</Item>
-                  <Item>DynamicScreens&lt;7&gt;@PosY</Item>
                 </Parameter_List>
                 <Timer>
                   <KairosClock_M BPM="60" Speed_Multiplier="1" />
@@ -2396,17 +2172,7 @@
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="LHxmXF3Mj8DNnbu4T423Vw" Name="13:34:33" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
             <Pin Id="DyLxKwkPftdOv7KCZ8DCeT" Name="21:47:19" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="H0HqqO7XqceQSvYavJvs8z" Name="13:33:34" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
@@ -2711,23 +2477,6 @@
             </Patch>
             <ControlPoint Id="NAtYjECIIY2OKC9SPXC8Cg" Bounds="2955,936" Alignment="Bottom" />
             <ControlPoint Id="ERPXcknaLOcLE8qDsAlJeA" Bounds="3009,862" Alignment="Top" />
-          </Node>
-          <Node Bounds="339,50,104,19" Id="Cp8sKfQzIuBQMFlDdO9aQO">
-            <p:NodeReference LastCategoryFullName="Kairos.Editor" LastSymbolSource="Kairos.Editor.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="KairosCanvasEditor" />
-            </p:NodeReference>
-            <Pin Id="B7jtlNuW2MyMrDH8AizNIh" Name="On Data" Kind="OutputPin" />
-            <Pin Id="T9acu03HJpAO4oZ7YP4ODL" Name="Service Found" Kind="OutputPin" />
-          </Node>
-          <Node Bounds="344,11,79,19" Id="TO7BBfFinjSQcZeG0tPICK">
-            <p:NodeReference LastCategoryFullName="Kairos.Editor.Inspector" LastSymbolSource="Kairos.Editor.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="ItemInspector" />
-            </p:NodeReference>
-            <Pin Id="RgIyM6h2ElmPh40q31FjrD" Name="Force Style Update" Kind="InputPin" />
-            <Pin Id="KLhZIoQ8EXCMb62ubG6oTa" Name="Style Sheet" Kind="InputPin" />
-            <Pin Id="RxFr4HJdGcfNFmjCM4eNnd" Name="SetStyleSheet" Kind="ApplyPin" />
           </Node>
           <Node Bounds="795,1253,54,19" Id="OPHG6MNbu4OMlZJ3LtGMNN">
             <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -3151,6 +2900,14 @@
             <Pin Id="QxsvFPZekJKPKflfBT2PHq" Name="Input 2" Kind="InputPin" />
             <Pin Id="Mmgp1faNHEaOc1BzEXxnfY" Name="Output" Kind="StateOutputPin" />
           </Node>
+          <Node Bounds="330,20,164,19" Id="QTc1ZbiDtNHPpsFhp18AHs">
+            <p:NodeReference LastCategoryFullName="Kairos.Editor" LastSymbolSource="Kairos.Editor.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="KairosCanvasEditorAndInspector" />
+            </p:NodeReference>
+            <Pin Id="QDE2GKBViItLcgAckEq6dg" Name="On Data" Kind="OutputPin" />
+            <Pin Id="Vo2PTyTJ1XAMO7WxiId3Wq" Name="Service Found" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Fu2jL7w5vKMMDy7WlQQfpG" Name="Create" ParticipatingElements="QpSrbFlkkDyL7oPSJKhnnm" />
         <Patch Id="KIY1za4NGAZLTWBoQZjx6K" Name="Update" ParticipatingElements="TfsXRc6jhEELYkydAeWOSi" />
@@ -3298,7 +3055,7 @@
         <Link Id="BcRlngftBGPLzVbwC9XQhd" Ids="QeqcZRdKJvkPGuajxcYf2D,S0tQPXM67zxPDDDwhP4XPD" />
         <Link Id="RTyYb9jGnrbPe0ZIi8inHY" Ids="RJJfH1QyXUFLN2Y2fbBurM,PleRuP44kYDNd7ZTraH27U" />
         <Link Id="DKa5KmMDmoQPEGKhgAVvgB" Ids="HK8xDGyQHQuMl7ktb6rZJ1,ErgpDkrJOYQPIwDhmota0P" />
-        <Link Id="FdPCCyVKsmjNn2HDpoOV9X" Ids="AEp53sj2HQMPsac1kMfPpT,Kyeyo8Oyz0UPVkol8W2p7D" />
+        <Link Id="JJ2IKwS7AfFP6jWl3SJnd7" Ids="Rw4TkEZuUYEL9hVkovFjRs,HGrJsRzfl2IPWatxH0ohrv" />
         <Link Id="EYEAWCX5tTPMd85FBfFeGM" Ids="Q2rvnYXZqf7NR3Z8p37AAD,ATdU1elwwZwN4gXFrqTb4V" />
         <Link Id="NfNu7EH7dUkMaXlNzNYQkk" Ids="J6FvDGTyxaePJFWyxkamGe,JZpJbcicpTRP2S2c7l9SRC" />
         <Link Id="HRoKvyN2rtdMrzfDx105dU" Ids="HMUYuERh8JdN9w9bDPAVm7,SfKgK7FQsCtNOLzIC7OAQi" />
@@ -3316,12 +3073,13 @@
         <Link Id="MYOp1SQXmUJO2EKqpNB34c" Ids="PNfkM62EuGYOGzjC25vnBZ,NT2ByYm859WLGyy71pEVHl" />
         <Link Id="IIS4TeG1zTuOHD16gZofCN" Ids="K2Z5RUr4PYKLDtIdGe2rat,Tc8NFHq7Li5Nwyu29cJnzq" />
         <Link Id="FqfN3fMGRt0OSdxdZnXPPJ" Ids="UXLPO8hc6wULvN04dTHjBL,DyLxKwkPftdOv7KCZ8DCeT" />
+        <Link Id="P2yZi4KisdAOn5D1gdIuIe" Ids="HGppi4Dpf9eLGyejYNhkEH,HfsVetfiOcGPxaxLPPi33Z" />
         <Link Id="NjKFa2cuJfMOwz6avnGdKN" Ids="RDDVPliWvjCPhrTxXhbwRC,NC6r2IHlsNpMCUhTzKha88" />
-        <Link Id="LUh1lm8mf2pPodncXpFzOQ" Ids="NmUP0R1Qna3MAG1lT7v8WQ,H0HqqO7XqceQSvYavJvs8z" />
-        <Link Id="Fg58ywLFyBzPfI0jXUwvgQ" Ids="PNfkM62EuGYOGzjC25vnBZ,LHxmXF3Mj8DNnbu4T423Vw" />
-        <Link Id="FdVAzvsMwJYLgs6odzkM6j" Ids="HGppi4Dpf9eLGyejYNhkEH,R494o2g8lyxPbpK3ccTWlC" />
-        <Link Id="Ph3uDmZDdJwO5LtUpWliBA" Ids="Rw4TkEZuUYEL9hVkovFjRs,HGrJsRzfl2IPWatxH0ohrv" />
-        <Link Id="ReBruS2E1WfOXBfj7aYAzB" Ids="NmUP0R1Qna3MAG1lT7v8WQ,REID2EdnyOIMfFoGFG2m0T" />
+        <Link Id="PUoCuXkm6TTLjYP9WvtAGi" Ids="NmUP0R1Qna3MAG1lT7v8WQ,OL2bcoA9EGvOqPW2t74rSO" />
+        <Link Id="T43q3MbpDfPM1aWsME2xcX" Ids="K2Z5RUr4PYKLDtIdGe2rat,StH9jN8KVHsNH0885p9vAS" />
+        <Link Id="IA2jyjBwivyOh6EsxJPKuB" Ids="PNfkM62EuGYOGzjC25vnBZ,RvKp0B6YNsnMT80RwEl5Fu" />
+        <Link Id="Vb8QlDhsSF5N72xbhAH3D1" Ids="NmUP0R1Qna3MAG1lT7v8WQ,TRzvZuCzfRmN3zCV6cAkaM" />
+        <Link Id="EzwCLNKez4bM4RdAXlbVSc" Ids="AEp53sj2HQMPsac1kMfPpT,Kyeyo8Oyz0UPVkol8W2p7D" />
       </Patch>
     </Node>
   </Patch>
