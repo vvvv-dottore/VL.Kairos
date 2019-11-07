@@ -17741,7 +17741,6 @@
                 <Pin Id="QIqiRESbrjeOsNux63ffBu" Name="State Output" Kind="StateOutputPin" />
                 <Pin Id="QdmkxuOZYePQchTaQX1ktr" Name="Output" Kind="OutputPin" />
               </Node>
-              <ControlPoint Id="UGNj11o2IJJQakBfBoIkEH" Bounds="677,83" />
               <ControlPoint Id="AeStYYWc63TPjsL62scBzI" Bounds="844,74" />
               <Pad Id="SEdJX1wuSLgPh4re5ysHh7" SlotId="VAXFGOzW4CnQHWHeURGX0e" Bounds="607,1207" />
               <Node Bounds="611,1293,105,26" Id="RrnKBnRRImOOWJBPJ7CaqD">
@@ -18013,8 +18012,13 @@
                 <Pin Id="Q85OFRUSXlfNuDZMdgmEy4" Name="Input" Kind="StateInputPin" />
                 <Pin Id="LR8SS1mwr9bP38YxqQ9oBv" Name="Result" Kind="OutputPin" />
               </Node>
+              <Pad Id="SyHsi4iunewNgmWWtDcc4m" Comment="" Bounds="672,82,35,15" ShowValueBox="true" isIOBox="true" Value="0">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Float32" />
+                </p:TypeAnnotation>
+              </Pad>
             </Canvas>
-            <Patch Id="UfvNuak2cWsOAtPhKTJqmU" Name="Create" ParticipatingElements="N5jHHuDSM94MFbrKP1sMH2">
+            <Patch Id="UfvNuak2cWsOAtPhKTJqmU" Name="Create" ParticipatingElements="N5jHHuDSM94MFbrKP1sMH2,SROCAy1eDx8MSrHDwrWBPc">
               <Pin Id="T8JuvmkM1bMLwGTIHxGhVp" Name="Initial Value" Kind="InputPin" />
               <Pin Id="OvDLqzsWayRNzyVEFuQU5W" Name="ControlledClip_M" Kind="InputPin">
                 <p:TypeAnnotation>
@@ -18275,8 +18279,6 @@
             <Link Id="BkYUEgF3E8eLZqegCRDpzU" Ids="TAmhdTdyfuHL7Svgdfx4mC,QVtmbpQ4VEZPeOau8DNo6B" />
             <Link Id="MlY7GBJNQ1wMMyh9dPJubw" Ids="PH9Yo5SHD7pP7s6REEozcW,Qv1vh2tgVuFMFJEtnLikwe" />
             <Link Id="LVBS18UvrdUNoVf8iYaVZA" Ids="BWKIT7LsEGPPWqFMpsgQfw,EJSAFfUqJ9HNuJEnLDDJEF" />
-            <Link Id="LExTXtNREFfMFWQWNGYh1v" Ids="T8JuvmkM1bMLwGTIHxGhVp,UGNj11o2IJJQakBfBoIkEH" IsHidden="true" />
-            <Link Id="MV2hAF6S5rJNSax3BKMMIk" Ids="UGNj11o2IJJQakBfBoIkEH,FaGJASj5XJVMysiFaOQcXH" />
             <Link Id="HRTzbTP6eLkQVx7Qf4NQR8" Ids="T8JuvmkM1bMLwGTIHxGhVp,AeStYYWc63TPjsL62scBzI" IsHidden="true" />
             <Link Id="LIpr4X6LFBRLWNqvAueJvL" Ids="AeStYYWc63TPjsL62scBzI,VQZ0sPTM4rNPdbuUk53qzi" />
             <Link Id="JPw3qTvdh2IP9oOAxFZelY" Ids="SEdJX1wuSLgPh4re5ysHh7,Tgxdh1lpWgDMe5cckj9pn6" />
@@ -18339,6 +18341,7 @@
             <Link Id="RpqY39ORzxnMS1IwBPB4qX" Ids="CVPa1IC9kFJLIwcFrHYLNW,BQZq8G8wLCYLavYp3bVFNt" IsHidden="true" />
             <Link Id="L4oH6VqvVekLB9P5e8VSiR" Ids="NYkf1jgRg5fQLkxqM1Fysx,Q85OFRUSXlfNuDZMdgmEy4" />
             <Link Id="QKXQmcWtsn0OzGLa3pCLSM" Ids="LR8SS1mwr9bP38YxqQ9oBv,CVPa1IC9kFJLIwcFrHYLNW" />
+            <Link Id="SROCAy1eDx8MSrHDwrWBPc" Ids="SyHsi4iunewNgmWWtDcc4m,FaGJASj5XJVMysiFaOQcXH" />
           </Patch>
         </Node>
         <Overlay Id="Pn5pf4oqL0PQE39NxLR0oF" Name="1D" Bounds="126,210,702,800">
