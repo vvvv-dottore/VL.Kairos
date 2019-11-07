@@ -260,7 +260,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
-            <Pin Id="TVaGLGlPGeNOW7UfzvwtcG" Name="Bounds" Kind="InputPin" DefaultValue="2810, 238, 960, 400">
+            <Pin Id="TVaGLGlPGeNOW7UfzvwtcG" Name="Bounds" Kind="InputPin" DefaultValue="550, 206, 960, 400">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -663,331 +663,6 @@
             <Pin Id="RRi9kRXuJHMNRksStIRDmX" Name="Model" Kind="InputPin">
               <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
-              </p:TypeAnnotation>
-              <p:DefaultValue Key="726a1487-7324-4179-91f0-0f9833db56d6" Name="Timeline">
-                <Channels>
-                  <Item Key="DynamicScreens&lt;3&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;3&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;3&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="2b4e9496-43bf-4f30-b753-239525c51aaa" Parameter_Path="DynamicScreens&lt;3&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;14&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;14&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;14&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="60890e18-d4f8-4cd3-8cb5-1b7002977eb6" Parameter_Path="DynamicScreens&lt;14&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;15&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;15&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;15&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="91c3dea1-e09f-4f70-a6b0-e0053de1580e" Parameter_Path="DynamicScreens&lt;15&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;10&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;10&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;10&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="ffd9a5ed-4953-4336-af23-3d157ab241cf" Parameter_Path="DynamicScreens&lt;10&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;13&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;13&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;13&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="a30c4c2d-7a65-4c70-841e-5db54733e019" Parameter_Path="DynamicScreens&lt;13&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;11&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;11&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;11&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="f6d21987-acb2-4839-9c36-c7048a8eb43e" Parameter_Path="DynamicScreens&lt;11&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;12&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;12&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;12&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="b2166333-836d-474b-89f9-17ec06aa35cb" Parameter_Path="DynamicScreens&lt;12&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;8&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;8&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;8&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="92ac013e-efcc-4a3c-b715-2e10e74fdc09" Parameter_Path="DynamicScreens&lt;8&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;4&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;4&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;4&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="9cb90eba-bc61-48a8-8221-4c3aefca590e" Parameter_Path="DynamicScreens&lt;4&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;6&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;6&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;6&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="1d4288a8-c49d-43c4-804f-909dbdb1e1bb" Parameter_Path="DynamicScreens&lt;6&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;9&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;9&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;9&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="961c8e2b-d736-46f5-9890-96b3f4ba969c" Parameter_Path="DynamicScreens&lt;9&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;0&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;0&gt;@PosY">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;0&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="5e45463b-c764-4307-aa02-7539316d6dcf" Parameter_Path="DynamicScreens&lt;0&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                          <Item Author_ID="Default" Duration="0.5" Input_Pin_ID="19:55:15" Key="d8364078-d5bc-4417-9105-ccbd983fac49" Position="11.58585" p15:Type="Kairos.Core.Clip.Clip1D_LiveData_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;2&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;2&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;2&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="02eb58af-22ee-457a-acb6-5e677e1c0ac9" Parameter_Path="DynamicScreens&lt;2&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;5&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;5&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;5&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="30fba382-565f-45af-9f06-b01542e327cf" Parameter_Path="DynamicScreens&lt;5&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;7&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;7&gt;@PosY">
-                      <Author_IDs>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;7&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="2f940087-dcea-4789-bb0d-84bd85fba77b" Parameter_Path="DynamicScreens&lt;7&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0.5</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="DynamicScreens&lt;1&gt;@PosY">
-                    <Value Parameter_Path="DynamicScreens&lt;1&gt;@PosY">
-                      <Author_IDs>
-                        <Item>Default</Item>
-                        <Item>b0b699f9-bd00-4c95-92fa-1e35da62997a</Item>
-                      </Author_IDs>
-                      <Parameter Name="PosY" Path="DynamicScreens&lt;1&gt;@PosY">
-                        <Default_Value p14:Type="System.Single" xmlns:p14="reflection">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Clips>
-                          <Item Author_ID="b0b699f9-bd00-4c95-92fa-1e35da62997a" Duration="5.557009" Key="739eb40f-4b35-47b6-be33-3db96ba0151f" Parameter_Path="DynamicScreens&lt;1&gt;@PosY" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" p15:Type="Kairos.Core.Clip.Clip1D_Controlled_M" xmlns:p15="reflection" />
-                          <Item Author_ID="Default" Duration="0.5" Input_Pin_ID="21:49:49" Key="1bcf8d51-48d4-4f7e-a7a2-7ee7d453b60e" Position="11.66421" p15:Type="Kairos.Core.Clip.Clip1D_LiveData_M" xmlns:p15="reflection">
-                            <Interpolation_Model Mode="InOut" Transition="Cubic" p15:Type="Kairos.Core.Interpolation.TweenInterpolation_M" />
-                          </Item>
-                        </Clips>
-                        <Initial_Value p14:Type="System.Single" xmlns:p14="reflection">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                </Channels>
-                <CtrlClips>
-                  <Item Key="b0b699f9-bd00-4c95-92fa-1e35da62997a">
-                    <Value Author_ID="Default" Duration="5.557009" Input_Pin_ID="19:23:47" Key="b0b699f9-bd00-4c95-92fa-1e35da62997a" Name="LiveDataProvider_" Position="0.375502" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" />
-                  </Item>
-                </CtrlClips>
-                <Parameter_List>
-                  <Item>DynamicScreens&lt;3&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;14&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;15&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;10&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;13&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;11&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;12&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;8&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;4&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;6&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;9&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;0&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;2&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;5&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;7&gt;@PosY</Item>
-                  <Item>DynamicScreens&lt;1&gt;@PosY</Item>
-                </Parameter_List>
-                <Timer>
-                  <KairosClock_M BPM="60" Speed_Multiplier="1" />
-                </Timer>
-              </p:DefaultValue>
-            </Pin>
-            <Pin Id="ErgpDkrJOYQPIwDhmota0P" Name="19:55:15" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="NC6r2IHlsNpMCUhTzKha88" Name="21:49:49" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Float32" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="Kyeyo8Oyz0UPVkol8W2p7D" Name="19:23:47" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IKSource" />
               </p:TypeAnnotation>
             </Pin>
             <Pin Id="GzbvOfBGCuXONl1HF2hIW6" Name="Output" Kind="StateOutputPin" />
@@ -2908,6 +2583,26 @@
             <Pin Id="QDE2GKBViItLcgAckEq6dg" Name="On Data" Kind="OutputPin" />
             <Pin Id="Vo2PTyTJ1XAMO7WxiId3Wq" Name="Service Found" Kind="OutputPin" />
           </Node>
+          <Node Bounds="888,1445,84,26" Id="UO4VPX1iolRNYIrxCzFMIB">
+            <p:NodeReference LastCategoryFullName="Kairos.Core.Channel.TimelineChannel_R" LastSymbolSource="Kairos.Core.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+              <CategoryReference Kind="Category" Name="TL_Channel_R" />
+            </p:NodeReference>
+            <Pin Id="ILU8weguPZoNWaCytm81wi" Name="Canvas Sources" Kind="InputPin" />
+            <Pin Id="AfUvvj3wZplNIDnKt9EN3r" Name="Initial Value" Kind="InputPin" />
+            <Pin Id="FiPhrAKVRwtNOLPq7ejtch" Name="Output" Kind="StateOutputPin" />
+          </Node>
+          <Node Bounds="942,1392,64,26" Id="CaSHmyEXUXfM8wRONtHmEC">
+            <p:NodeReference LastCategoryFullName="Kairos.Core.Container.Sampler1D_R" LastSymbolSource="Kairos.Core.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="Sampler1D_R" />
+              <Choice Kind="OperationCallFlag" Name="Create" />
+            </p:NodeReference>
+            <Pin Id="QjRYxuClqVQLEhcomRkXTv" Name="Canvas Sources" Kind="InputPin" />
+            <Pin Id="C1ayEAhsGGKPJlpzSCpu9A" Name="Initial Value" Kind="InputPin" />
+            <Pin Id="JBB2q0Ry99HMLX6jR1BeNw" Name="Output" Kind="StateOutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="Fu2jL7w5vKMMDy7WlQQfpG" Name="Create" ParticipatingElements="QpSrbFlkkDyL7oPSJKhnnm" />
         <Patch Id="KIY1za4NGAZLTWBoQZjx6K" Name="Update" ParticipatingElements="TfsXRc6jhEELYkydAeWOSi" />
@@ -3054,7 +2749,6 @@
         <Link Id="BFlEwHNISFULbtW53ZH1aU" Ids="QeqcZRdKJvkPGuajxcYf2D,IGmVaBb9VqcP8b0obXTxNY" />
         <Link Id="BcRlngftBGPLzVbwC9XQhd" Ids="QeqcZRdKJvkPGuajxcYf2D,S0tQPXM67zxPDDDwhP4XPD" />
         <Link Id="RTyYb9jGnrbPe0ZIi8inHY" Ids="RJJfH1QyXUFLN2Y2fbBurM,PleRuP44kYDNd7ZTraH27U" />
-        <Link Id="DKa5KmMDmoQPEGKhgAVvgB" Ids="HK8xDGyQHQuMl7ktb6rZJ1,ErgpDkrJOYQPIwDhmota0P" />
         <Link Id="JJ2IKwS7AfFP6jWl3SJnd7" Ids="Rw4TkEZuUYEL9hVkovFjRs,HGrJsRzfl2IPWatxH0ohrv" />
         <Link Id="EYEAWCX5tTPMd85FBfFeGM" Ids="Q2rvnYXZqf7NR3Z8p37AAD,ATdU1elwwZwN4gXFrqTb4V" />
         <Link Id="NfNu7EH7dUkMaXlNzNYQkk" Ids="J6FvDGTyxaePJFWyxkamGe,JZpJbcicpTRP2S2c7l9SRC" />
@@ -3074,12 +2768,10 @@
         <Link Id="IIS4TeG1zTuOHD16gZofCN" Ids="K2Z5RUr4PYKLDtIdGe2rat,Tc8NFHq7Li5Nwyu29cJnzq" />
         <Link Id="FqfN3fMGRt0OSdxdZnXPPJ" Ids="UXLPO8hc6wULvN04dTHjBL,DyLxKwkPftdOv7KCZ8DCeT" />
         <Link Id="P2yZi4KisdAOn5D1gdIuIe" Ids="HGppi4Dpf9eLGyejYNhkEH,HfsVetfiOcGPxaxLPPi33Z" />
-        <Link Id="NjKFa2cuJfMOwz6avnGdKN" Ids="RDDVPliWvjCPhrTxXhbwRC,NC6r2IHlsNpMCUhTzKha88" />
         <Link Id="PUoCuXkm6TTLjYP9WvtAGi" Ids="NmUP0R1Qna3MAG1lT7v8WQ,OL2bcoA9EGvOqPW2t74rSO" />
         <Link Id="T43q3MbpDfPM1aWsME2xcX" Ids="K2Z5RUr4PYKLDtIdGe2rat,StH9jN8KVHsNH0885p9vAS" />
         <Link Id="IA2jyjBwivyOh6EsxJPKuB" Ids="PNfkM62EuGYOGzjC25vnBZ,RvKp0B6YNsnMT80RwEl5Fu" />
         <Link Id="Vb8QlDhsSF5N72xbhAH3D1" Ids="NmUP0R1Qna3MAG1lT7v8WQ,TRzvZuCzfRmN3zCV6cAkaM" />
-        <Link Id="EzwCLNKez4bM4RdAXlbVSc" Ids="AEp53sj2HQMPsac1kMfPpT,Kyeyo8Oyz0UPVkol8W2p7D" />
       </Patch>
     </Node>
   </Patch>
