@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U9u281Qm9ZRNJcB4FBhGte" LanguageVersion="2020.2.0.241" Version="0.128">
-  <NugetDependency Id="Lk9OEhBRaObNYA0u6UMPvm" Location="VL.CoreLib" Version="2020.2.0-0241-g1bd7669e3e" />
+<Document xmlns:p="property" Id="U9u281Qm9ZRNJcB4FBhGte" LanguageVersion="2020.2.0.248" Version="0.128">
+  <NugetDependency Id="Lk9OEhBRaObNYA0u6UMPvm" Location="VL.CoreLib" Version="2020.2.0-0248-g3050946883" />
   <Patch Id="BZC5gm0jLVkLt1DY15N7RZ">
     <Canvas Id="HKsspzGsXlWL9wqBCL4AAK" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -402,6 +402,16 @@
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
                 </Pad>
+                <Pad Id="Gn5yfcIHdeMMqZgbWotoVC" Comment="Preparation Time" Bounds="587,115,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float64" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Pad Id="K1poUyl8n74M6Q2mbi9OrF" Comment="Dispose Delay" Bounds="739,122,35,15" ShowValueBox="true" isIOBox="true" Value="1.5">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float64" />
+                  </p:TypeAnnotation>
+                </Pad>
               </Canvas>
               <Slot Id="BE4p18HXwfJO5C6GyoHGmx" Name="Parent Context" />
               <Link Id="R6TdUKYgvoaOcUdSrpXMo6" Ids="ALLeP1PSuQtObfihRUZi7K,J3ZzQ0VSmcqP2lqAZTpCSh" />
@@ -464,7 +474,7 @@
               <Patch Id="TzR1VhqVK3vOQmMKBpYIgy" Name="GetDefaultValue">
                 <Pin Id="LaAQrrJnayILAlwqSfxK4A" MergeId="465538" Name="Value" Kind="OutputPin" />
               </Patch>
-              <Patch Id="OPeDsm63KKEQRbe0Fxb47T" Name="GetPreparationTime">
+              <Patch Id="OPeDsm63KKEQRbe0Fxb47T" Name="GetPreparareTime">
                 <Pin Id="B0REJmSaxC6Mhp7WaoPeyI" MergeId="465543" Name="Preparation Time" Kind="OutputPin">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="Float64" />
@@ -498,6 +508,8 @@
               <Link Id="UeBEPnbl2lOMYlvtfbdqbm" Ids="ByHNqfpQ2Z4M0qCPKOPMjA,CjJxXXseYb0P2UVMZThcjd" />
               <Link Id="JOAPd8yBNHKOHwTbwGjXCj" Ids="U5AUoYq2b5lNq9Yud9faSg,Tq26bSLjsrcM7bojGTS1Z8" />
               <Link Id="UwGzdLglWbzNzhJDvqgjPE" Ids="ByHNqfpQ2Z4M0qCPKOPMjA,PBuiy0qXxO4QQKsjJUwNSm" />
+              <Link Id="C23TcLcsKfkNxwWN8fUzAq" Ids="Gn5yfcIHdeMMqZgbWotoVC,UhsdeB4DsR0OEfH0mk2Nfb" />
+              <Link Id="G4aomEENrwqOUSb2Cxz2ff" Ids="K1poUyl8n74M6Q2mbi9OrF,ROCkUrPCfmTNrZ8MzUppiG" />
             </Patch>
           </Node>
           <Node Bounds="570,213,98,19" Id="NXRGShO5ZixPRzu0FxT0ox">
@@ -536,7 +548,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KCanvasEditorAndInspector" />
             </p:NodeReference>
-            <Pin Id="CZ3M81P0V2uMJPHcqObDCN" Name="Bounds" Kind="InputPin" DefaultValue="652, 221, 828, 464">
+            <Pin Id="CZ3M81P0V2uMJPHcqObDCN" Name="Bounds" Kind="InputPin" DefaultValue="696, 236, 828, 464">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -583,7 +595,7 @@
                 <Choice Kind="TypeFlag" Name="Compositor_M" />
               </p:TypeAnnotation>
               <p:DefaultValue Name="Pilotino" xmlns:r="reflection" r:Version="2">
-                <Bounds Max="7.41670675203204" Min="-2.51533824205398" Valid="True" Width="9.93204499408602" />
+                <Bounds Max="2.39661458134652" Min="-2.51533824205398" Valid="True" Width="4.9119528234005" />
                 <CanvasClips>
                   <Item Key="85da60dc-8f16-4b51-9a5e-556d0ca903a0">
                     <Value Author_ID="Default" Auto_Bounds="True" Color="0.4, 0.4, 0.4, 1" Duration="1" Input_Pin_ID="13:04:29" Kairos_Source_Method="Sample" Key="85da60dc-8f16-4b51-9a5e-556d0ca903a0" Position="1.39661458134652" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
@@ -600,7 +612,7 @@
                     </Value>
                   </Item>
                   <Item Key="a385f138-566a-4e20-9b60-09f85161eb4f">
-                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.9466667, 0, 0.817919, 1" Duration="8.81604448333383" Input_Pin_ID="13:04:17" Kairos_Source_Method="Sample" Key="a385f138-566a-4e20-9b60-09f85161eb4f" NeighbourConstraint_Enabled="True" NeighbourConstraint_Padding="0.100000001490116" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.9466667, 0, 0.817919, 1" Duration="3.66050878539682" Input_Pin_ID="13:04:17" Kairos_Source_Method="Sample" Key="a385f138-566a-4e20-9b60-09f85161eb4f" NeighbourConstraint_Enabled="True" NeighbourConstraint_Padding="0.100000001490116" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -614,13 +626,13 @@
                         <Item>a385f138-566a-4e20-9b60-09f85161eb4f</Item>
                       </Author_IDs>
                       <Blender1D_M>
-                        <Bounds Max="7.41670675203204" Min="-1.39933773130178" Valid="True" Width="8.81604448333383" />
+                        <Bounds Max="2.26117105409503" Min="-1.39933773130178" Valid="True" Width="3.66050878539682" />
                         <Clips>
-                          <Item Author_ID="a385f138-566a-4e20-9b60-09f85161eb4f" Duration="8.81604448333383" Kairos_Source_Method="Sample" Key="01411c4a-f83f-4240-bad3-bd4f7cb9d9d5" Parameter_Path="Foo" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
+                          <Item Author_ID="a385f138-566a-4e20-9b60-09f85161eb4f" Duration="3.66050878539682" Kairos_Source_Method="Sample" Key="f758419a-1a49-489d-9bdb-2518852a820f" Parameter_Path="Foo" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
-                            <CtrlClip_M Author_ID="Default" Auto_Bounds="True" Color="0.9466667, 0, 0.817919, 1" Duration="8.81604448333383" Input_Pin_ID="13:04:17" Kairos_Source_Method="Sample" Key="a385f138-566a-4e20-9b60-09f85161eb4f" NeighbourConstraint_Enabled="True" NeighbourConstraint_Padding="0.100000001490116" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                            <CtrlClip_M Author_ID="Default" Auto_Bounds="True" Color="0.9466667, 0, 0.817919, 1" Duration="3.66050878539682" Input_Pin_ID="13:04:17" Kairos_Source_Method="Sample" Key="a385f138-566a-4e20-9b60-09f85161eb4f" NeighbourConstraint_Enabled="True" NeighbourConstraint_Padding="0.100000001490116" Position="-1.39933773130178" Sampler_Path_ID="Default" Sampler_Position_In="-0.100508864969016" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                               <Blending_Model Global_Alpha="1">
                                 <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                               </Blending_Model>
@@ -629,7 +641,7 @@
                         </Clips>
                         <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
                       </Blender1D_M>
-                      <Bounds Max="7.41670675203204" Min="-1.39933773130178" Valid="True" Width="8.81604448333383" />
+                      <Bounds Max="2.26117105409503" Min="-1.39933773130178" Valid="True" Width="3.66050878539682" />
                       <Parameter Path="Foo">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Parameter>
@@ -972,6 +984,26 @@
                 <Pin Id="KOtQcICDsfRPuHk52ie5Qd" Name="Input" Kind="StateInputPin" />
                 <Pin Id="MlcT0v1TdnDPddUco8FZ6i" Name="Value" Kind="OutputPin" />
               </Node>
+              <Node Bounds="1239,601,51,26" Id="TCYwPAckBxLOiH096CjB0s">
+                <p:NodeReference LastCategoryFullName="Primitive.Reference" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="Data" />
+                  <CategoryReference Kind="ClassType" Name="Reference" NeedsToBeDirectParent="true" />
+                </p:NodeReference>
+                <Pin Id="JF5iuTu4enZNCqSbVEzm11" Name="Input" Kind="StateInputPin" />
+                <Pin Id="DisVoihsVUnObWivdDrQrh" Name="Output" Kind="StateOutputPin" />
+                <Pin Id="TJUWdtQtx27Pwl4ZPiMeCf" Name="Data" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="1269,638,48,19" Id="EuIUbFzXBG3Pc0s9B4PnOP">
+                <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="OperationCallFlag" Name="CastAs" />
+                </p:NodeReference>
+                <Pin Id="ROTvOc6HO2bN1slhRRp1JY" Name="Input" Kind="StateInputPin" />
+                <Pin Id="CdeDzZ7PcnVNIQ8NVsPkwn" Name="Default" Kind="InputPin" />
+                <Pin Id="RWNMMCIg0uSOK39JbV13v2" Name="Result" Kind="OutputPin" />
+                <Pin Id="CYkhymlw1aQPcGsS0fd1Z0" Name="Success" Kind="OutputPin" />
+              </Node>
             </Patch>
           </Node>
           <Node Bounds="654,370,70,19" Id="PtMhnec4MnrOsZsQqoZHSO">
@@ -984,10 +1016,10 @@
                 <Choice Kind="TypeFlag" Name="Compositor_M" />
               </p:TypeAnnotation>
               <p:DefaultValue Name="Compositor" xmlns:r="reflection" r:Version="2">
-                <Bounds Max="8.71553561836481" Min="-0.100508864969016" Valid="True" Width="8.81604448333383" />
+                <Bounds Max="3.5599999204278" Min="-0.100508864969016" Valid="True" Width="3.66050878539682" />
                 <CanvasClips>
                   <Item Key="120eaecb-af5f-4210-9bc4-e70b0ddf375a">
-                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.50999996624887" Input_Pin_ID="14:09:23" Kairos_Source_Method="Sample" Key="120eaecb-af5f-4210-9bc4-e70b0ddf375a" Position="-0.100508864969016" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.50999996624887" Input_Pin_ID="14:09:23" Kairos_Source_Method="Sample" Key="120eaecb-af5f-4210-9bc4-e70b0ddf375a" Position="-0.100508864969016" Prepare_Time="1" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -1001,7 +1033,7 @@
                     </Value>
                   </Item>
                   <Item Key="6965a411-c392-4b42-ad4d-aa2479243fdc">
-                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="6.32553567178547" Input_Pin_ID="15:51:16" Kairos_Source_Method="Sample" Key="6965a411-c392-4b42-ad4d-aa2479243fdc" Layer_Index="1" Position="2.38999994657934" Prepare_Time="1" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.16999997384846" Input_Pin_ID="15:51:16" Kairos_Source_Method="Sample" Key="6965a411-c392-4b42-ad4d-aa2479243fdc" Layer_Index="1" Position="2.38999994657934" Prepare_Time="1" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -1015,13 +1047,13 @@
                         <Item>6965a411-c392-4b42-ad4d-aa2479243fdc</Item>
                       </Author_IDs>
                       <Blender1D_M>
-                        <Bounds Max="8.71553561836481" Min="2.38999994657934" Valid="True" Width="6.32553567178547" />
+                        <Bounds Max="3.5599999204278" Min="2.38999994657934" Valid="True" Width="1.16999997384846" />
                         <Clips>
-                          <Item Author_ID="6965a411-c392-4b42-ad4d-aa2479243fdc" Duration="6.32553567178547" Kairos_Source_Method="Sample" Key="1cbd0f18-e0ca-4978-a220-170b1fce5055" Layer_Index="1" Parameter_Path="Foo" Position="2.38999994657934" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
+                          <Item Author_ID="6965a411-c392-4b42-ad4d-aa2479243fdc" Duration="1.16999997384846" Kairos_Source_Method="Sample" Key="b5250c87-ae0f-45eb-89e0-f8a8c25a1371" Layer_Index="1" Parameter_Path="Foo" Position="2.38999994657934" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
-                            <CtrlClip_M Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="6.32553567178547" Input_Pin_ID="15:51:16" Kairos_Source_Method="Sample" Key="6965a411-c392-4b42-ad4d-aa2479243fdc" Layer_Index="1" Position="2.38999994657934" Prepare_Time="1" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                            <CtrlClip_M Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.16999997384846" Input_Pin_ID="15:51:16" Kairos_Source_Method="Sample" Key="6965a411-c392-4b42-ad4d-aa2479243fdc" Layer_Index="1" Position="2.38999994657934" Prepare_Time="1" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                               <Blending_Model Global_Alpha="1">
                                 <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                               </Blending_Model>
@@ -1030,7 +1062,7 @@
                         </Clips>
                         <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
                       </Blender1D_M>
-                      <Bounds Max="8.71553561836481" Min="2.38999994657934" Valid="True" Width="6.32553567178547" />
+                      <Bounds Max="3.5599999204278" Min="2.38999994657934" Valid="True" Width="1.16999997384846" />
                       <Parameter Path="Foo">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Parameter>
@@ -1042,7 +1074,7 @@
                 <Parameter_List>
                   <Item>Foo</Item>
                 </Parameter_List>
-                <Prepare_Bounds Max="2.38999994657934" Min="-0.028000354766846" Valid="True" Width="2.41800030134619" />
+                <Prepare_Bounds Max="2.38999994657934" Min="-1.10050886496902" Valid="True" Width="3.49050881154836" />
               </p:DefaultValue>
             </Pin>
             <Pin Id="VyCFC1YBFFsN24PITmByaC" Name="Compositor Name" Kind="InputPin" />
@@ -1118,7 +1150,6 @@
         <Link Id="JyUGFmSblUUOkCCBfhrqQ2" Ids="VeCbchQPGqhMJGa2Qnbft4,T9JlN4MjuEvPDBiIeNDD7u" />
         <Link Id="E4pTU5p1eCHOjzBXO8i9J9" Ids="OHBtQFPMGsQQMkHlXnt9xH,OoPXZg2KQyUMd8H9QQsTCQ" />
         <Link Id="NJ6xLnLqRVtP5if01TWnyF" Ids="I9KbTA5W1qrNeE05TmvjJZ,Lgs3MeUVQ8rMEU7ir94Khz" />
-        <Link Id="F85zT5scEqKLDR4Q6USPmJ" Ids="Q6ul5hWAwSmNSBbHkrFNR5,LA504ZGoK6NNIh5IbO2vBO" />
         <Link Id="KERDLLkAEQ7MVaCsl1q9Et" Ids="ATzOa8cy6ExPj5ZnTrYnE1,TPtaiOMEwZgOYZra98JiV2" />
         <Link Id="GWm8UkvbSafP0vQqHQjF89" Ids="IsvIzOr4iP1Lx1aHIJcJOV,CmXH8QRjM8ZNr090KnZmYy" />
         <Link Id="DsCPRT11v3zQbJcPnqkYi4" Ids="VK9ICEp0ubaPyUPStNndh7,QPy0jkWvpSaMRAuwngcIcp" />
@@ -1132,21 +1163,24 @@
         <Link Id="CB2xNjGngqTQPL9QsdMvdI" Ids="JrDb91kY01BL50PmTBQAdf,Qc31qdZeTc4OGeXVYCEard" />
         <Link Id="U3jg0r3H04QL8oW6BBCpuG" Ids="NAw9WploT11PIerNP47lgI,RaAwmzhciF4LIl6zyGUOox" />
         <Link Id="Nacs1k7QANuPm64FJfDl6t" Ids="TdbSmAUqmd8N8ZBDIGRWZH,Gm9WYseE5ZQLMByHbqRuss" />
-        <Link Id="SUD5NECa2UPOQkrke3ZwoX" Ids="Q6ul5hWAwSmNSBbHkrFNR5,GgGjvekgaRCNmGCBt6FWij" />
-        <Link Id="C1gVVHweeQBPIxx4pYievR" Ids="Q6ul5hWAwSmNSBbHkrFNR5,IoAZLwwhRoXQVklTnLVx1U" />
         <Link Id="JcIPMNKalUpOQJmK3YqYfD" Ids="QH9VUefVzB2LwmZ62cR9W5,TFRJtCeOkTzLmMilvu8XW8" />
         <Link Id="P51GCM9AXZGPt5tyYW30xA" Ids="JBYp2kfa9XgNnGt9vRxxaI,DwVLE9tskvIMWxafEpZXzO" />
         <Link Id="FeDzmF5laAUNxc0B4nEOiU" Ids="MHA6KSvRA0COLveVii6JLC,Lt90X21N0KmNYPv7FfRufp" />
         <Link Id="A2hzHycmGXJOINa2qN9Nmr" Ids="G6yQBFgZswlLFM6SKiL78h,KOtQcICDsfRPuHk52ie5Qd" />
         <Link Id="UNnQOzhgX0iLNwza2PPkmd" Ids="MlcT0v1TdnDPddUco8FZ6i,QX0iWuCceX2OtfsitTHmaY" />
-        <Link Id="NU8Ecintn1UNi7MYyBGxUj" Ids="GWhRlNhsVdgNt7UJ2qgCYG,HrOHQsoBXSdNAl2l1rIAgx" />
         <Link Id="BucMg83jsPZLloYiWRm3ZL" Ids="PomLgNb0DR1ONLWofRFskt,CWkZPY51f4ZMI8IhkR2Q1x" />
         <Link Id="RqK2xbmOigwQOa9bPdUO9j" Ids="Ci4M3XXlPQILGLUphgoC3m,DbPgbSc28odM1uFql47qp1" />
         <Link Id="DJrrFPThwSdLY2UoPMBBbv" Ids="FM0l0bdXiriMKd11t64fB8,TkU4t8KLhwfQbyE5qQf266" />
+        <Link Id="RgarYc20ahoNNmccHEQmDx" Ids="PomLgNb0DR1ONLWofRFskt,HrOHQsoBXSdNAl2l1rIAgx" />
+        <Link Id="UunE6R9cZGmNaqB0BOx8iP" Ids="C6LnHFOKAljQQVtTt1412N,JF5iuTu4enZNCqSbVEzm11" />
+        <Link Id="DU3ul3K7NkzPZLzbbSZ2SN" Ids="TJUWdtQtx27Pwl4ZPiMeCf,ROTvOc6HO2bN1slhRRp1JY" />
+        <Link Id="IApsfFXjGsTP9QsWiQWbEy" Ids="RWNMMCIg0uSOK39JbV13v2,LA504ZGoK6NNIh5IbO2vBO" />
+        <Link Id="IeAYN05jPonMglETW6GvfI" Ids="RWNMMCIg0uSOK39JbV13v2,GgGjvekgaRCNmGCBt6FWij" />
+        <Link Id="SnCsgcsq6euOGZuYmU5YWb" Ids="RWNMMCIg0uSOK39JbV13v2,IoAZLwwhRoXQVklTnLVx1U" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PCOk8aWDCiCNy1hnhYgNcz" Location="VL.Skia" Version="2020.2.0-0241-g1bd7669e3e" />
+  <NugetDependency Id="PCOk8aWDCiCNy1hnhYgNcz" Location="VL.Skia" Version="2020.2.0-0248-g3050946883" />
   <DocumentDependency Id="GHWXQtwXj4LN1JyD96sI75" Location="../../../../VL.Elementa/Elementa.vl" />
   <DocumentDependency Id="FBmsmzqAiUpOx24O3oU6Gr" Location="../../../Kairos.vl" />
 </Document>
