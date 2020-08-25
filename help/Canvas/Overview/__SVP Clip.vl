@@ -926,7 +926,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="KCanvasEditorAndInspector" />
             </p:NodeReference>
-            <Pin Id="OfOF9UOftadM88nLzav9q6" Name="Bounds" Kind="InputPin" DefaultValue="688, 198, 948, 536">
+            <Pin Id="OfOF9UOftadM88nLzav9q6" Name="Bounds" Kind="InputPin" DefaultValue="851, 184, 948, 536">
               <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -1020,7 +1020,7 @@
                 <Bounds Max="4.09678307175635" Min="-1.28737673163414" Valid="True" Width="5.38415980339049" />
                 <CanvasClips>
                   <Item Key="a6481802-d69f-4092-b30c-6f21f19a55b4">
-                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.4, 0.4, 0.4, 1" Duration="5.38415980339049" Input_Pin_ID="10:09:49" Kairos_Source_Method="Sample" Key="a6481802-d69f-4092-b30c-6f21f19a55b4" Layer_Index="7" Name="Timeline" Position="-1.28737673163414" Sampler_Path_ID="Default" Sampler_Position_In="-3.56015992164611" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.4, 0.4, 0.4, 1" Duration="5.38415980339049" Input_Pin_ID="10:09:49" Kairos_Source_Method="Sample" Key="a6481802-d69f-4092-b30c-6f21f19a55b4" Layer_Index="7" Position="-1.28737673163414" Sampler_Path_ID="Default" Sampler_Position_In="-3.56015992164611" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -1029,41 +1029,7 @@
                     </Value>
                   </Item>
                 </CanvasClips>
-                <Channels>
-                  <Item Key="Alpha">
-                    <Value Parameter_Path="Alpha">
-                      <Author_IDs>
-                        <Item>a6481802-d69f-4092-b30c-6f21f19a55b4</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Bounds Max="4.09678307175635" Min="-1.28737673163414" Valid="True" Width="5.38415980339049" />
-                        <Clips>
-                          <Item Author_ID="a6481802-d69f-4092-b30c-6f21f19a55b4" Duration="5.38415980339049" Kairos_Source_Method="Sample" Key="6d230ccc-e150-432b-9826-3873f44acb0b" Layer_Index="7" Parameter_Path="Alpha" Position="-1.28737673163414" Sampler_Path_ID="Default" Sampler_Position_In="-3.56015992164611" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                            <Dispose_Bounds Max="3.30940634012221" Min="-0.28243678808212" Valid="True" Width="3.59184312820434" />
-                            <Prepare_Bounds Max="1.80940634012221" Min="-1.78243678808212" Valid="True" Width="3.59184312820434" />
-                          </Item>
-                        </Clips>
-                        <Dispose_Bounds Max="3.30940634012221" Min="-0.28243678808212" Valid="True" Width="3.59184312820434" />
-                        <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
-                        <Prepare_Bounds Max="1.80940634012221" Min="-1.78243678808212" Valid="True" Width="3.59184312820434" />
-                      </Blender1D_M>
-                      <Bounds Max="4.09678307175635" Min="-1.28737673163414" Valid="True" Width="5.38415980339049" />
-                      <Dispose_Bounds Max="3.30940634012221" Min="-0.28243678808212" Valid="True" Width="3.59184312820434" />
-                      <Parameter Name="Alpha" Path="Alpha">
-                        <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </Parameter>
-                      <Prepare_Bounds Max="1.80940634012221" Min="-1.78243678808212" Valid="True" Width="3.59184312820434" />
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                </Channels>
                 <Dispose_Bounds Max="3.30940634012221" Min="-0.28243678808212" Valid="True" Width="3.59184312820434" />
-                <Parameter_List>
-                  <Item>Alpha</Item>
-                </Parameter_List>
                 <Prepare_Bounds Max="1.80940634012221" Min="-1.78243678808212" Valid="True" Width="3.59184312820434" />
                 <SVPClips>
                   <Item Key="b4f077d7-e929-467b-9f15-e10752320c46">
@@ -1727,90 +1693,22 @@
               <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Name="Timeline" xmlns:r="reflection" r:Version="2">
-                <Bounds Max="1.82399988174438" Min="-3.56015992164611" Valid="True" Width="5.38415980339049" />
-                <CanvasClips>
-                  <Item Key="1590b4a8-fb37-4261-8146-f3e6d035eae3">
-                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="2.74031662940979" Input_Pin_ID="15:51:16" Kairos_Source_Method="Sample" Key="1590b4a8-fb37-4261-8146-f3e6d035eae3" Name="Compositor" Position="-3.56015992164611" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Blending_Model Global_Alpha="1">
-                        <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                      </Blending_Model>
-                      <Dispose_Bounds Max="-0.76784324645995" Min="-1.26784324645995" Valid="True" Width="0.5" />
-                      <Prepare_Bounds Max="-2.26784324645995" Min="-2.76784324645995" Valid="True" Width="0.5" />
-                    </Value>
-                  </Item>
-                </CanvasClips>
-                <Channels>
-                  <Item Key="Alpha">
-                    <Value Parameter_Path="Alpha">
-                      <Author_IDs>
-                        <Item>173be9db-6da5-4562-8a81-972176bf7d7d</Item>
-                        <Item>1590b4a8-fb37-4261-8146-f3e6d035eae3</Item>
-                      </Author_IDs>
-                      <Bounds Max="1.82399988174438" Min="-3.56015992164611" Valid="True" Width="5.38415980339049" />
-                      <Dispose_Bounds Max="2.32399988174438" Min="-1.26784324645995" Valid="True" Width="3.59184312820434" />
-                      <Parameter Name="Alpha" Path="Alpha">
-                        <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </Parameter>
-                      <Prepare_Bounds Max="0.823999881744385" Min="-2.76784324645995" Valid="True" Width="3.59184312820434" />
-                      <Sampler1D_M>
-                        <Bounds Max="1.82399988174438" Min="-3.56015992164611" Valid="True" Width="5.38415980339049" />
-                        <Clips>
-                          <Item Author_ID="1590b4a8-fb37-4261-8146-f3e6d035eae3" Duration="2.74031662940979" Kairos_Source_Method="Sample" Key="083aaa54-8496-474f-abc2-0c0912b787f0" Parameter_Path="Alpha" Position="-3.56015992164611" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                            <Dispose_Bounds Max="-0.76784324645995" Min="-1.26784324645995" Valid="True" Width="0.5" />
-                            <Prepare_Bounds Max="-2.26784324645995" Min="-2.76784324645995" Valid="True" Width="0.5" />
-                          </Item>
-                          <Item Author_ID="173be9db-6da5-4562-8a81-972176bf7d7d" Duration="1" Kairos_Source_Method="Sample" Key="6a43e596-b634-4258-903f-737e37319793" Parameter_Path="Alpha" Position="0.823999881744385" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                            <Dispose_Bounds Max="2.32399988174438" Min="1.82399988174438" Valid="True" Width="0.5" />
-                            <Prepare_Bounds Max="0.823999881744385" Min="0.323999881744385" Valid="True" Width="0.5" />
-                          </Item>
-                        </Clips>
-                        <Dispose_Bounds Max="2.32399988174438" Min="-1.26784324645995" Valid="True" Width="3.59184312820434" />
-                        <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
-                        <Prepare_Bounds Max="0.823999881744385" Min="-2.76784324645995" Valid="True" Width="3.59184312820434" />
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                </Channels>
-                <Dispose_Bounds Max="2.32399988174438" Min="-1.26784324645995" Valid="True" Width="3.59184312820434" />
-                <Parameter_List>
-                  <Item>Alpha</Item>
-                </Parameter_List>
-                <Prepare_Bounds Max="0.823999881744385" Min="-2.76784324645995" Valid="True" Width="3.59184312820434" />
-                <SVPClips>
-                  <Item Key="173be9db-6da5-4562-8a81-972176bf7d7d">
-                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1" Input_Pin_ID="12:26:58" Kairos_Source_Method="Sample" Key="173be9db-6da5-4562-8a81-972176bf7d7d" Name="Alpha" Position="0.823999881744385" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Blending_Model Global_Alpha="1">
-                        <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                      </Blending_Model>
-                      <Dispose_Bounds Max="2.32399988174438" Min="1.82399988174438" Valid="True" Width="0.5" />
-                      <Prepare_Bounds Max="0.823999881744385" Min="0.323999881744385" Valid="True" Width="0.5" />
-                    </Value>
-                  </Item>
-                </SVPClips>
-              </p:DefaultValue>
+              <p:DefaultValue />
             </Pin>
             <Pin Id="FnwWzCqumEOLI0a11jxSkS" Name="Reload" Kind="InputPin" />
             <Pin Id="FdWiSdoE9t0P8gzUKFmqhI" Name="Initialize" Kind="InputPin" />
             <Pin Id="FYcYIXCLPIuPtyIFobAMZ8" Name="Timeline Name" Kind="InputPin" />
-            <Pin Id="AiHEXw53ICOLRTN7TSt1yY" Name="15:51:16" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="B2JU6X00hSnMnTN6mQ5y8D" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="AiHEXw53ICOLRTN7TSt1yY" Name="15:51:16" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKCanvas" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="MBCVdjSbQvEM00E2XfaQ7i" Name="12:26:58" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="MBCVdjSbQvEM00E2XfaQ7i" Name="12:26:58" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IStructuredValueProvider" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="B2JU6X00hSnMnTN6mQ5y8D" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="1231,1654,119,22" Id="IwsIKldTJ6EOy1pM5vzHfr">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
@@ -2351,7 +2249,6 @@
         <Link Id="CR0T676fjB0PsaVtBBvNuH" Ids="N3TpEGooZ5ZNQvhFkgm7Lb,RPHWTeHmYwPQMQykdrbroN" />
         <Link Id="SlhKNpvZo3VO8QtsradvoX" Ids="B2JU6X00hSnMnTN6mQ5y8D,S26ioVH9KdzPDcXTHHH6gP" />
         <Link Id="FIgBfNwhbypLRUgJ5RPtd8" Ids="JCIEtKzO9z5LuW3dfbn78W,EB7KczBDiExLRDeLmgTYOF" />
-        <Link Id="N6Z2h7hB04GPalHuwid9QV" Ids="B2JU6X00hSnMnTN6mQ5y8D,AIMUdlEwvZaMwGO3ByYTdy" />
         <Link Id="EKadq2mGIHAPvVOwbyZ96O" Ids="VTXYFS4uUQCM45T75XnVjh,AiHEXw53ICOLRTN7TSt1yY" />
         <Link Id="D3UITgcfvthLjdOfqoEC8r" Ids="QG4RC9FPFMXPswAhaFT6m1,NRKDVUPIHNTPIuHLvB0pKr" />
       </Patch>
