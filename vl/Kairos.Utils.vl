@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CxrsGPmfSIFL1KBK78OUXG" LanguageVersion="2020.2.0.292" Version="0.128">
-  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2020.2.0-0292-gbb7183ae5b" />
+<Document xmlns:p="property" Id="CxrsGPmfSIFL1KBK78OUXG" LanguageVersion="2020.2.0.317" Version="0.128">
+  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2020.2.0-0317-g25df4b0800" />
   <Patch Id="Psv0au7NCNRNhP5X940Z5d">
     <Canvas Id="RPrWlmod17SPS9Gfp3kroA" DefaultCategory="Kairos.Utils" CanvasType="FullCategory">
       <Canvas Id="SAuVCg1W7DGMPwC2QQc2OJ" Name="Runtime" Position="183,95">
@@ -2551,7 +2551,7 @@
     ************************ SampleChannel ************************
 
 -->
-      <Node Name="SampleChannel" Bounds="-288,1563" Id="QtqdW4dFBv4L70ZvyquJSk">
+      <Node Name="SampleChannel" Bounds="80,1506" Id="QtqdW4dFBv4L70ZvyquJSk">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -2709,7 +2709,7 @@
     ************************ GetChannelValue (KCanvas) ************************
 
 -->
-      <Node Name="GetChannelValue (KCanvas)" Bounds="-290,1670" Id="MvBVy0bliPWL6cuOnV2VDt">
+      <Node Name="GetChannelValue (KCanvas)" Bounds="78,1613" Id="MvBVy0bliPWL6cuOnV2VDt">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
@@ -3104,6 +3104,17 @@
               <Pin Id="A7QQYIeas3yM96GWmvDzZW" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Pad Id="CZRvkZKLcNGPvgl76KSsB3" SlotId="PZUzKEuY4wpLy3Lksrz06H" Bounds="875,172" />
+            <Overlay Id="LfmtuJwi0CvOsNhXAlbQfu" Name="InitializeKCanvas" Bounds="1064,602,268,189">
+              <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
+            </Overlay>
+            <Pad Id="JAST8tsf6HCNfZ4MGvyCSo" SlotId="Tgim62BQwVgNEoBfvjrcbV" Bounds="1144,670" />
+            <Node Bounds="1142,727,147,19" Id="SsKoXkwbjy0Meqg9L2wGM1">
+              <p:NodeReference LastCategoryFullName="Kairos.Core.Canvas" LastSymbolSource="Kairos.Core.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="InitializeAllKCanvasChannels" />
+              </p:NodeReference>
+              <Pin Id="NqleNenuVzZMNixxqKnxgc" Name="KSource" Kind="InputPin" />
+            </Node>
           </Canvas>
           <Link Id="RxbMiZcsVl5LenOC1S7YRJ" Ids="NYUmSPhcb1vPUJN9Y18TL2,M8N0SOmziyfPzIpya4RtYO" IsHidden="true" />
           <Link Id="VR446zWgid6Lrfo0901vt5" Ids="AIPd6oPfuGrNlG7jPZqOkS,T7M0vY7b49NOVMqqz7FlQO" IsHidden="true" />
@@ -3188,6 +3199,7 @@
             <Fragment Id="BCrv8Sql28qMWgjM24nco4" Patch="JrSqeCKxNkCNuOnTwjcgq4" Enabled="true" />
             <Fragment Id="UvVGOrg1JGxOGdlbMdUMZg" Patch="K2TtMTCdnFfP1IjbFkXYcF" Enabled="true" />
             <Fragment Id="I7j842bneMqPKp17tWqw5Z" Patch="MuwA3NkzDB2OtSuOS3grxp" Enabled="true" />
+            <Fragment Id="GjJ7RJvtMxZNH6ASyTbpjU" Patch="Ilebiaq0L3NOuqaIAxSFpN" Enabled="true" />
           </ProcessDefinition>
           <Link Id="PKoZ1iqmtK6PyoDrX2KOVk" Ids="Lz07dCo5tNvO8iwewsqTPU,NzdNu1yBqZhPZlOwmieWVo" />
           <Link Id="G2wQYAJLeKzPWkeZjLNCGl" Ids="IOp7g8PEvgBPBgA5AFW4p1,M3VPKLqd6ESM6UgnWEuhpA" />
@@ -3233,6 +3245,8 @@
           <Link Id="HUpj8QqS0YcQK0WyMToRmi" Ids="SVH55oyRkSALmMLy9Ibg1X,OJP1FnBrZZ8LVoMmos8374" />
           <Link Id="DRETAlHyvwxQSra3aa9WvC" Ids="A7QQYIeas3yM96GWmvDzZW,KhPmvsWeuP7L6GUUzbhIS9" />
           <Link Id="CY4u7jShaWTMq9DDZrO9qO" Ids="CZRvkZKLcNGPvgl76KSsB3,LBeZoqNw802OkmRtRNAtF5" />
+          <Patch Id="Ilebiaq0L3NOuqaIAxSFpN" Name="InitializeKCanvas" ParticipatingElements="Dgp0pWYpqMENilASfDdLEA" />
+          <Link Id="Dgp0pWYpqMENilASfDdLEA" Ids="JAST8tsf6HCNfZ4MGvyCSo,NqleNenuVzZMNixxqKnxgc" />
         </Patch>
       </Node>
     </Canvas>
@@ -3257,7 +3271,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="M23vQRTW9arMXv1kTqIR1k" Location="VL.Core" Version="2020.2.0-0292-gbb7183ae5b" />
+  <NugetDependency Id="M23vQRTW9arMXv1kTqIR1k" Location="VL.Core" Version="2020.2.0-0317-g25df4b0800" />
   <PlatformDependency Id="IpBKQC0f0OJMpxvOZNfvYK" Location="../lib/DynamicModel.dll" />
   <DocumentDependency Id="PcuzAnLYeFIPMpwc7T9Wvh" Location="./Kairos.Core.vl" />
 </Document>

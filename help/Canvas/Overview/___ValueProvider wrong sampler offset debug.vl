@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="ShZD81B43NQNHnX9fmKAAk" LanguageVersion="2020.2.0.292" Version="0.128">
-  <NugetDependency Id="Lk9OEhBRaObNYA0u6UMPvm" Location="VL.CoreLib" Version="2020.2.0-0292-gbb7183ae5b" />
+<Document xmlns:p="property" Id="ShZD81B43NQNHnX9fmKAAk" LanguageVersion="2020.2.0.317" Version="0.128">
+  <NugetDependency Id="Lk9OEhBRaObNYA0u6UMPvm" Location="VL.CoreLib" Version="2020.2.0-0317-g25df4b0800" />
   <Patch Id="BZC5gm0jLVkLt1DY15N7RZ">
     <Canvas Id="HKsspzGsXlWL9wqBCL4AAK" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -404,6 +404,7 @@
             <Pin Id="KY2GRiP65VzLcTurgCTteI" Name="Sampling Position" Kind="InputPin" />
             <Pin Id="QMvsUgALWBGPs0Oll06HUi" Name="Activation Sampling Position" Kind="InputPin" />
             <Pin Id="ThVjluSIdYrQF7pD9kfn62" Name="Clear Unused Channels from KCanvas" Kind="InputPin" />
+            <Pin Id="TT3yOPVMaqmMAute0cxpCq" Name="InitializeKCanvas" Kind="InputPin" />
             <Pin Id="Uv47cE2eDwkNnrp3a7X4GK" Name="Unused Kanvas Channels" Kind="OutputPin" />
           </Node>
           <Pad Id="KNlMXunnt3KLmvfTYNsPAP" Comment="Alpha" Bounds="92,333,35,15" ShowValueBox="true" isIOBox="true" Value="0.17">
@@ -588,6 +589,7 @@
                   <Pin Id="UilSNXNUG4RN45qPTSPzs4" Name="Default" Kind="InputPin" />
                   <Pin Id="CRWcAhZ9L8SQan7M7w6i88" Name="Sampling Position" Kind="InputPin" />
                   <Pin Id="H4y54CWn59zLRjvYlnHC4b" Name="Prepare Sampling Position" Kind="InputPin" />
+                  <Pin Id="IXwQeN2ScdoLjvzV5Qsywl" Name="InitializeKCanvas" Kind="InputPin" />
                   <Pin Id="USqxagtlh2OP5iltfj8yL5" Name="Found" Kind="OutputPin" />
                   <Pin Id="FrcfoOtu8duPl1LEzisv08" Name="Output" Kind="OutputPin" />
                 </Node>
@@ -643,6 +645,7 @@
                   <Pin Id="RzA7d7dZGLZMhlmznGnlWT" Name="Sampling Position" Kind="InputPin" />
                   <Pin Id="OdkPj6dDOBYNAj99Xr0fjk" Name="Activation Sampling Position" Kind="InputPin" />
                   <Pin Id="LofJQMz7Do5P32ojusdLey" Name="Clear Unused Channels from KCanvas" Kind="InputPin" />
+                  <Pin Id="CSwRP0Tqm12OHvVUiv08g1" Name="InitializeKCanvas" Kind="InputPin" />
                   <Pin Id="Va5SyehOmmUOtqQpTp9DKY" Name="Unused Kanvas Channels" Kind="OutputPin" />
                 </Node>
                 <Pad Id="DTGonFfmsDEOSFIk7Y1hdO" SlotId="UcBGFtPb3C6LFIfcJLS0qZ" Bounds="600,1043" />
@@ -1090,43 +1093,11 @@
                     <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                       <Choice Kind="TypeFlag" Name="Timeline_M" />
                     </p:TypeAnnotation>
-                    <p:DefaultValue Key="581e247e-de93-441c-b275-f2600becb793" xmlns:r="reflection" r:Version="2">
-                      <Activation Delayed_Dispose_End="5" Delayed_Dispose_Start="1" Preparation_End="4" Sampling_End="5" Valid="True" Width="5" />
-                      <Channels>
-                        <Item Key="Param_20:50:50">
-                          <Value Parameter_Path="Param_20:50:50">
-                            <Activation Delayed_Dispose_End="5" Delayed_Dispose_Start="1" Preparation_End="4" Sampling_End="5" Valid="True" Width="5" />
-                            <Author_IDs>
-                              <Item>Default</Item>
-                            </Author_IDs>
-                            <Parameter Name="Param_20:50:50" Path="Param_20:50:50">
-                              <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                            </Parameter>
-                            <Sampler1D_M>
-                              <Activation Delayed_Dispose_End="5" Delayed_Dispose_Start="1" Preparation_End="4" Sampling_End="5" Valid="True" Width="5" />
-                              <Clips>
-                                <Item Author_ID="Default" Duration="1" Key="9342d338-2857-4bc7-8cf0-8fa0a16590d5" r:Type="Clip1D_ConstantValue_M [Kairos.Core.Clip]">
-                                  <Blending_Model Global_Alpha="1">
-                                    <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                                  </Blending_Model>
-                                  <Value r:Type="Float32 [Primitive]">0.2488889</Value>
-                                </Item>
-                                <Item Author_ID="Default" Duration="1" Key="a394cef2-abfd-4bb5-a445-8602bc7c2e73" Position="4" r:Type="Clip1D_ConstantValue_M [Kairos.Core.Clip]">
-                                  <Blending_Model Global_Alpha="1">
-                                    <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                                  </Blending_Model>
-                                  <Value r:Type="Float32 [Primitive]">0.577778</Value>
-                                </Item>
-                              </Clips>
-                              <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
-                            </Sampler1D_M>
-                            <Settings Enabled="True" />
-                          </Value>
-                        </Item>
-                      </Channels>
-                      <Parameter_List>
-                        <Item>Param_20:50:50</Item>
-                      </Parameter_List>
+                    <p:DefaultValue Key="96533613-5e04-42cf-ab54-719abda00bc9" Name="">
+                      <CanvasClips />
+                      <Channels />
+                      <Parameter_List />
+                      <SVPClips />
                     </p:DefaultValue>
                   </Pin>
                   <Pin Id="BFokpQEpi77QM6LFlKk2sG" Name="Reload" Kind="InputPin" />
@@ -1151,7 +1122,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Pad Id="IfvaHkWldqsQEjdwOu0Fae" Comment="" Bounds="867,396,35,35" ShowValueBox="true" isIOBox="true" />
-                <Node Bounds="1169,466" Id="K43WX5LZ3xHLPwM82E7tku">
+                <Node Bounds="1236,471,113,19" Id="K43WX5LZ3xHLPwM82E7tku">
                   <p:NodeReference LastCategoryFullName="Kairos.Core.Utils" LastSymbolSource="Kairos.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="SetParentClipPosition" />
@@ -1208,7 +1179,7 @@
                     <Choice Kind="TypeFlag" Name="Float64" />
                   </p:TypeAnnotation>
                 </Pad>
-                <Pad Id="GqYDn0cpWj6Pdr6Pec3XHP" Comment="" Bounds="1198,528,35,35" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="GqYDn0cpWj6Pdr6Pec3XHP" Comment="" Bounds="1251,514,35,35" ShowValueBox="true" isIOBox="true" />
                 <ControlPoint Id="GGZAq1YRo02LdzUcbR0HYN" Bounds="1378,393" />
                 <Node Bounds="969,521,65,19" Id="UOy8YqFVvNCO6hkHtDZ8t7">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastSymbolSource="CoreLibBasics.vl">
@@ -1221,6 +1192,23 @@
                   <Pin Id="T4vnbrdscvkO8hnR9kkkZ8" Name="Not Assigned" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="Rmdswn70Ms4LMRTu5CsThF" Bounds="935,303" />
+                <Pad Id="AlVNc0A2iWeMoWrbRfgCJU" Comment="InitializeKCanvas" Bounds="842,841,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Pad Id="GeWgAw7LR4dOfOSxD7rb9L" SlotId="OzmTIWtmYz0MCLuJmUthsL" Bounds="803,979" />
+                <Pad Id="JdO06w6hZoeL4Qy6PseHCD" SlotId="OzmTIWtmYz0MCLuJmUthsL" Bounds="803,1054" />
+                <Node Bounds="801,1002,51,26" Id="Aq8MIw9QKHgMurn0XO2NkC">
+                  <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Inc" />
+                    <CategoryReference Kind="Int32Type" Name="Integer32" NeedsToBeDirectParent="true" />
+                  </p:NodeReference>
+                  <Pin Id="QpR14JLl6vPPyukyMtVcfi" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="EYWAHw8xMyKLfz4Wm3gcPV" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Pad Id="RSPfiJDnJy1MqEawescwAQ" Comment="gg" Bounds="782,1092,35,15" ShowValueBox="true" isIOBox="true" />
               </Canvas>
               <ProcessDefinition Id="HP9R1OzXJPJPBAsgLm4voJ" HasStateOut="true">
                 <Fragment Id="NiHSvVvs8nvOGiQBvIhOUU" Patch="HvqLUPSxNcONONw96pEqvr" Enabled="true" />
@@ -1236,6 +1224,7 @@
                 <Fragment Id="CEB4hENSnn9LrbUtz36PZe" Patch="MJEwjBscZadOkNAE79bZc7" Enabled="true" />
                 <Fragment Id="LlBNifveXsjMWGJvaxDKPi" Patch="IUdH0k1UiUxOCuV0EP2nbP" />
                 <Fragment Id="GzWrteEW1kkN1CXA4uzCDj" Patch="GzTlNLnQ1hfPvlpMCqw5Jg" />
+                <Fragment Id="RxGQqL83TPtN2Puppo4qpN" Patch="NPWNv0XqMubN9Xekwp2iAD" />
               </ProcessDefinition>
               <Link Id="JHvw3At0aMGQRD2wE7Lw0e" Ids="S4qmP5yCQ7ULYR7HccGW5R,PiGFVscqZyfL7B6VweudcB" IsHidden="true" />
               <Link Id="ODPKhsf80O8MIU7Ioj95U1" Ids="P8PFf9XX2pqMi56VL7UOYW,IsX1cX7WEjhMKAv5TsckfW" IsHidden="true" />
@@ -1482,6 +1471,12 @@
               <Link Id="RWq0EyPVoGvOP3Ni3bD4bw" Ids="Agq1V85zAMmNNpJCkLuIl5,UkwvOxO1f8lPS3ZXBl9eHA" />
               <Link Id="IuSOxLxbPxUOmHhhl1Yk3e" Ids="Rmdswn70Ms4LMRTu5CsThF,BaxbTcaktFaLdSRp7Rb4Qd" />
               <Link Id="UpjTb0TN6P5Lpbtjb06DBm" Ids="SbV1Olb9hO4Oo3ux1I4ml2,Rmdswn70Ms4LMRTu5CsThF" IsHidden="true" />
+              <Patch Id="NPWNv0XqMubN9Xekwp2iAD" Name="Initialize" ParticipatingElements="Aq8MIw9QKHgMurn0XO2NkC,Kik5hoDEAi2P8APFPtFYbc" />
+              <Link Id="Kik5hoDEAi2P8APFPtFYbc" Ids="AlVNc0A2iWeMoWrbRfgCJU,CSwRP0Tqm12OHvVUiv08g1" />
+              <Slot Id="OzmTIWtmYz0MCLuJmUthsL" Name="gg" />
+              <Link Id="DeLqTIjYP9bN40kMQUjE1Y" Ids="GeWgAw7LR4dOfOSxD7rb9L,QpR14JLl6vPPyukyMtVcfi" />
+              <Link Id="HchenGTBG12PDOdJFbGCwQ" Ids="EYWAHw8xMyKLfz4Wm3gcPV,JdO06w6hZoeL4Qy6PseHCD" />
+              <Link Id="HrmVhJ2XWnzQW8gUr8x5uo" Ids="JdO06w6hZoeL4Qy6PseHCD,RSPfiJDnJy1MqEawescwAQ" />
             </Patch>
           </Node>
           <Node Bounds="520,152,185,19" Id="N4Y6gKSLCHEOsyrxL13vdc">
@@ -1615,6 +1610,7 @@
             <Pin Id="TUvCNvGdaEQPTappq2MWiK" Name="Default" Kind="InputPin" />
             <Pin Id="KVA91MFNmnYLpp7DpEFocq" Name="Sampling Position" Kind="InputPin" />
             <Pin Id="F0HfSiglB8nPNqfUYiH5La" Name="Prepare Sampling Position" Kind="InputPin" />
+            <Pin Id="LLRL9CYPu1wPrdrt7pKQWQ" Name="InitializeKCanvas" Kind="InputPin" />
             <Pin Id="GTEvoPXrcAdOkNrTVrHD4v" Name="Found" Kind="OutputPin" />
             <Pin Id="Jimc3i9J1OBNBO3ohMCqzb" Name="Output" Kind="OutputPin" />
           </Node>
@@ -1656,12 +1652,12 @@
               <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Compositor" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Compositor_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Key="ae06eb02-f4d8-4960-9907-35e96c1deba1" xmlns:r="reflection" r:Version="2">
-                <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="0.166839869692924" Preparation_End="10.205100804469" Preparation_Start="-4.42316005006433" Sampling_End="11.205100804469" Sampling_Start="-3.42316005006433" Valid="True" Width="15.6282608545333" />
+              <p:DefaultValue Key="a663e7ef-b8e8-4780-97ef-d7b99beb976e" xmlns:r="reflection" r:Version="2">
+                <Activation Delayed_Dispose_End="4.51333379745483" Delayed_Dispose_Start="0.781111473217611" Preparation_End="2.51333379745483" Preparation_Start="-1.74888849258423" Sampling_End="3.51333379745483" Sampling_Start="-0.748888492584229" Valid="True" Width="6.26222229003906" />
                 <CanvasClips>
-                  <Item Key="75fed4a4-25ed-4f75-bc33-91145a356725">
-                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.24, 0.4, 0.3327997, 1" Duration="9.02983754686819" Input_Pin_ID="18:25:16" Kairos_Source_Method="Sample" Key="75fed4a4-25ed-4f75-bc33-91145a356725" Layer_Index="28" Name="zzz" Position="2.17526325760081" Sampler_Path_ID="Default" Sampler_Position_In="-3.82051899582443" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="3.17526325760081" Preparation_End="10.205100804469" Preparation_Start="2.17526325760081" Sampling_End="11.205100804469" Sampling_Start="2.17526325760081" Valid="True" Width="9.02983754686819" />
+                  <Item Key="bfaf15ec-5aaf-436e-908b-13b7d36b4023">
+                    <Value Author_ID="Default" Auto_Bounds="True" Color="0.24, 0.4, 0.3327997, 1" Duration="3.25777769088745" Input_Pin_ID="21:34:56" Kairos_Source_Method="Sample" Key="bfaf15ec-5aaf-436e-908b-13b7d36b4023" Layer_Index="13" Name="zzz" Position="0.255556106567383" Sampler_Path_ID="Default" Sampler_Position_In="-0.233332633972168" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Activation Delayed_Dispose_End="4.51333379745483" Delayed_Dispose_Start="1.78555607236922" Preparation_End="2.51333379745483" Preparation_Start="-0.744443893432617" Sampling_End="3.51333379745483" Sampling_Start="0.255556106567383" Valid="True" Width="5.25777769088745" />
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -1671,29 +1667,22 @@
                 <Channels>
                   <Item Key="Alpha">
                     <Value Parameter_Path="Alpha">
-                      <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="0.166839869692924" Preparation_End="10.205100804469" Preparation_Start="-4.42316005006433" Sampling_End="11.205100804469" Sampling_Start="-3.42316005006433" Valid="True" Width="15.6282608545333" />
+                      <Activation Delayed_Dispose_End="4.51333379745483" Delayed_Dispose_Start="0.781111473217611" Preparation_End="2.51333379745483" Preparation_Start="-1.74888849258423" Sampling_End="3.51333379745483" Sampling_Start="-0.748888492584229" Valid="True" Width="6.26222229003906" />
                       <Author_IDs>
-                        <Item>c9d8d53a-1417-41c1-bc14-1cfca95513cf</Item>
-                        <Item>75fed4a4-25ed-4f75-bc33-91145a356725</Item>
-                        <Item>b3d7c460-e980-4840-8823-92cdad02a34b</Item>
+                        <Item>e44c488d-f7c7-4a24-a242-baf0ab41a36c</Item>
+                        <Item>bfaf15ec-5aaf-436e-908b-13b7d36b4023</Item>
                       </Author_IDs>
                       <Blender1D_M>
-                        <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="0.166839869692924" Preparation_End="10.205100804469" Preparation_Start="-4.42316005006433" Sampling_End="11.205100804469" Sampling_Start="-3.42316005006433" Valid="True" Width="15.6282608545333" />
+                        <Activation Delayed_Dispose_End="4.51333379745483" Delayed_Dispose_Start="0.781111473217611" Preparation_End="2.51333379745483" Preparation_Start="-1.74888849258423" Sampling_End="3.51333379745483" Sampling_Start="-0.748888492584229" Valid="True" Width="6.26222229003906" />
                         <Clips>
-                          <Item Author_ID="c9d8d53a-1417-41c1-bc14-1cfca95513cf" Duration="3.58999991975725" Kairos_Source_Method="Sample" Key="91c4ffba-3166-4939-9809-19163f6077bf" Layer_Index="24" Parameter_Path="Alpha" Position="-3.42316005006433" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
-                            <Activation Delayed_Dispose_End="1.16683986969292" Delayed_Dispose_Start="0.166839869692924" Preparation_End="-3.42316005006433" Preparation_Start="-4.42316005006433" Sampling_End="0.166839869692924" Sampling_Start="-3.42316005006433" Valid="True" Width="5.58999991975725" />
+                          <Item Author_ID="e44c488d-f7c7-4a24-a242-baf0ab41a36c" Duration="1.52999996580184" Kairos_Source_Method="Sample" Key="23488336-f589-44f8-be3a-dec4b8631d9a" Layer_Index="7" Parameter_Path="Alpha" Position="-0.748888492584229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
+                            <Activation Delayed_Dispose_End="1.78111147321761" Delayed_Dispose_Start="0.781111473217611" Preparation_End="-0.748888492584229" Preparation_Start="-1.74888849258423" Sampling_End="0.781111473217611" Sampling_Start="-0.748888492584229" Valid="True" Width="3.52999996580184" />
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
                           </Item>
-                          <Item Author_ID="b3d7c460-e980-4840-8823-92cdad02a34b" Duration="2.28999994881451" Kairos_Source_Method="Sample" Key="9bc11a60-adb7-4777-97c8-16006e009ab5" Layer_Index="26" Parameter_Path="Alpha" Position="0.539999987930059" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
-                            <Activation Delayed_Dispose_End="3.82999993674457" Delayed_Dispose_Start="2.82999993674457" Preparation_End="0.539999987930059" Preparation_Start="-0.460000012069941" Sampling_End="2.82999993674457" Sampling_Start="0.539999987930059" Valid="True" Width="4.28999994881451" />
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                          </Item>
-                          <Item Author_ID="75fed4a4-25ed-4f75-bc33-91145a356725" Duration="9.02983754686819" Kairos_Source_Method="Sample" Key="66190949-60e4-4c3d-a37e-66584b737571" Layer_Index="28" Parameter_Path="Alpha" Position="2.17526325760081" Sampler_Path_ID="Default" Sampler_Position_In="-3.82051899582443" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
-                            <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="3.17526325760081" Preparation_End="10.205100804469" Preparation_Start="2.17526325760081" Sampling_End="11.205100804469" Sampling_Start="2.17526325760081" Valid="True" Width="9.02983754686819" />
+                          <Item Author_ID="bfaf15ec-5aaf-436e-908b-13b7d36b4023" Duration="3.25777769088745" Kairos_Source_Method="Sample" Key="c7069af1-7505-4797-be5d-6a80ffb0f91f" Layer_Index="13" Parameter_Path="Alpha" Position="0.255556106567383" Sampler_Path_ID="Default" Sampler_Position_In="-0.233332633972168" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
+                            <Activation Delayed_Dispose_End="4.51333379745483" Delayed_Dispose_Start="1.78555607236922" Preparation_End="2.51333379745483" Preparation_Start="-0.744443893432617" Sampling_End="3.51333379745483" Sampling_Start="0.255556106567383" Valid="True" Width="5.25777769088745" />
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
@@ -1707,47 +1696,14 @@
                       <Settings Enabled="True" />
                     </Value>
                   </Item>
-                  <Item Key="Param_22:48:38">
-                    <Value Parameter_Path="Param_22:48:38">
-                      <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="3.17526325760081" Preparation_End="10.205100804469" Preparation_Start="2.17526325760081" Sampling_End="11.205100804469" Sampling_Start="2.17526325760081" Valid="True" Width="9.02983754686819" />
-                      <Author_IDs>
-                        <Item>75fed4a4-25ed-4f75-bc33-91145a356725</Item>
-                      </Author_IDs>
-                      <Blender1D_M>
-                        <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="3.17526325760081" Preparation_End="10.205100804469" Preparation_Start="2.17526325760081" Sampling_End="11.205100804469" Sampling_Start="2.17526325760081" Valid="True" Width="9.02983754686819" />
-                        <Clips>
-                          <Item Author_ID="75fed4a4-25ed-4f75-bc33-91145a356725" Duration="9.02983754686819" Kairos_Source_Method="Sample" Key="c7e69295-34b3-4c36-b98b-203b891254c8" Layer_Index="28" Parameter_Path="Param_22:48:38" Position="2.17526325760081" Sampler_Path_ID="Default" Sampler_Position_In="-3.82051899582443" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_CanvasChild_M [Kairos.Core.Clip]">
-                            <Activation Delayed_Dispose_End="11.205100804469" Delayed_Dispose_Start="3.17526325760081" Preparation_End="10.205100804469" Preparation_Start="2.17526325760081" Sampling_End="11.205100804469" Sampling_Start="2.17526325760081" Valid="True" Width="9.02983754686819" />
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                          </Item>
-                        </Clips>
-                        <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
-                      </Blender1D_M>
-                      <Parameter Name="Param_22:48:38" Path="Param_22:48:38">
-                        <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </Parameter>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
                 </Channels>
                 <Parameter_List>
                   <Item>Alpha</Item>
-                  <Item>Param_22:48:38</Item>
                 </Parameter_List>
                 <SVPClips>
-                  <Item Key="c9d8d53a-1417-41c1-bc14-1cfca95513cf">
-                    <Value Author_ID="Default" Color="0.07740006, 0.2819083, 0.43, 1" Duration="3.58999991975725" Input_Pin_ID="18:23:08" Kairos_Source_Method="Sample" Key="c9d8d53a-1417-41c1-bc14-1cfca95513cf" Layer_Index="24" Name="Scene_01" Position="-3.42316005006433" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Activation Delayed_Dispose_End="1.16683986969292" Delayed_Dispose_Start="0.166839869692924" Preparation_End="-3.42316005006433" Preparation_Start="-4.42316005006433" Sampling_End="0.166839869692924" Sampling_Start="-3.42316005006433" Valid="True" Width="5.58999991975725" />
-                      <Blending_Model Global_Alpha="1">
-                        <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                      </Blending_Model>
-                    </Value>
-                  </Item>
-                  <Item Key="b3d7c460-e980-4840-8823-92cdad02a34b">
-                    <Value Author_ID="Default" Color="0.07740006, 0.2819083, 0.43, 1" Duration="2.28999994881451" Input_Pin_ID="18:09:33" Kairos_Source_Method="Sample" Key="b3d7c460-e980-4840-8823-92cdad02a34b" Layer_Index="26" Name="Scene_01" Position="0.539999987930059" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Activation Delayed_Dispose_End="3.82999993674457" Delayed_Dispose_Start="2.82999993674457" Preparation_End="0.539999987930059" Preparation_Start="-0.460000012069941" Sampling_End="2.82999993674457" Sampling_Start="0.539999987930059" Valid="True" Width="4.28999994881451" />
+                  <Item Key="e44c488d-f7c7-4a24-a242-baf0ab41a36c">
+                    <Value Author_ID="Default" Color="0.07740006, 0.2819083, 0.43, 1" Duration="1.52999996580184" Input_Pin_ID="21:35:19" Kairos_Source_Method="Sample" Key="e44c488d-f7c7-4a24-a242-baf0ab41a36c" Layer_Index="7" Name="Scene_01" Position="-0.748888492584229" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Activation Delayed_Dispose_End="1.78111147321761" Delayed_Dispose_Start="0.781111473217611" Preparation_End="-0.748888492584229" Preparation_Start="-1.74888849258423" Sampling_End="0.781111473217611" Sampling_Start="-0.748888492584229" Valid="True" Width="3.52999996580184" />
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -1760,17 +1716,12 @@
             <Pin Id="KEDcNUipX7MPiWr6IDEL97" Name="Initialize" Kind="InputPin" />
             <Pin Id="CbwH8o3qCnmPZjyCakIj9q" Name="Compositor Name" Kind="InputPin" />
             <Pin Id="ISrE9B22nkkNqH2jVsYkDh" Name="InputPin Sorting" Kind="InputPin" />
-            <Pin Id="VUd0oc1zFUoO7l4ADDw164" Name="18:23:08" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="Mnfk7fyiXpTO6ngxPYxkrm" Name="21:35:19" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IStructuredValueProvider" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="HWUMeukOxEDMlMhtVkHghc" Name="18:09:33" Kind="InputPin" PinGroupName="Sources">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="IStructuredValueProvider" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="KvInSBrmRbhOP9C1x0Q70i" Name="18:25:16" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="VasDP7ugWEyL0TphOlxQfF" Name="21:34:56" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IKCanvas" />
               </p:TypeAnnotation>
@@ -2735,6 +2686,7 @@
                   <Pin Id="D8vMwS5iB1rQFJLSKJ7kkB" Name="Default" Kind="InputPin" />
                   <Pin Id="E6eQg3VRKNKLlOkNAL56pZ" Name="Sampling Position" Kind="InputPin" />
                   <Pin Id="G52FStVq4AALFvX1GivsfH" Name="Prepare Sampling Position" Kind="InputPin" />
+                  <Pin Id="VmYTK3VTOubLY6UbfOImlF" Name="InitializeKCanvas" Kind="InputPin" />
                   <Pin Id="SkR9vuzWvOiNjaWmGE9Nib" Name="Found" Kind="OutputPin" />
                   <Pin Id="O1fDwnXV1tlOCPrbsmvghY" Name="Output" Kind="OutputPin" />
                 </Node>
@@ -2790,6 +2742,7 @@
                   <Pin Id="MgxVYVX309WPX1edJseITV" Name="Sampling Position" Kind="InputPin" />
                   <Pin Id="AOVVZfjd8JBLCRelBoYBti" Name="Activation Sampling Position" Kind="InputPin" />
                   <Pin Id="PoihlcnnfqjONt5P49XE0W" Name="Clear Unused Channels from KCanvas" Kind="InputPin" />
+                  <Pin Id="CfihUMBtYqXO7HlJUoobu3" Name="InitializeKCanvas" Kind="InputPin" />
                   <Pin Id="Nfb3DjIG9RBLPVe7qoc5bJ" Name="Unused Kanvas Channels" Kind="OutputPin" />
                 </Node>
                 <Pad Id="Pwg0joZEIQYOSUpwQY3U8G" SlotId="KZFCih6XAEONFYnPUM9iUt" Bounds="831,1027" />
@@ -3185,56 +3138,33 @@
               <p:TypeAnnotation LastCategoryFullName="Kairos.Core.Timeline" LastSymbolSource="Kairos.Core.vl">
                 <Choice Kind="TypeFlag" Name="Timeline_M" />
               </p:TypeAnnotation>
-              <p:DefaultValue Key="12a9654c-5ce5-4953-8fd2-77d6d5a86dc8" Name="zzz" xmlns:r="reflection" r:Version="2">
-                <Activation Delayed_Dispose_End="5.20931855104376" Delayed_Dispose_Start="-2.82051899582443" Preparation_End="4.20931855104376" Preparation_Start="-3.82051899582443" Sampling_End="5.20931855104376" Sampling_Start="-3.82051899582443" Valid="True" Width="9.02983754686819" />
+              <p:DefaultValue Key="867cb7b6-73f0-426c-8f2d-826192768e66" Name="zzz" xmlns:r="reflection" r:Version="2">
+                <Activation Delayed_Dispose_End="4.02444505691528" Delayed_Dispose_Start="1.29666733182967" Preparation_End="2.02444505691528" Preparation_Start="-1.23333263397217" Sampling_End="3.02444505691528" Sampling_Start="-0.233332633972168" Valid="True" Width="5.25777769088745" />
                 <Channels>
                   <Item Key="Alpha">
                     <Value Parameter_Path="Alpha">
-                      <Activation Delayed_Dispose_End="1.6899999845773" Delayed_Dispose_Start="0.689999984577303" Preparation_End="-0.839999981224537" Preparation_Start="-1.83999998122454" Sampling_End="0.689999984577303" Sampling_Start="-0.839999981224537" Valid="True" Width="3.52999996580184" />
+                      <Activation Delayed_Dispose_End="4.02444505691528" Delayed_Dispose_Start="1.29666733182967" Preparation_End="2.02444505691528" Preparation_Start="-1.23333263397217" Sampling_End="3.02444505691528" Sampling_Start="-0.233332633972168" Valid="True" Width="5.25777769088745" />
                       <Author_IDs>
-                        <Item>45b83889-c0cf-4b2c-ab2f-b1cff65a4659</Item>
+                        <Item>637e9afc-b6de-4d7b-8fcf-525db76fc6d2</Item>
+                        <Item>9a647149-5a05-4e9e-b0ff-26b485f154a7</Item>
                       </Author_IDs>
                       <Parameter Name="Scene_01" Path="Alpha">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Parameter>
                       <Sampler1D_M>
-                        <Activation Delayed_Dispose_End="1.6899999845773" Delayed_Dispose_Start="0.689999984577303" Preparation_End="-0.839999981224537" Preparation_Start="-1.83999998122454" Sampling_End="0.689999984577303" Sampling_Start="-0.839999981224537" Valid="True" Width="3.52999996580184" />
+                        <Activation Delayed_Dispose_End="4.02444505691528" Delayed_Dispose_Start="1.29666733182967" Preparation_End="2.02444505691528" Preparation_Start="-1.23333263397217" Sampling_End="3.02444505691528" Sampling_Start="-0.233332633972168" Valid="True" Width="5.25777769088745" />
                         <Clips>
-                          <Item Author_ID="45b83889-c0cf-4b2c-ab2f-b1cff65a4659" Duration="1.52999996580184" Kairos_Source_Method="Sample" Key="b7b55f78-904e-408e-ae9d-2819f27f68dc" Parameter_Path="Alpha" Position="-0.839999981224537" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
-                            <Activation Delayed_Dispose_End="1.6899999845773" Delayed_Dispose_Start="0.689999984577303" Preparation_End="-0.839999981224537" Preparation_Start="-1.83999998122454" Sampling_End="0.689999984577303" Sampling_Start="-0.839999981224537" Valid="True" Width="3.52999996580184" />
+                          <Item Author_ID="9a647149-5a05-4e9e-b0ff-26b485f154a7" Duration="1.52999996580184" Kairos_Source_Method="Sample" Key="f108713b-80cd-4105-95dd-bef4be504c94" Parameter_Path="Alpha" Position="-0.233332633972168" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
+                            <Activation Delayed_Dispose_End="2.29666733182967" Delayed_Dispose_Start="1.29666733182967" Preparation_End="-0.233332633972168" Preparation_Start="-1.23333263397217" Sampling_End="1.29666733182967" Sampling_Start="-0.233332633972168" Valid="True" Width="3.52999996580184" />
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
                           </Item>
-                        </Clips>
-                        <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
-                      </Sampler1D_M>
-                      <Settings Enabled="True" />
-                    </Value>
-                  </Item>
-                  <Item Key="Param_22:48:38">
-                    <Value Parameter_Path="Param_22:48:38">
-                      <Activation Delayed_Dispose_End="5.20931855104376" Delayed_Dispose_Start="-2.82051899582443" Preparation_End="4.20931855104376" Preparation_Start="-3.82051899582443" Sampling_End="5.20931855104376" Sampling_Start="-3.82051899582443" Valid="True" Width="9.02983754686819" />
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Parameter Name="Param_22:48:38" Path="Param_22:48:38">
-                        <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </Parameter>
-                      <Sampler1D_M>
-                        <Activation Delayed_Dispose_End="5.20931855104376" Delayed_Dispose_Start="-2.82051899582443" Preparation_End="4.20931855104376" Preparation_Start="-3.82051899582443" Sampling_End="5.20931855104376" Sampling_Start="-3.82051899582443" Valid="True" Width="9.02983754686819" />
-                        <Clips>
-                          <Item Author_ID="Default" Duration="1" Key="02da81fe-92c3-432e-9544-58fc799d738d" Position="-3.82051899582443" r:Type="Clip1D_ConstantValue_M [Kairos.Core.Clip]">
+                          <Item Author_ID="637e9afc-b6de-4d7b-8fcf-525db76fc6d2" Duration="1" Kairos_Source_Method="Sample" Key="2cc034dd-8733-4e7e-be47-98eaefc8f615" Parameter_Path="Alpha" Position="2.02444505691528" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1" r:Type="Clip1D_SVPChild_M [Kairos.Core.Clip]">
+                            <Activation Delayed_Dispose_End="4.02444505691528" Delayed_Dispose_Start="3.02444505691528" Preparation_End="2.02444505691528" Preparation_Start="1.02444505691528" Sampling_End="3.02444505691528" Sampling_Start="2.02444505691528" Valid="True" Width="3" />
                             <Blending_Model Global_Alpha="1">
                               <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                             </Blending_Model>
-                            <Value r:Type="Float32 [Primitive]">0</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="1" Key="b83b12d5-cae3-4fe8-83f5-978f71193f6b" Position="4.20931855104376" r:Type="Clip1D_ConstantValue_M [Kairos.Core.Clip]">
-                            <Blending_Model Global_Alpha="1">
-                              <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
-                            </Blending_Model>
-                            <Value r:Type="Float32 [Primitive]">0.4266667</Value>
                           </Item>
                         </Clips>
                         <Initial_Value r:Type="Float32 [Primitive]">0</Initial_Value>
@@ -3245,12 +3175,19 @@
                 </Channels>
                 <Parameter_List>
                   <Item>Alpha</Item>
-                  <Item>Param_22:48:38</Item>
                 </Parameter_List>
                 <SVPClips>
-                  <Item Key="45b83889-c0cf-4b2c-ab2f-b1cff65a4659">
-                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.52999996580184" Input_Pin_ID="18:26:30" Kairos_Source_Method="Sample" Key="45b83889-c0cf-4b2c-ab2f-b1cff65a4659" Name="Scene_01" Position="-0.839999981224537" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
-                      <Activation Delayed_Dispose_End="1.6899999845773" Delayed_Dispose_Start="0.689999984577303" Preparation_End="-0.839999981224537" Preparation_Start="-1.83999998122454" Sampling_End="0.689999984577303" Sampling_Start="-0.839999981224537" Valid="True" Width="3.52999996580184" />
+                  <Item Key="637e9afc-b6de-4d7b-8fcf-525db76fc6d2">
+                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1" Input_Pin_ID="21:35:09" Kairos_Source_Method="Sample" Key="637e9afc-b6de-4d7b-8fcf-525db76fc6d2" Name="Scene_01" Position="2.02444505691528" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Activation Delayed_Dispose_End="4.02444505691528" Delayed_Dispose_Start="3.02444505691528" Preparation_End="2.02444505691528" Preparation_Start="1.02444505691528" Sampling_End="3.02444505691528" Sampling_Start="2.02444505691528" Valid="True" Width="3" />
+                      <Blending_Model Global_Alpha="1">
+                        <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
+                      </Blending_Model>
+                    </Value>
+                  </Item>
+                  <Item Key="9a647149-5a05-4e9e-b0ff-26b485f154a7">
+                    <Value Author_ID="Default" Color="0.4, 0.4, 0.4, 1" Duration="1.52999996580184" Input_Pin_ID="21:35:05" Kairos_Source_Method="Sample" Key="9a647149-5a05-4e9e-b0ff-26b485f154a7" Name="Scene_01" Position="-0.233332633972168" Sampler_Path_ID="Default" Sampler_Position_Out="1" Sampler_Range_Mapping="Clamp" Sampler_Speed_Mult="1">
+                      <Activation Delayed_Dispose_End="2.29666733182967" Delayed_Dispose_Start="1.29666733182967" Preparation_End="-0.233332633972168" Preparation_Start="-1.23333263397217" Sampling_End="1.29666733182967" Sampling_Start="-0.233332633972168" Valid="True" Width="3.52999996580184" />
                       <Blending_Model Global_Alpha="1">
                         <Alpha_Function r:Type="AlphaFunction_Flat [Kairos.Core.Blending]" />
                       </Blending_Model>
@@ -3262,7 +3199,12 @@
             <Pin Id="TmPuhywBBJgQXgpTOdaYin" Name="Reload" Kind="InputPin" />
             <Pin Id="GWdqP4aY6weN9P4KaSrSkK" Name="Initialize" Kind="InputPin" />
             <Pin Id="NvZSy2z9yzkOahagMJpSmr" Name="Timeline Name" Kind="InputPin" />
-            <Pin Id="G6drcLq0vvGMwlSFurTHjo" Name="18:26:30" Kind="InputPin" PinGroupName="Sources">
+            <Pin Id="NO2OPafyeMBP2MApTFFhgT" Name="21:35:05" Kind="InputPin" PinGroupName="Sources">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="IStructuredValueProvider" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="CaJJfV8InbJOPicPlHCfIL" Name="21:35:09" Kind="InputPin" PinGroupName="Sources">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IStructuredValueProvider" />
               </p:TypeAnnotation>
@@ -3288,19 +3230,19 @@
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="KCanvasEditorAndInspector" />
                 </p:NodeReference>
-                <Pin Id="P6RgoJ4ZWaLNOfxsjlCrcG" Name="Bounds" Kind="InputPin" DefaultValue="3088, 108, 840, 641">
+                <Pin Id="P6RgoJ4ZWaLNOfxsjlCrcG" Name="Bounds" Kind="InputPin" DefaultValue="3128, 108, 840, 640">
                   <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                     <Choice Kind="TypeFlag" Name="Rectangle" />
                   </p:TypeAnnotation>
                 </Pin>
+                <Pin Id="UQS69ztVNMdNLKmh2ByUCl" Name="On Data" Kind="OutputPin" />
+                <Pin Id="LFCUkkpxDC4Mc7QUgEmSnS" Name="Service Found" Kind="OutputPin" />
                 <Pin Id="AXBbmgXsCAtLFZwOcN4Spo" Name="Editing Status" Kind="InputPin">
                   <p:TypeAnnotation LastCategoryFullName="Kairos.Editor.KCanvasEditor.AdaptiveKCanvasEditor" LastSymbolSource="Kairos.Editor.vl">
                     <Choice Kind="TypeFlag" Name="EditingStatus" />
                   </p:TypeAnnotation>
-                  <p:DefaultValue Current_Edited_Canvas_Key="12a9654c-5ce5-4953-8fd2-77d6d5a86dc8" />
+                  <p:DefaultValue Current_Edited_Canvas_Key="a663e7ef-b8e8-4780-97ef-d7b99beb976e" />
                 </Pin>
-                <Pin Id="UQS69ztVNMdNLKmh2ByUCl" Name="On Data" Kind="OutputPin" />
-                <Pin Id="LFCUkkpxDC4Mc7QUgEmSnS" Name="Service Found" Kind="OutputPin" />
               </Node>
             </Patch>
           </Node>
@@ -3495,6 +3437,11 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="CEFEWSnNTLPNxlo3RfCvoj" Comment="InitializeKCanvas" Bounds="673,685,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="Fu2jL7w5vKMMDy7WlQQfpG" Name="Create" />
         <Patch Id="KIY1za4NGAZLTWBoQZjx6K" Name="Update" />
@@ -3590,15 +3537,16 @@
         <Link Id="NrSGGJRqfjwNaPg1FYOJsR" Ids="Au8KZkSQg7ZLVVymUqwsKG,GPuztQKYmZILFEHTY4CJjL" />
         <Link Id="S2KbGiMreXcOWr6R4a9mFz" Ids="Egjh3YwBrmzM8hpcmkJY2Y,UZpqslL1AL6MeWHUZPsw7H" />
         <Link Id="PMNEif1mqL8QVQQllFE5xt" Ids="JqLUe0eHiQ6QcItkoW0utu,NvZSy2z9yzkOahagMJpSmr" />
-        <Link Id="U5TafB7XQvUL9eLWRVCRTw" Ids="QG4RC9FPFMXPswAhaFT6m1,HWUMeukOxEDMlMhtVkHghc" />
-        <Link Id="B5BlY73W2CYN5puS49byf8" Ids="QG4RC9FPFMXPswAhaFT6m1,VUd0oc1zFUoO7l4ADDw164" />
-        <Link Id="IPEC10JNdtBMQJ3uYjrn9i" Ids="D4zxaakwYq8N6QNgkJba8H,KvInSBrmRbhOP9C1x0Q70i" />
-        <Link Id="L2s4q0jjoOkNbrK8fDFtyA" Ids="QG4RC9FPFMXPswAhaFT6m1,G6drcLq0vvGMwlSFurTHjo" />
+        <Link Id="P7nItpk8rdQPxF2YQqVd54" Ids="CEFEWSnNTLPNxlo3RfCvoj,LLRL9CYPu1wPrdrt7pKQWQ" />
+        <Link Id="U9MpuNKIU6nPZCMCN3KjmG" Ids="D4zxaakwYq8N6QNgkJba8H,VasDP7ugWEyL0TphOlxQfF" />
+        <Link Id="PmAyVkYDMxZMOMb3d0xg2H" Ids="QG4RC9FPFMXPswAhaFT6m1,NO2OPafyeMBP2MApTFFhgT" />
+        <Link Id="GqrGf6W0M9LQYj8PLe8W7J" Ids="QG4RC9FPFMXPswAhaFT6m1,CaJJfV8InbJOPicPlHCfIL" />
+        <Link Id="OX1AJO71H0MMUCveTRDD15" Ids="QG4RC9FPFMXPswAhaFT6m1,Mnfk7fyiXpTO6ngxPYxkrm" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PCOk8aWDCiCNy1hnhYgNcz" Location="VL.Skia" Version="2020.2.0-0292-gbb7183ae5b" />
+  <NugetDependency Id="PCOk8aWDCiCNy1hnhYgNcz" Location="VL.Skia" Version="2020.2.0-0317-g25df4b0800" />
   <DocumentDependency Id="GHWXQtwXj4LN1JyD96sI75" Location="../../../../VL.Elementa/Elementa.vl" />
   <DocumentDependency Id="A6MpviTiZ81OUq6ZyEU363" Location="../../../Kairos.vl" />
-  <NugetDependency Id="DOwBjtkFdpzLKv9rTtwNLG" Location="VL.Stride" Version="0.7.377-g306d7dfa33" />
+  <NugetDependency Id="DOwBjtkFdpzLKv9rTtwNLG" Location="VL.Stride" Version="0.7.415-g3162f55c45" />
 </Document>
