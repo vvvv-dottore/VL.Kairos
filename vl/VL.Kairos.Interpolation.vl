@@ -677,13 +677,16 @@
     ************************ SpreadInterpolationModel ************************
 
 -->
-      <Node Name="SpreadInterpolationModel" Aspects="Advanced" Bounds="295,1306" Id="KFi8x74QV2EPWs1pks9urh">
+      <Node Name="SpreadInterpolationModel" Aspects="Advanced" Bounds="309,1330" Id="KFi8x74QV2EPWs1pks9urh">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="RecordDefinition" Name="Record" />
         </p:NodeReference>
         <p:Interfaces>
           <TypeReference LastCategoryFullName="Kairos.Core.Interpolation" LastSymbolSource="Kairos.Core.vl">
             <Choice Kind="InterfaceTypeFlag" Name="IInterpolationModel" />
+          </TypeReference>
+          <TypeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="ISpreadInterpolationModel" />
           </TypeReference>
         </p:Interfaces>
         <Patch Id="DmJ1QwpAuazOwuZ74VLkwY" IsGeneric="true">
@@ -1361,7 +1364,7 @@
     ************************ SpreadInterpolator (Spread Internal) ************************
 
 -->
-      <Node Name="SpreadInterpolator (Spread Internal)" Bounds="639,1306" Id="RidU9N4lvjdQMN27lcX2LJ">
+      <Node Name="SpreadInterpolator (Spread Internal)" Bounds="669,1343" Id="RidU9N4lvjdQMN27lcX2LJ">
         <p:NodeReference>
           <Choice Kind="ClassDefinition" Name="Class" />
           <FullNameCategoryReference ID="Primitive" />
@@ -1658,6 +1661,7 @@
               <ControlPoint Id="EKhsmScm2nwPzrv5KjFl5c" Bounds="902,360" Alignment="Top" />
             </Node>
             <ControlPoint Id="KSUW0R4y7GaP1ESH6ZFD19" Bounds="252,447" />
+            <Pad Id="UCitOvwrRylMb5KMOgcHup" SlotId="RsPIQCwu3AjLjNOiypA8fJ" Bounds="559,176" />
           </Canvas>
           <ProcessDefinition Id="SxWbLTkwVeLMis0hQ4T8nb" HasStateOut="true">
             <Fragment Id="DdnfncGeFlRL2Xl2zMnzWx" Patch="BGboqdHf1EpNdGXDaAXxBm" Enabled="true" />
@@ -1748,6 +1752,12 @@
           <Link Id="H7nhlryBcWFO5JElcRhopG" Ids="EdOjPxLW4yoN6pPjOCF9hE,EKhsmScm2nwPzrv5KjFl5c" />
           <Link Id="ErQI5MX4NbWOjuRTIrdyOq" Ids="EKhsmScm2nwPzrv5KjFl5c,IGhfrOzKmaDNWxWsMh7UYz" />
           <Link Id="BhNJWRlj5iPLkfpYJVKK8e" Ids="C2eP7eOVvYELgnh4CFqBQI,KSUW0R4y7GaP1ESH6ZFD19,LzSfuiTypeGPWIjBMYnPxf" />
+          <Slot Id="RsPIQCwu3AjLjNOiypA8fJ" Name="Interpolation Model">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="ISpreadInterpolationModel" />
+            </p:TypeAnnotation>
+          </Slot>
+          <Link Id="OiMocgd6q8WOlHUh2uU1lH" Ids="D8dw9FKR7LALwWRbAU0CIp,UCitOvwrRylMb5KMOgcHup" />
         </Patch>
       </Node>
       <!--
@@ -2298,7 +2308,7 @@
       <Overlay Id="AVfSSPaF0OCLG0rrs0c7tu" Name="Spread" Bounds="69,1203,1745,245">
         <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
       </Overlay>
-      <Canvas Id="ND5Ap9meJdILVra56zts7k" Name="Adaptive" Position="1069,220">
+      <Canvas Id="ND5Ap9meJdILVra56zts7k" Name="Addfaptive" Position="1069,220">
         <!--
 
     ************************ CreateInterpolator ************************
@@ -2453,6 +2463,12 @@
           </Node>
           <Link Id="CjWDNFATwUhN2lFp6kmwEz" Ids="Fv84WylfhVXOHaI9Xjr75C,Jh7YmghAR7vNlpLa7Y10xx" />
           <Link Id="Q6mBeuDfZanLQWvfLhPnde" Ids="DaIiYp32HvuNM4FAqhAH5i,B6TZ3ZAVWScNDT1zV45r0V" />
+          <Pad Id="OUyzYkdpAXtOx5105mGehl" Comment="Interpolation Model" Bounds="1230,1352" isIOBox="true">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="ISpreadInterpolationModel" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="PkOB0nZ0n6JOSgBfFNekcm" Ids="DaIiYp32HvuNM4FAqhAH5i,OUyzYkdpAXtOx5105mGehl" />
         </Patch>
       </Node>
       <!--
@@ -3328,7 +3344,7 @@
     ************************ RegisterStandardInterpolators (Advanced) ************************
 
 -->
-      <Node Name="RegisterStandardInterpolators (Advanced)" Bounds="2916,758,194,363" Id="Fmqw8FkPozfPM7MpSaL5Ka">
+      <Node Name="RegisterStandardInterpolators (Advanced)" Bounds="2699,563,439,648" Id="Fmqw8FkPozfPM7MpSaL5Ka">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
@@ -3348,6 +3364,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
             </p:NodeReference>
+            <Pin Id="I3s9rw54qv1PxKAvZqzZDJ" Name="Delegate" Kind="InputPin" />
             <Pin Id="E3GRZig3soaLnNER8GYcap" Name="Input" Kind="InputPin" />
             <Pin Id="KLSZgBdkhbmLXUarQH8k9e" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="MFfjam5dShTND3LaVQdCGQ" Name="Value" Kind="InputPin" />
@@ -3361,6 +3378,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
             </p:NodeReference>
+            <Pin Id="JBlugEbnEd4N1DtH2kS4Vj" Name="Delegate" Kind="InputPin" />
             <Pin Id="K91iHShNdPPOK5hojfmWCj" Name="Input" Kind="InputPin" />
             <Pin Id="OnyqXLWUNUiOX8DWgCoaBe" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="SIRDELX7bhsN6soeSNw0PP" Name="Value" Kind="InputPin" />
@@ -3376,6 +3394,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
             </p:NodeReference>
+            <Pin Id="Di8y1Eisot7NH7GZECn9lp" Name="Delegate" Kind="InputPin" />
             <Pin Id="SxnScZsOP9RNqlieB3dmD2" Name="Input" Kind="InputPin" />
             <Pin Id="Td9ZTiP6JhKLkdGWyh5B60" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="OEp7z1GShaLOCZs1i6plma" Name="Value" Kind="InputPin" />
@@ -3391,6 +3410,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
             </p:NodeReference>
+            <Pin Id="VbQB5Qjeh46PwlRVuAiEdS" Name="Delegate" Kind="InputPin" />
             <Pin Id="JQQbZSCKlefLD6oe9by88i" Name="Input" Kind="InputPin" />
             <Pin Id="CosYjo1a7yGNzhPR7yOcqI" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="BVpYCSGohFnN0YMYSYSVy8" Name="Value" Kind="InputPin" />
@@ -3423,6 +3443,105 @@
             </p:TypeAnnotation>
           </Pad>
           <Link Id="P1cOF7b3AF9PvqbnZkWD5k" Ids="PXtK7GFEWwkM33UujR5Xm6,CosYjo1a7yGNzhPR7yOcqI" />
+          <ControlPoint Id="SxCW7QXK1XIPpZicaN9HwX" Bounds="2930,1146" />
+          <ControlPoint Id="VzNwBosEI24MXPdp3wcTws" Bounds="3062,1120" />
+          <Node Bounds="2928,1172,137,19" Id="RVKrrifqjt2M2iyA6U88Tr">
+            <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
+            </p:NodeReference>
+            <Pin Id="AmEejPMEqRJNAc4VmmInDl" Name="Delegate" Kind="InputPin" />
+            <Pin Id="L8arF4NrgngPBodtbfVUU8" Name="Input" Kind="InputPin" />
+            <Pin Id="PobEfXyIf14MBuLjs1ZH2c" Name="Interpolation Model" Kind="InputPin" />
+            <Pin Id="BFgXbTFHPppPfBvFvDn0JP" Name="Value" Kind="InputPin" />
+          </Node>
+          <Pad Id="KUoTnE8BMrxMp4VqXUJVco" Comment="ISpread.." Bounds="2996,1146" isIOBox="true">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="ISpreadInterpolationModel" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Link Id="FKc3bJHuWLkMi4KAabamJO" Ids="BdG2nafrNMTLBjwQBt9yDV,SxCW7QXK1XIPpZicaN9HwX" IsHidden="true" />
+          <Link Id="CZ6aOTQsllAMTXQdka7NO9" Ids="ChXdVf01pqAOD80ndI0Gi2,VzNwBosEI24MXPdp3wcTws" IsHidden="true" />
+          <Link Id="SDq0jCtfd70O59wSHrkjgk" Ids="SxCW7QXK1XIPpZicaN9HwX,L8arF4NrgngPBodtbfVUU8" />
+          <Link Id="JuExwxcZ4tvMEVl9E9CW3J" Ids="VzNwBosEI24MXPdp3wcTws,OpLkXrplxXpNxjVsGJP8F8" />
+          <Link Id="UCrhd7iiG4rNDlaC0yZf2Y" Ids="KUoTnE8BMrxMp4VqXUJVco,PobEfXyIf14MBuLjs1ZH2c" />
+          <Node Bounds="3061,1139,65,19" Id="URse52A7j6NPcPAGUM1E6t">
+            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="OperationCallFlag" Name="FromValue" />
+              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+            </p:NodeReference>
+            <Pin Id="OpLkXrplxXpNxjVsGJP8F8" Name="Input" Kind="InputPin" />
+            <Pin Id="CajQLXC52d3MfcevmuKi8x" Name="Result" Kind="OutputPin" />
+          </Node>
+          <Link Id="MzhE5hQGLVVORjQMcQRe1t" Ids="CajQLXC52d3MfcevmuKi8x,BFgXbTFHPppPfBvFvDn0JP" />
+          <Node Bounds="2856,613,99,115" Id="NnkJnzRsDwQM72DAHcpZFR">
+            <p:NodeReference>
+              <Choice Kind="ApplicationRegion" Name="Delegate" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:NodeReference>
+            <Pin Id="Nj9OsBd3F2uO5tAL6IOggy" Name="Functionality" Kind="OutputPin" />
+            <Patch Id="PGYpCG5xQgFMY38g8mS6rG" ManuallySortedPins="true">
+              <Pin Id="J1mRYgyB6DPLoUCCZsc5d2" Name="Arg" Kind="InputPin" />
+              <ControlPoint Id="Go7KThdQxbHLvPuIQLofuJ" Bounds="2870,631" />
+              <Pin Id="FMZRRsIg4TKPXJRRBRoaH5" Name="Result" Kind="OutputPin" />
+              <ControlPoint Id="JNfM2xYVGUkPQOBUJfX85f" Bounds="2870,711" />
+              <Node Bounds="2869,659,74,26" Id="GdGZP3gZBXfOxKbvhp581f">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation.StepInterpolator" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="ClassType" Name="StepInterpolator" />
+                  <Choice Kind="OperationCallFlag" Name="Create" />
+                </p:NodeReference>
+                <Pin Id="G432yDs11h4LuZwaemRlX2" Name="Interpolation Model" Kind="InputPin" />
+                <Pin Id="EUOV1sCHwJuMjnffTcaiGJ" Name="Output" Kind="StateOutputPin" />
+              </Node>
+            </Patch>
+          </Node>
+          <Link Id="RqC8Z0KxqHOOA0MZivMn0q" Ids="J1mRYgyB6DPLoUCCZsc5d2,Go7KThdQxbHLvPuIQLofuJ" IsHidden="true" />
+          <Link Id="KHcm0hjRvpcNGLekiqij5k" Ids="JNfM2xYVGUkPQOBUJfX85f,FMZRRsIg4TKPXJRRBRoaH5" IsHidden="true" />
+          <Link Id="IYyMoubLoEaLXVoo3ZdZjF" Ids="Nj9OsBd3F2uO5tAL6IOggy,I3s9rw54qv1PxKAvZqzZDJ" />
+          <Link Id="FF2jjAFtOQELO4ntp7wZq7" Ids="Go7KThdQxbHLvPuIQLofuJ,G432yDs11h4LuZwaemRlX2" />
+          <Link Id="RXr1FcMTDcIPVXLVvLyjnc" Ids="EUOV1sCHwJuMjnffTcaiGJ,JNfM2xYVGUkPQOBUJfX85f" />
+          <Node Bounds="2728,986,141,118" Id="AqWtATJfCGOONqsrppM5GG">
+            <p:NodeReference>
+              <Choice Kind="ApplicationRegion" Name="Delegate" />
+              <FullNameCategoryReference ID="Primitive" />
+            </p:NodeReference>
+            <Pin Id="TTvMHXc4aEDLOfqdGBoz14" Name="Functionality" Kind="OutputPin" />
+            <Patch Id="VbpdyXp9b13OUD5pMR68KL" ManuallySortedPins="true">
+              <Pin Id="Vs7FwwkyWHTNXmj3NJ4ThN" Name="Arg" Kind="InputPin" />
+              <ControlPoint Id="K8aVa8no7PMNzVu6nmjRs5" Bounds="2742,1004" />
+              <Node Bounds="2743,1029,114,26" Id="SfEGTTFWQEMPRwd7oTy3ku">
+                <p:NodeReference LastCategoryFullName="Kairos.Interpolation.SpreadInterpolator (Spread)" LastSymbolSource="VL.Kairos.Interpolation.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="ClassType" Name="SpreadInterpolator (Spread)" />
+                  <Choice Kind="OperationCallFlag" Name="Create" />
+                </p:NodeReference>
+                <Pin Id="H9atTg8gfcLOicu5uvZle9" Name="Interpolation Model" Kind="InputPin" />
+                <Pin Id="AJhNhDWhCCQM39SFLMgUyK" Name="Output" Kind="StateOutputPin" />
+              </Node>
+              <Pin Id="CrbsEkxsjKkPODKOdm3wYe" Name="Result" Kind="OutputPin">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="SpreadInterpolator (Spread)" />
+                  <p:TypeArguments>
+                    <TypeParameterReference />
+                    <TypeReference>
+                      <Choice Kind="TypeFlag" Name="IInterpolationModel" />
+                    </TypeReference>
+                    <TypeReference>
+                      <Choice Kind="TypeFlag" Name="IInterpolationModel" />
+                    </TypeReference>
+                  </p:TypeArguments>
+                </p:TypeAnnotation>
+              </Pin>
+              <ControlPoint Id="FbFycOOgnrdL2jdAMjOn5m" Bounds="2746,1087" />
+            </Patch>
+          </Node>
+          <Link Id="EXOQ12bDeTkOWqXLT1iKCU" Ids="Vs7FwwkyWHTNXmj3NJ4ThN,K8aVa8no7PMNzVu6nmjRs5" IsHidden="true" />
+          <Link Id="QC8qjx7p5JwQZm86uavzIX" Ids="TTvMHXc4aEDLOfqdGBoz14,AmEejPMEqRJNAc4VmmInDl" />
+          <Link Id="GLPxUI8H9JaPhwJllC51FA" Ids="K8aVa8no7PMNzVu6nmjRs5,H9atTg8gfcLOicu5uvZle9" />
+          <Link Id="FkH4jt30l83LqTdIMerC1p" Ids="FbFycOOgnrdL2jdAMjOn5m,CrbsEkxsjKkPODKOdm3wYe" IsHidden="true" />
+          <Link Id="VEMOo2nyVsvM37TT72I8a3" Ids="AJhNhDWhCCQM39SFLMgUyK,FbFycOOgnrdL2jdAMjOn5m" />
         </Patch>
       </Node>
       <!--
@@ -3430,7 +3549,7 @@
     ************************ RegisterInterpolatorHelperInternal ************************
 
 -->
-      <Node Name="RegisterInterpolatorHelperInternal" Bounds="2236,771,319,227" Id="QaBeZBm3wsWP4oTatlF8pl">
+      <Node Name="RegisterInterpolatorHelperInternal" Bounds="2140,778,329,231" Id="QaBeZBm3wsWP4oTatlF8pl">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
@@ -3440,8 +3559,8 @@
               <Choice Kind="TypeFlag" Name="IVLFactory" />
             </p:TypeAnnotation>
           </Pin>
-          <ControlPoint Id="LltUFdpkrW2PrdaVqNoBIt" Bounds="2323,789" />
-          <Node Bounds="2321,819,166,159" Id="R8DhbRukLh2LR0c4BWzDN2">
+          <ControlPoint Id="LltUFdpkrW2PrdaVqNoBIt" Bounds="2237,796" />
+          <Node Bounds="2235,826,188,163" Id="R8DhbRukLh2LR0c4BWzDN2">
             <p:NodeReference LastCategoryFullName="System.Reflection.IVLFactory" LastSymbolSource="System.Reflection.vl">
               <Choice Kind="OperationCallFlag" Name="RegisterService" />
               <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -3455,17 +3574,19 @@
                   <Choice Kind="TypeFlag" Name="IInterpolator" />
                 </p:TypeAnnotation>
               </Pin>
-              <ControlPoint Id="NvgJWznhtfINdBEHutvbZh" Bounds="2335,827" />
-              <ControlPoint Id="DhYgVVb1nEGNjvRy6vPfQ7" Bounds="2335,951" />
-              <Node Bounds="2333,894,99,19" Id="QlkJng9qp9XOglVcViydpv">
-                <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+              <ControlPoint Id="NvgJWznhtfINdBEHutvbZh" Bounds="2249,834" />
+              <ControlPoint Id="DhYgVVb1nEGNjvRy6vPfQ7" Bounds="2249,958" />
+              <Node Bounds="2247,901,99,26" Id="QlkJng9qp9XOglVcViydpv">
+                <p:NodeReference LastCategoryFullName="Primitive.Delegates.Delegate (1 -&gt; 1)" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="CreateInterpolator" />
+                  <Choice Kind="OperationCallFlag" Name="Invoke" />
+                  <CategoryReference Kind="FuncType" Name="Delegate (1 -&gt; 1)" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
-                <Pin Id="GzCuJHOn2SILH2bPLkkCQw" Name="Interpolation Model" Kind="InputPin" />
-                <Pin Id="FOK9eno3tTOLrpKhj4AGTB" Name="Output" Kind="OutputPin" />
+                <Pin Id="ELAyGFzJHFwNoAoR1qvcfx" Name="Input" Kind="InputPin" />
+                <Pin Id="EH5HIxQ0LeRQadvUEcRV9G" Name="Arg" Kind="InputPin" />
+                <Pin Id="TOox6eGjsU6OBlLhG5wDqR" Name="Result" Kind="OutputPin" />
               </Node>
-              <Node Bounds="2414,932,61,26" Id="C6xB42l0BDcOhZGIOUO4Qd">
+              <Node Bounds="2350,943,61,26" Id="C6xB42l0BDcOhZGIOUO4Qd">
                 <p:NodeReference LastCategoryFullName="Kairos.Interpolation.IInterpolator" LastSymbolSource="VL.Kairos.Interpolation.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="SetA" />
@@ -3480,7 +3601,7 @@
                   </p:TypeAnnotation>
                 </Pin>
               </Node>
-              <Node Bounds="2365,852,87,19" Id="JYjfvQSqA6tNjh3XpPas8S">
+              <Node Bounds="2279,859,87,19" Id="JYjfvQSqA6tNjh3XpPas8S">
                 <p:NodeReference LastCategoryFullName="Primitive.TypeHelpers" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ConstrainTypes" />
@@ -3495,19 +3616,23 @@
           <Link Id="S9FPaLyEpYwOJKB10SNwsP" Ids="Dv3wi2Y63EELor9GWvAK7o,LltUFdpkrW2PrdaVqNoBIt" IsHidden="true" />
           <Link Id="AagXlXglMzFOkGGzDShuS9" Ids="EQ21YR8ycqYMvVgGIwEzJo,NvgJWznhtfINdBEHutvbZh" IsHidden="true" />
           <Link Id="J7eZTC03FTRN5EfPh3c0L7" Ids="DhYgVVb1nEGNjvRy6vPfQ7,NViYjgCX7uUPmJDIqtxE99" IsHidden="true" />
-          <Link Id="CiEScbfPsOcNOrakpl2yAV" Ids="FOK9eno3tTOLrpKhj4AGTB,DhYgVVb1nEGNjvRy6vPfQ7" />
           <Link Id="ShpneMaU7HxQWI1VdezUNz" Ids="LltUFdpkrW2PrdaVqNoBIt,M9bL9y8o9idQQygK6AXvAd" />
-          <Link Id="SOCtwuNZTqGQJtR7U2W3yh" Ids="FOK9eno3tTOLrpKhj4AGTB,IipQjdF1oL9LYdBmsWV0Wx" />
           <Link Id="O7wdeCriEkfP4PhNLJG8Tm" Ids="HTKI1ZQabOoN7k3swBzwfk,EhrtizUxKPfPqEmCoeEK2x" />
-          <ControlPoint Id="HTKI1ZQabOoN7k3swBzwfk" Bounds="2395,789" />
+          <ControlPoint Id="HTKI1ZQabOoN7k3swBzwfk" Bounds="2309,796" />
           <Pin Id="Li8hthcTjxTLsSgFN5Lc7d" Name="Interpolation Model" Kind="InputPin" Bounds="2127,678" />
           <Link Id="GPTfDf3vEUBN2hu7TYoN9m" Ids="Li8hthcTjxTLsSgFN5Lc7d,HTKI1ZQabOoN7k3swBzwfk" IsHidden="true" />
           <Link Id="UaCNwPfo02bMypz1Q3R1Pr" Ids="IP1xD0gbeggNdPGtQDqHoq,FLpogIE2XBdMbGQfIdcqoH" />
-          <ControlPoint Id="IP1xD0gbeggNdPGtQDqHoq" Bounds="2507,882" />
+          <ControlPoint Id="IP1xD0gbeggNdPGtQDqHoq" Bounds="2421,889" />
           <Pin Id="HUmS9kdMla4MESGPZVWpyH" Name="Value" Kind="InputPin" Bounds="2097,684" />
           <Link Id="EibdraaSJdUMCZxW45DE5S" Ids="HUmS9kdMla4MESGPZVWpyH,IP1xD0gbeggNdPGtQDqHoq" IsHidden="true" />
           <Link Id="DJ6AiVvy3ApPdYJ1y8eTPq" Ids="NvgJWznhtfINdBEHutvbZh,IkeTqqD7AdiMebEzZwKcE5" />
-          <Link Id="N0NxKtVEjE0OWVu0dny872" Ids="NvgJWznhtfINdBEHutvbZh,GzCuJHOn2SILH2bPLkkCQw" />
+          <Link Id="JlYT2xADlgyMBy2JWAAErE" Ids="TLrHc1tDUabMjZ6CR47cWP,ELAyGFzJHFwNoAoR1qvcfx" />
+          <ControlPoint Id="TLrHc1tDUabMjZ6CR47cWP" Bounds="2154,898" />
+          <Link Id="MlXJ401hvVtOifWupGcmQA" Ids="NvgJWznhtfINdBEHutvbZh,EH5HIxQ0LeRQadvUEcRV9G" />
+          <Link Id="VgnKUqAQefIMVEDEkIqsIp" Ids="TOox6eGjsU6OBlLhG5wDqR,DhYgVVb1nEGNjvRy6vPfQ7" />
+          <Link Id="FhrRIM1aGbpNomtcugJTLj" Ids="TOox6eGjsU6OBlLhG5wDqR,IipQjdF1oL9LYdBmsWV0Wx" />
+          <Pin Id="G3aONYNZKP3NYZ5xhPvcj5" Name="Delegate" Kind="InputPin" />
+          <Link Id="FUOYaqPIbL6Ll0RtkEJXmX" Ids="G3aONYNZKP3NYZ5xhPvcj5,TLrHc1tDUabMjZ6CR47cWP" IsHidden="true" />
         </Patch>
       </Node>
       <!--
@@ -3552,6 +3677,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelper" />
             </p:NodeReference>
+            <Pin Id="AIiMfALA7k1PtGkHaehi62" Name="Delegate" Kind="InputPin" />
             <Pin Id="B2hu4kZt6j3LjwaMeSKwZG" Name="Input" Kind="InputPin" />
             <Pin Id="OZ3zIRiK063P27igcQGROE" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="TBntH2AluNYOzGCG5i7kjb" Name="Value" Kind="InputPin" />
@@ -3576,7 +3702,7 @@
           <Pin Id="K0FcNucUCO1QBvJC1PBLUJ" Name="Input" Kind="InputPin" Bounds="1783,332" />
           <ControlPoint Id="BT5ox3MYOCsMhlRKlvMNid" Bounds="3316,789" />
           <Link Id="DbcFghXFt9fOjoHAdMRyek" Ids="K0FcNucUCO1QBvJC1PBLUJ,BT5ox3MYOCsMhlRKlvMNid" IsHidden="true" />
-          <Node Bounds="3314,817,177,19" Id="G7OR7pAG6ByPIwWzYVTxPW">
+          <Node Bounds="3314,816,177,19" Id="G7OR7pAG6ByPIwWzYVTxPW">
             <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterStandardInterpolators" />
@@ -3638,7 +3764,7 @@
     ************************ RegisterInterpolatorHelper ************************
 
 -->
-      <Node Name="RegisterInterpolatorHelper" Bounds="2613,766,264,280" Id="T3l5SbaUBO7QazQgyTo3AV">
+      <Node Name="RegisterInterpolatorHelper" Bounds="2363,603,310,122" Id="T3l5SbaUBO7QazQgyTo3AV">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
           <Choice Kind="OperationDefinition" Name="Operation" />
         </p:NodeReference>
@@ -3648,65 +3774,55 @@
               <Choice Kind="TypeFlag" Name="IVLFactory" />
             </p:TypeAnnotation>
           </Pin>
-          <ControlPoint Id="D2YCJNsMDiFPMSIfWM4hfD" Bounds="2627,809" />
+          <ControlPoint Id="D2YCJNsMDiFPMSIfWM4hfD" Bounds="2423,646" />
           <Link Id="LE7sFzZSTErOVtD1NXK1CP" Ids="NpneV3WHkdwQLJLVHoxRLQ,D2YCJNsMDiFPMSIfWM4hfD" IsHidden="true" />
-          <Node Bounds="2625,838,171,19" Id="VHTs9rVmtKsMTCpcokrM6T">
+          <Node Bounds="2421,675,171,19" Id="VHTs9rVmtKsMTCpcokrM6T">
             <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelperInternal" />
             </p:NodeReference>
+            <Pin Id="KPG2gtbUMsAOPkwfha1Fdt" Name="Delegate" Kind="InputPin" />
             <Pin Id="JsTwrqi11e2PkejrQr4M2t" Name="Input" Kind="InputPin" />
             <Pin Id="RGt3YDpOKgkN9zY9iiQJ8M" Name="Interpolation Model" Kind="InputPin" />
             <Pin Id="BmMfgO7Z20wLz90LYFnskk" Name="Value" Kind="InputPin" />
           </Node>
           <Link Id="EUPJO4wsykhPzHmdH9Toed" Ids="D2YCJNsMDiFPMSIfWM4hfD,JsTwrqi11e2PkejrQr4M2t" />
-          <ControlPoint Id="N1RHUdIuf1MM6bwGmdDICK" Bounds="2627,957" />
-          <Node Bounds="2625,985,171,19" Id="NjXBbveEoSuMd7UstjIPCE">
-            <p:NodeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="RegisterInterpolatorHelperInternal" />
-            </p:NodeReference>
-            <Pin Id="Tv64Q0uF061NLUZIHiNHG0" Name="Input" Kind="InputPin" />
-            <Pin Id="DCJWXHRhfksOuo3ifSM3IQ" Name="Interpolation Model" Kind="InputPin" />
-            <Pin Id="R34nAUucx32LXMj7RD5qlr" Name="Value" Kind="InputPin" />
-          </Node>
-          <Link Id="CirhJ3qB19zO3MVa01yvRF" Ids="NpneV3WHkdwQLJLVHoxRLQ,N1RHUdIuf1MM6bwGmdDICK" IsHidden="true" />
-          <Link Id="CKbVfzeciQGLIsXCrniGw1" Ids="N1RHUdIuf1MM6bwGmdDICK,Tv64Q0uF061NLUZIHiNHG0" />
-          <ControlPoint Id="OQg4m3sFtSCLHmldePXGeJ" Bounds="2793,809" />
+          <ControlPoint Id="OQg4m3sFtSCLHmldePXGeJ" Bounds="2589,646" />
           <Link Id="QnLAHkCL3q8PdmBDWmkfo6" Ids="OQg4m3sFtSCLHmldePXGeJ,BmMfgO7Z20wLz90LYFnskk" />
           <Pin Id="Pr1zfXsIaQkOdI7doX9twu" Name="Value" Kind="InputPin" Bounds="2072,941" />
           <Link Id="U2cy3nBRvhtQHNy5pVAbX9" Ids="Pr1zfXsIaQkOdI7doX9twu,OQg4m3sFtSCLHmldePXGeJ" IsHidden="true" />
-          <ControlPoint Id="TYYO53fZcmZPv11m04IWyX" Bounds="2793,929" />
-          <Link Id="EygbwYRveoCMQxc4x3AaeX" Ids="Pr1zfXsIaQkOdI7doX9twu,TYYO53fZcmZPv11m04IWyX" IsHidden="true" />
-          <Node Bounds="2800,950,65,19" Id="EKwxPWNVw5ULO8r6eSEzoA">
-            <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="FromValue" />
-              <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true">
-                <p:OuterCategoryReference Kind="Category" Name="Collections" NeedsToBeDirectParent="true" />
-              </CategoryReference>
-            </p:NodeReference>
-            <Pin Id="FoQFNpU242jOyx5H8SGegN" Name="Input" Kind="InputPin" />
-            <Pin Id="AZAFTg1EfJwLd5HnSy6YQT" Name="Result" Kind="OutputPin" />
-          </Node>
-          <Link Id="J9ROEhXEtijL3k5xMxkVRn" Ids="TYYO53fZcmZPv11m04IWyX,FoQFNpU242jOyx5H8SGegN" />
-          <ControlPoint Id="PlRoXkSei7ENDvY5Ziklo4" Bounds="2710,784" />
+          <ControlPoint Id="PlRoXkSei7ENDvY5Ziklo4" Bounds="2506,621" />
           <Link Id="AKQbZxKa0Y6LOKeCIkALsL" Ids="PlRoXkSei7ENDvY5Ziklo4,RGt3YDpOKgkN9zY9iiQJ8M" />
-          <ControlPoint Id="DHNYPt7Iot1P9uGEc9ngzL" Bounds="2710,900" />
-          <Link Id="UxSupkxwV0ONf3cda947tG" Ids="DHNYPt7Iot1P9uGEc9ngzL,DCJWXHRhfksOuo3ifSM3IQ" />
           <Pin Id="Qbl0DnVgR1ANGqMAregdeO" Name="Interpolation Model" Kind="InputPin" />
           <Link Id="MPPCkxUdaTJMqV1ujgQRsk" Ids="Qbl0DnVgR1ANGqMAregdeO,PlRoXkSei7ENDvY5Ziklo4" IsHidden="true" />
-          <Link Id="SH7VTBUBJkZM0jkOglKMGm" Ids="Qbl0DnVgR1ANGqMAregdeO,DHNYPt7Iot1P9uGEc9ngzL" IsHidden="true" />
-          <Link Id="JxrAcCdMQsyNEWXHhwPPbj" Ids="TYYO53fZcmZPv11m04IWyX,R34nAUucx32LXMj7RD5qlr" />
-          <Pad Id="U3oLl9Q1yIeNLZRK7iPHbq" Bounds="2809,985,35,19" ShowValueBox="true" isIOBox="true" Value="?  ">
-            <p:TypeAnnotation>
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-            <p:ValueBoxSettings>
-              <p:fontsize p:Type="Int32">23</p:fontsize>
-              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-            </p:ValueBoxSettings>
-          </Pad>
+          <ControlPoint Id="OZPXOYD2XaZPNFzAaHL6yL" Bounds="2377,622" />
+          <Link Id="MIOuKGtHpmWOxivLNzDPV9" Ids="OZPXOYD2XaZPNFzAaHL6yL,KPG2gtbUMsAOPkwfha1Fdt" />
+          <Pin Id="TwG8Z6zoPVBPJFy20vIzlJ" Name="Delegate" Kind="InputPin" Bounds="2581,785" />
+          <Link Id="FbVt0bMzarzLSxgXoktVl1" Ids="TwG8Z6zoPVBPJFy20vIzlJ,OZPXOYD2XaZPNFzAaHL6yL" IsHidden="true" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ ISpreadInterpolationModel ************************
+
+-->
+      <Node Name="ISpreadInterpolationModel" Bounds="317,1363" Id="V6SfWznY6Q2N3LLzEoqvC5">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="InterfaceDefinition" Name="Interface" />
+        </p:NodeReference>
+        <p:Interfaces>
+          <TypeReference LastCategoryFullName="Kairos.Interpolation" LastSymbolSource="VL.Kairos.Interpolation.vl">
+            <Choice Kind="InterfaceTypeFlag" Name="IInterpolationModel" />
+          </TypeReference>
+        </p:Interfaces>
+        <Patch Id="DRadhb9CbC7N8AjkKJ8FVl">
+          <Canvas Id="CabmIE09PNNOeb4f3FhNON" CanvasType="Group" />
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="UEkyyPwzQ5sND8eBZXsrRd" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>
