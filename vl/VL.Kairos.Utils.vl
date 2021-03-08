@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="CxrsGPmfSIFL1KBK78OUXG" LanguageVersion="2021.3.0.70" Version="0.128">
-  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2021.3.0" />
+<Document xmlns:p="property" Id="CxrsGPmfSIFL1KBK78OUXG" LanguageVersion="2021.3.1.89" Version="0.128">
+  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2021.3.1" />
   <Patch Id="Psv0au7NCNRNhP5X940Z5d">
     <Canvas Id="RPrWlmod17SPS9Gfp3kroA" DefaultCategory="Kairos.Utils" CanvasType="FullCategory">
       <!--
@@ -683,11 +683,13 @@
             </p:NodeReference>
             <Pin Id="O2LCVS8yIpIOo9XMFD0GOW" Name="Input" Kind="StateInputPin" />
             <Pin Id="KnvOQSUyhmYOXgg6Og8xES" Name="Descendant" Kind="InputPin" />
+            <Pin Id="PmLKpzvVd0aOY3oFRUARPz" Name="Mind These" Kind="InputPin" />
             <Pin Id="HD7aoLf4UhuQbZtreMKACz" Name="Result" Kind="OutputPin" />
             <Pin Id="B6BaiAS9fx9O0H39Tpjfr7" Name="Path" Kind="OutputPin" />
           </Node>
           <Pin Id="DBul5vsj4w8M6mXZKnK4xu" Name="Input" Kind="InputPin" />
           <Pin Id="GwPbSzcT0j3OETSJxWdOrL" Name="Descendant" Kind="InputPin" />
+          <Pin Id="FDGunJ5D4FgNWzwGedL9UJ" Name="Mind These" Kind="InputPin" />
           <Pin Id="Bh9kqufjvgsPKXL5o3vFZT" Name="Result" Kind="OutputPin" />
           <Pin Id="AxEMYx0oIZ8PIyLav766yr" Name="Path" Kind="OutputPin" />
         </Patch>
@@ -715,12 +717,14 @@
             <Pin Id="Nhi74Sf5oiBLuJAoIj4xot" Name="Input" Kind="StateInputPin" />
             <Pin Id="MbECmb9hNuMNg1kB8g4oVa" Name="Descendant" Kind="InputPin" />
             <Pin Id="IkVW5PC7FfCLpaeSNCu8gN" Name="Property Name" Kind="InputPin" />
+            <Pin Id="A2XcApAehTyP5WqH0VmXDh" Name="Mind These" Kind="InputPin" />
             <Pin Id="PKI0sWTxQM3L7QHcOroFgw" Name="Result" Kind="OutputPin" />
             <Pin Id="Cyn3ObXtwHmM2y27IeU3LD" Name="Path" Kind="OutputPin" />
           </Node>
           <Pin Id="Tkhdtl7GF4GM4FEnuRADCk" Name="Input" Kind="InputPin" />
           <Pin Id="CT13I74KB5sLN1hchvDhHF" Name="Descendant" Kind="InputPin" />
           <Pin Id="IBFy0RmYcaPPa6QJnOoCft" Name="Property Name" Kind="InputPin" />
+          <Pin Id="ClJ0FT4ekFMONAMRWBPnJU" Name="Mind These" Kind="InputPin" />
           <Pin Id="LjtSs5v4sCTMGLBTfrbL6F" Name="Result" Kind="OutputPin" />
           <Pin Id="UOHmPZ7HEVDQCMZ21ZKKph" Name="Path" Kind="OutputPin" />
         </Patch>
@@ -748,12 +752,14 @@
             <Pin Id="LG8EpaAXMkULTUjx0Rrj8X" Name="Input" Kind="StateInputPin" />
             <Pin Id="C1EGDFAgq7vPUAqmeU5zIE" Name="Descendant" Kind="InputPin" />
             <Pin Id="Nrkn7e2PztyOedYPRCNulQ" Name="Property" Kind="InputPin" />
+            <Pin Id="Fu4truNfaKaMEgNT0K5kvo" Name="Mind These" Kind="InputPin" />
             <Pin Id="TNA0OCj2aAjOEkkqYNkLsL" Name="Result" Kind="OutputPin" />
             <Pin Id="EjxUEuRGZb0PrHmj5YAdGc" Name="Path" Kind="OutputPin" />
           </Node>
           <Pin Id="PcKXsyqQUS5OvFOQPbCdVs" Name="Input" Kind="InputPin" />
           <Pin Id="VkqvoRF1CmDLhc5ed99pAx" Name="Descendant" Kind="InputPin" />
           <Pin Id="MQ45Iw6ZSK5P4ArUx7saVr" Name="Property" Kind="InputPin" />
+          <Pin Id="UOwBpDnGvk6QcP7WXDPFpM" Name="Mind These" Kind="InputPin" />
           <Pin Id="GCsQRmQAaJyLCnt6wNuQFJ" Name="Result" Kind="OutputPin" />
           <Pin Id="KbC1oJbB2erOYvmtngXVvf" Name="Path" Kind="OutputPin" />
         </Patch>
@@ -2889,7 +2895,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="M23vQRTW9arMXv1kTqIR1k" Location="VL.Core" Version="2021.3.0" />
+  <NugetDependency Id="M23vQRTW9arMXv1kTqIR1k" Location="VL.Core" Version="2021.3.1" />
   <PlatformDependency Id="IpBKQC0f0OJMpxvOZNfvYK" Location="../lib/DynamicModel.dll" />
-  <NugetDependency Id="KXtBIJ1bbdCNOIZOoj0vVv" Location="VL.Lang" Version="2021.3.0" />
+  <NugetDependency Id="KXtBIJ1bbdCNOIZOoj0vVv" Location="VL.Lang" Version="2021.3.1" />
 </Document>

@@ -15,18 +15,29 @@ namespace Kairos
         static readonly Regex FValueIndexerRegex = new Regex(@"(.+)\[([0-9]+)\]$", RegexOptions.Compiled);
         static readonly Regex FStringIndexerRegex = new Regex(@"(.+)\[""(.*?)""\]$", RegexOptions.Compiled);
 
-        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, string propertyName, out string path)
+        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, string propertyName, ImmutableHashSet<object> mindThese, out string path)
         {
+            path = null;
+            mindThese = mindThese ?? ImmutableHashSet<object>.Empty;
+            
+            if (mindThese.Contains(instance))
+                return false;
+            
             var property = descendant.Type.AllProperties.FirstOrDefault(p => p.Name == propertyName);
             if (property != null)
-                return TryGetPath(instance, descendant, property, out path);
+                return TryGetPath(instance, descendant, property, mindThese, out path);
 
-            path = null;
             return false;
         }
 
-        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, IVLPropertyInfo property, out string path)
+        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, IVLPropertyInfo property, ImmutableHashSet<object> mindThese, out string path)
         {
+            path = null;
+            mindThese = mindThese ?? ImmutableHashSet<object>.Empty;
+
+            if (mindThese.Contains(instance))
+                return false;
+
             if (descendant.Type.AllProperties.Contains(property))
             {
                 if (instance.Identity == descendant.Identity)
@@ -35,19 +46,24 @@ namespace Kairos
                     return true;
                 }
 
-                if (instance.TryGetPath(descendant, out var subPath))
+                if (instance.TryGetPath(descendant, mindThese, out var subPath))
                 {
                     path = $"{subPath}.{property.Name}";
                     return true;
                 }
             }
 
-            path = null;
             return false;
         }
 
-        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, out string path)
+        public static bool TryGetPath(this IVLObject instance, IVLObject descendant, ImmutableHashSet<object> mindThese, out string path)
         {
+            path = null;
+            mindThese = mindThese ?? ImmutableHashSet<object>.Empty;
+
+            if (mindThese.Contains(instance))
+                return false;
+
             if (instance.Identity == descendant.Identity)
             {
                 path = "";
@@ -64,7 +80,7 @@ namespace Kairos
                         path = property.Name;
                         return true;
                     }
-                    else if (child.TryGetPath(descendant, out var subPath))
+                    else if (child.TryGetPath(descendant, mindThese.Add(instance), out var subPath))
                     {
 
                         path = $"{property.Name}.{subPath}";
@@ -83,7 +99,7 @@ namespace Kairos
                                 path = $"{property.Name}[{i}]";
                                 return true;
                             }
-                            else if (obj.TryGetPath(descendant, out var subPath))
+                            else if (obj.TryGetPath(descendant, mindThese.Add(instance), out var subPath))
                             {
                                 path = $"{property.Name}[{i}].{subPath}";
                                 return true;
@@ -104,7 +120,7 @@ namespace Kairos
                                 path = $"{property.Name}[\"{entry.Key}\"]";
                                 return true;
                             }
-                            else if (obj.TryGetPath(descendant, out string subPath))
+                            else if (obj.TryGetPath(descendant, mindThese.Add(instance), out string subPath))
                             {
                                 path = $"{property.Name}[\"{entry.Key}\"].{subPath}";
                                 return true;
@@ -114,7 +130,6 @@ namespace Kairos
                 }
             }
 
-            path = null;
             return false;
         }
 
