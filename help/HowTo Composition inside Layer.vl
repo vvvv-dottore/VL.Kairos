@@ -53,7 +53,7 @@
             <ControlPoint Id="FJxPV9vwlp3LRIn93Q4zPZ" Bounds="1466,220" />
             <ControlPoint Id="V7I7CH7MBDVNcWkTqtuxID" Bounds="1968,698" />
             <ControlPoint Id="MlkEfDALgbyOgd055Gfmqz" Bounds="1255,332" />
-            <ControlPoint Id="GRAZXsno43iOEQYImfJsGi" Bounds="1649,698" />
+            <ControlPoint Id="GRAZXsno43iOEQYImfJsGi" Bounds="-161,359" />
             <Pad Id="DMkmk6piJciMfdLvMFJ6Rk" Bounds="1640,598,189,80" ShowValueBox="true" isIOBox="true" Value="Possible to indicate the &quot;main&quot; canvas inside the SVP, to navigate to it with Middle Mouse">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
@@ -202,7 +202,7 @@
               </Patch>
             </Node>
             <Node Bounds="327,260,103,19" Id="RoMgA2Vm0hZOQDzKmaDmDP">
-              <p:NodeReference LastCategoryFullName="Main.MyLayerClass" LastSymbolSource="HowTo Define a custom Layer Class.vl">
+              <p:NodeReference LastCategoryFullName="Main.MyLayerClass" LastSymbolSource="HowTo Composition inside Layer.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MyCustomFunction" />
               </p:NodeReference>
@@ -210,7 +210,7 @@
               <Pin Id="MyRkwQ7VZ9YQaoTRkOBvx9" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="1014,260,103,19" Id="GsKPKdaEswbOMjHFUOTplm">
-              <p:NodeReference LastCategoryFullName="Main.MyLayerClass" LastSymbolSource="HowTo Define a custom Layer Class.vl">
+              <p:NodeReference LastCategoryFullName="Main.MyLayerClass" LastSymbolSource="HowTo Composition inside Layer.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MyCustomFunction" />
               </p:NodeReference>
@@ -218,24 +218,109 @@
               <Pin Id="RbJft1DFhr3OnlBWYmcU1v" Name="Output" Kind="OutputPin" />
             </Node>
             <Pad Id="AvvVHroYWy6MOr2aefTwCe" Bounds="1016,298" />
+            <Node Bounds="-91,297,55,19" Id="MHTQ6yilZjvOzGecg4IJc7">
+              <p:NodeReference LastCategoryFullName="Kairos" LastSymbolSource="VL.Kairos.Timeline.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Timeline" />
+              </p:NodeReference>
+              <Pin Id="AvxEVel74GAPu0GgGAb6Xj" Name="Model" Kind="InputPin">
+                <p:TypeAnnotation LastCategoryFullName="Kairos.Timeline" LastSymbolSource="VL.Kairos.Timeline.vl">
+                  <Choice Kind="TypeFlag" Name="Timeline_M" />
+                </p:TypeAnnotation>
+                <p:DefaultValue xmlns:r="reflection" r:Version="2">
+                  <Activation Delayed_Dispose_End="3.53474493336126" Delayed_Dispose_Start="0.5" Preparation_End="3.03474493336126" Sampling_End="3.53474493336126" Valid="True" Width="3.53474493336126" />
+                  <Channels>
+                    <Item Key="c51bc999-1953-4cc2-8f62-c3daf85c6c02">
+                      <Value StructureParameter_Path="c51bc999-1953-4cc2-8f62-c3daf85c6c02">
+                        <Activation Delayed_Dispose_End="3.53474493336126" Delayed_Dispose_Start="0.5" Preparation_End="3.03474493336126" Sampling_End="3.53474493336126" Valid="True" Width="3.53474493336126" />
+                        <Author_IDs>
+                          <Item>Default</Item>
+                        </Author_IDs>
+                        <Sampler_Model>
+                          <Activation Delayed_Dispose_End="3.53474493336126" Delayed_Dispose_Start="0.5" Preparation_End="3.03474493336126" Sampling_End="3.53474493336126" Valid="True" Width="3.53474493336126" />
+                          <Clips>
+                            <Item Author_ID="Default" Duration="0.5" Key="3ed8c01c-304f-48ca-b264-29d63fa27343" r:Type="ConstantValueClip_M [Kairos.Clip]">
+                              <Blending_Model Alpha_Mult="1">
+                                <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
+                              </Blending_Model>
+                              <Value r:Type="RGBA [Color]">1, 0, 0, 1</Value>
+                            </Item>
+                            <Item Author_ID="Default" Duration="0.5" Key="efcfc4a0-3839-4486-ad61-0b582f806d76" LiveValue_Input_Pin_ID="16:08:40" Position="1.50690612037167" r:Type="LiveValueClip_M [Kairos.Clip]">
+                              <Blending_Model Alpha_Mult="1">
+                                <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
+                              </Blending_Model>
+                            </Item>
+                            <Item Author_ID="Default" Duration="0.5" Key="ed714e9e-cb66-4844-99f3-175f3b971e40" Position="3.03474493336126" r:Type="ConstantValueClip_M [Kairos.Clip]">
+                              <Blending_Model Alpha_Mult="1">
+                                <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
+                              </Blending_Model>
+                              <Value r:Type="RGBA [Color]">1, 1, 1, 1</Value>
+                            </Item>
+                          </Clips>
+                          <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
+                        </Sampler_Model>
+                        <Settings Enabled="True" Output_Pin_Enabled="True" />
+                        <StructureParameter Key="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Name="Name" Path="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Type_Full_Name="RGBA [Color]">
+                          <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
+                        </StructureParameter>
+                      </Value>
+                    </Item>
+                  </Channels>
+                  <StructureParameter_Path_List>
+                    <Item>c51bc999-1953-4cc2-8f62-c3daf85c6c02</Item>
+                  </StructureParameter_Path_List>
+                </p:DefaultValue>
+              </Pin>
+              <Pin Id="LXi0GN6XAa5PbSo4cIhao1" Name="16:08:40" Kind="InputPin" PinGroupName="Input Pins">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                  <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="M7Ycqp1rTGwMtYwfhUMSSB" Name="Output" Kind="StateOutputPin" />
+              <Pin Id="K1OIsNowDUBLVkL7NHCeqF" Name="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Kind="OutputPin" PinGroupName="Output Pins">
+                <p:TypeAnnotation>
+                  <Choice Kind="TypeFlag" Name="RGBA" />
+                  <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
+                </p:TypeAnnotation>
+              </Pin>
+            </Node>
+            <Node Bounds="-202,558,107,26" Id="VdgQw4codiaMYNKAdPesAQ">
+              <p:NodeReference LastCategoryFullName="Kairos.Composition" LastSymbolSource="VL.Kairos.Core.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="SetStructureContext" />
+                <CategoryReference Kind="InterfaceTypeFlag" Name="Composition" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="T6rL3cKbwAGLccTeT62n5z" Name="Input" Kind="StateInputPin" />
+              <Pin Id="O37dAVfbYtQO4SWBQVCTzR" Name="Structure Context" Kind="InputPin" />
+              <Pin Id="VajUaoqeteiNkGVWzE1cwE" Name="Output" Kind="StateOutputPin" />
+            </Node>
+            <ControlPoint Id="Vb38bRP9JvaOmepWV5oDQJ" Bounds="-124,521" />
+            <Node Bounds="-47,198,45,19" Id="TYM8oQCAdn8OU05beHKFTr">
+              <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="LFO" />
+              </p:NodeReference>
+              <Pin Id="KdY0M7QHsp7OhFYjyh4yxe" Name="Period" Kind="InputPin" />
+              <Pin Id="B6QErjbIw8rQKqdf9KOP7w" Name="Pause" Kind="InputPin" />
+              <Pin Id="LYr7LHdd8IkPoJrn5LHN0M" Name="Reset" Kind="ApplyPin" />
+              <Pin Id="C1ARl0Wf30kPcK4HiqFrZt" Name="Phase" Kind="OutputPin" />
+              <Pin Id="VzjWToDS9gtPYD88LzqYwt" Name="On New Cycle" Kind="OutputPin" />
+              <Pin Id="AkZpUtuTrOOMDX1mEXZqKo" Name="Cycles" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="-47,235,65,19" Id="NXcRVGMx66fNFMZmgDqCmT">
+              <p:NodeReference LastCategoryFullName="Color.RGBA" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="FromHSV" />
+              </p:NodeReference>
+              <Pin Id="MMJNdrFLfKCPDXx2CbmOS0" Name="Hue" Kind="InputPin" />
+              <Pin Id="LhxkDYMAoI6NroKnOS9p2B" Name="Saturation" Kind="InputPin" />
+              <Pin Id="K7Wp1DJ0tiBNp1vELp2zvk" Name="Value" Kind="InputPin" />
+              <Pin Id="J8h8OyPLtTdM8O1ZPsrRqI" Name="Alpha" Kind="InputPin" />
+              <Pin Id="KY6VC7cmEUwOwp2bdT16kK" Name="Result" Kind="OutputPin" />
+            </Node>
+            <Pad Id="IJUIdMMnlzMMBrrb9ECVow" Comment="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Bounds="-41,413,136,15" ShowValueBox="true" isIOBox="true" />
           </Canvas>
-          <ProcessDefinition Id="ArEjNbpw11rQZRB01gb8Hk" HasStateOut="true">
-            <Fragment Id="VqqxbGHVanoMaOpWlNiv4M" Patch="O1xbjFHzrZVPnbpweZKCeO" Enabled="true" />
-            <Fragment Id="Qb5P8vxJwuANKQxCLV4R7v" Patch="U4lk04DSaqZOGC7P2qvuDq" />
-            <Fragment Id="AiHxCd09MzBOiWG8wpGS6q" Patch="Q4EkuLix4j6L7gjdAl25km" />
-            <Fragment Id="Dy7DP6wmyLAP0qXr8l7pWV" Patch="N96dSkw9UN8PKPkvyOFtG7" />
-            <Fragment Id="IrM7dhADopvLb4i2C2RPB8" Patch="HfgXG2H0j8mN5hx7uX0whN" />
-            <Fragment Id="NhPuxCe2LQTP7lEiLC4CjS" Patch="C7lDq2PTzYYOlV4lPOiCgd" />
-            <Fragment Id="Ds3jve10JUcPit2rwoeMhL" Patch="GdoD4qxmmnlQZIw1NvACLf" />
-            <Fragment Id="V4oZPKwFdYyLSUx1V1Tpqz" Patch="KDsz2r5WG0aLiAMMJcbogH" />
-            <Fragment Id="DWw8EEqvJnCMMi7nK26LUJ" Patch="Lu66i2RoYeMN72raqx6fzT" />
-            <Fragment Id="S9AkDc3jppkLiQ8QzixUcQ" Patch="Rm6IeDTPGibPmwFR8Rz0gA" />
-            <Fragment Id="JerhxcEQofjNxgMo2ExJFZ" Patch="PCVTVOYHXK4LwVTPW21gbr" />
-            <Fragment Id="VSXsSw4Qhd7M8jyHfpgGIZ" Patch="POpvGHR9XCvNGlUHwJzfjt" />
-            <Fragment Id="AIkmtCYEC1QQR9dm2W1Uwl" Patch="AClkrxZfxRuOQsrmgf6VJ1" />
-            <Fragment Id="MUpMJQEUMh6OfpGTHVwRQD" Patch="D07v2ArQWLdPKzBZSF62ZL" />
-            <Fragment Id="Jcy6wqT1H9fLs3Jb9qcWYz" Patch="CXNRCxTtSuwQQyTGKTNfgg" />
-          </ProcessDefinition>
           <Link Id="MxhI9DLBhiEN8feMm9SlVH" Ids="TrJQKk7FJGpPgQKN0VGkOZ,P0uNS11faAkMcmlVC0LS70" IsHidden="true" />
           <Link Id="VUa3O14pkVGOB2FFkqIzvP" Ids="TMg72LVReBqPz7p1DxobFf,LaXwCiJLtInPPU5dFLAs9s" IsHidden="true" />
           <Link Id="RBAZv7O5egUO9FnEiWwDmd" Ids="Af6MBooeDKHMHyHDUgWt40,F7y7yWwb9UVLzv2fdQbotB" IsHidden="true" />
@@ -264,7 +349,7 @@
           <Link Id="T9pbQNqBiiINcYwL8R80BJ" Ids="MlkEfDALgbyOgd055Gfmqz,FbvI07EyoBbMtVMpcyTMfe" IsHidden="true" />
           <Link Id="GPQ1uohTj2vMzZUC6wEGjQ" Ids="GRAZXsno43iOEQYImfJsGi,DuNNfb3cPbTPBlwmNmjVJL" IsHidden="true" />
           <Patch Id="O1xbjFHzrZVPnbpweZKCeO" Name="Create" />
-          <Patch Id="U4lk04DSaqZOGC7P2qvuDq" Name="SampleT" ParticipatingElements="Ip7572OmsFsN4Oc961OHMH">
+          <Patch Id="U4lk04DSaqZOGC7P2qvuDq" Name="SampleT" ParticipatingElements="Ip7572OmsFsN4Oc961OHMH,T3yWXpWbw7dLvGxDsd3xeh">
             <Pin Id="TMg72LVReBqPz7p1DxobFf" MergeId="240287" Name="Background Function" Kind="InputPin">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="IBackgroundFunctionT" />
@@ -360,11 +445,37 @@
             </Pin>
           </Patch>
           <Link Id="AyJDGrjgGeVOhl3c907bBP" Ids="P0uNS11faAkMcmlVC0LS70,Qci57bNKwNHM429lcdzym2" />
-          <Link Id="Kr2mRVTQpmYPuxhG7hnWgM" Ids="MyRkwQ7VZ9YQaoTRkOBvx9,A6sSQZK1RRTN1fbC1hxNMn" />
           <Link Id="LEbunuHuYH2P8dhqkZkPxq" Ids="FYtrHYD4vHvL8v3hQivcqx,Vat2hXzEOwAQNWluHlsHvg" />
           <Link Id="ITMEmP12YTRMJHWtx6YRsr" Ids="RbJft1DFhr3OnlBWYmcU1v,AvvVHroYWy6MOr2aefTwCe" />
           <Link Id="QU5gahHLyIYMsK7IVM5vNh" Ids="AvvVHroYWy6MOr2aefTwCe,LbNBhfyPNrdOAIX6mBYNVC" />
           <Link Id="Ik8nz5MkrL1PnB6nv8mlVY" Ids="AvvVHroYWy6MOr2aefTwCe,MlkEfDALgbyOgd055Gfmqz" />
+          <Link Id="Pwh15hpXw19PcvPAriUJgb" Ids="M7Ycqp1rTGwMtYwfhUMSSB,T6rL3cKbwAGLccTeT62n5z" />
+          <Link Id="SXTjROsiZNJLYN7ktZP6xu" Ids="SCmqWKKGpUdLuXA17i7I40,Vb38bRP9JvaOmepWV5oDQJ" IsHidden="true" />
+          <Link Id="F4i1g8hXrA8M6qgcx6h9Lx" Ids="Vb38bRP9JvaOmepWV5oDQJ,O37dAVfbYtQO4SWBQVCTzR" />
+          <Patch Id="QpCa6F9P0ZvPwY3bXRzabI" Name="Update" />
+          <ProcessDefinition Id="ArEjNbpw11rQZRB01gb8Hk" HasStateOut="true">
+            <Fragment Id="VqqxbGHVanoMaOpWlNiv4M" Patch="O1xbjFHzrZVPnbpweZKCeO" Enabled="true" />
+            <Fragment Id="RBAsvm8F8oNMaNvwOfeBFW" Patch="QpCa6F9P0ZvPwY3bXRzabI" Enabled="true" />
+            <Fragment Id="Qb5P8vxJwuANKQxCLV4R7v" Patch="U4lk04DSaqZOGC7P2qvuDq" />
+            <Fragment Id="AiHxCd09MzBOiWG8wpGS6q" Patch="Q4EkuLix4j6L7gjdAl25km" />
+            <Fragment Id="Dy7DP6wmyLAP0qXr8l7pWV" Patch="N96dSkw9UN8PKPkvyOFtG7" />
+            <Fragment Id="IrM7dhADopvLb4i2C2RPB8" Patch="HfgXG2H0j8mN5hx7uX0whN" />
+            <Fragment Id="NhPuxCe2LQTP7lEiLC4CjS" Patch="C7lDq2PTzYYOlV4lPOiCgd" />
+            <Fragment Id="Ds3jve10JUcPit2rwoeMhL" Patch="GdoD4qxmmnlQZIw1NvACLf" />
+            <Fragment Id="V4oZPKwFdYyLSUx1V1Tpqz" Patch="KDsz2r5WG0aLiAMMJcbogH" />
+            <Fragment Id="DWw8EEqvJnCMMi7nK26LUJ" Patch="Lu66i2RoYeMN72raqx6fzT" />
+            <Fragment Id="S9AkDc3jppkLiQ8QzixUcQ" Patch="Rm6IeDTPGibPmwFR8Rz0gA" />
+            <Fragment Id="JerhxcEQofjNxgMo2ExJFZ" Patch="PCVTVOYHXK4LwVTPW21gbr" />
+            <Fragment Id="VSXsSw4Qhd7M8jyHfpgGIZ" Patch="POpvGHR9XCvNGlUHwJzfjt" />
+            <Fragment Id="AIkmtCYEC1QQR9dm2W1Uwl" Patch="AClkrxZfxRuOQsrmgf6VJ1" />
+            <Fragment Id="MUpMJQEUMh6OfpGTHVwRQD" Patch="D07v2ArQWLdPKzBZSF62ZL" />
+            <Fragment Id="Jcy6wqT1H9fLs3Jb9qcWYz" Patch="CXNRCxTtSuwQQyTGKTNfgg" />
+          </ProcessDefinition>
+          <Link Id="IkX2UwSlNp1L7R8J75k3iG" Ids="C1ARl0Wf30kPcK4HiqFrZt,MMJNdrFLfKCPDXx2CbmOS0" />
+          <Link Id="OyZmzVBkMQmN5FQvgR6QZB" Ids="KY6VC7cmEUwOwp2bdT16kK,LXi0GN6XAa5PbSo4cIhao1" />
+          <Link Id="T3yWXpWbw7dLvGxDsd3xeh" Ids="K1OIsNowDUBLVkL7NHCeqF,A6sSQZK1RRTN1fbC1hxNMn" />
+          <Link Id="BNhuO083Pc2PTykYazCjRF" Ids="K1OIsNowDUBLVkL7NHCeqF,IJUIdMMnlzMMBrrb9ECVow" />
+          <Link Id="CSVGQzEgelAP5J5bk8YTWA" Ids="M7Ycqp1rTGwMtYwfhUMSSB,GRAZXsno43iOEQYImfJsGi" />
         </Patch>
       </Node>
     </Canvas>
@@ -385,7 +496,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="CanvasAndInspector" />
             </p:NodeReference>
-            <Pin Id="Te7r5JKtZY3Ldgx6iLqNcd" Name="Bounds" Kind="InputPin" DefaultValue="3307, 205, 1230, 562">
+            <Pin Id="Te7r5JKtZY3Ldgx6iLqNcd" Name="Bounds" Kind="InputPin" DefaultValue="3193, 85, 1230, 562">
               <p:TypeAnnotation LastCategoryFullName="System.Windows" LastSymbolSource="VL.CoreLib.Windows.vl">
                 <Choice Kind="TypeFlag" Name="Rectangle" />
               </p:TypeAnnotation>
@@ -394,13 +505,16 @@
               <p:TypeAnnotation LastCategoryFullName="Kairos.Editor.CanvasEditor.EditingSession" LastSymbolSource="VL.Kairos.Editor.vl">
                 <Choice Kind="TypeFlag" Name="EditingSessionModel" />
               </p:TypeAnnotation>
-              <p:DefaultValue Current_Edited_Canvas_Path="236.2540">
+              <p:DefaultValue Current_Edited_Canvas_Path="790046.785204">
                 <Editors_Timer_Model>
                   <Item Key="827.1711">
                     <Value Left_Pos="0.1" Main_Time_Positions="0.02081019, 0.6250675, 1.229325, 1.833582, 2.43784, 3.042097, 3.646354, 4.250612, 4.854869, 5.459126, 6.063384, 6.667641, 7.271899, 7.876156, 8.480413" Right_Pos="8.969999" Snapping_Coef="10" Snapping_Coef_Index="11" Snapping_Size="0.5" Time="0.29262829114098" Time_In="-2.93447343772277" Time_Locator="1.27730809715929" Time_Out="4.40511377388611" View_Position="0.735320168081671" VisibleUnits="2" Zoom="0.413731" Zoom_Max="10000" Zoom_Min="0.0005" />
                   </Item>
                   <Item Key="272.1122">
                     <Value Left_Pos="0.1" Main_Time_Positions="0.02548545, 0.5846829, 1.14388, 1.703078, 2.262275, 2.821473, 3.380671, 3.939868, 4.499065, 5.058263, 5.617461, 6.176658, 6.735856, 7.295053, 7.85425, 8.413448, 8.972646, 9.531843, 10.09104, 10.65024" Right_Pos="11.05" Snapping_Coef="10" Snapping_Coef_Index="11" Snapping_Size="0.5" Time="2.62888469949877" Time_In="-3.43337367195636" Time_Out="6.35744168143719" View_Position="1.46203400474042" VisibleUnits="2" Zoom="0.4470693" Zoom_Max="10000" Zoom_Min="0.0005" />
+                  </Item>
+                  <Item Key="786057.785194.785204">
+                    <Value Left_Pos="0.1" Main_Time_Positions="0.3223798, 0.9016292, 1.480879, 2.060128, 2.639377, 3.218627, 3.797876, 4.377126, 4.956375, 5.535625, 6.114874, 6.694123, 7.273373, 7.852622, 8.431871" Right_Pos="8.969999" Snapping_Coef="5" Snapping_Coef_Index="12" Snapping_Size="1" Time="3.75223259068889" Time_In="-7.38391027640318" Time_Locator="3.03474493336126" Time_Offset="3.59303248114884" Time_Out="7.92900934029603" View_Position="0.272549531946424" VisibleUnits="2" Zoom="0.8631861" Zoom_Max="10000" Zoom_Min="0.0005" />
                   </Item>
                   <Item Key="362603.362720">
                     <Value Left_Pos="0.1" Main_Time_Positions="0.02368248, 0.6148167, 1.205951, 1.797085, 2.388219, 2.979354, 3.570488, 4.161622, 4.752757, 5.343891, 5.935025, 6.526159, 7.117293, 7.708428, 8.299562, 8.890697" Right_Pos="8.969999" Snapping_Coef="10" Snapping_Coef_Index="11" Snapping_Size="0.5" Time="1.97133412982304" Time_In="-2.43544823310249" Time_Locator="2.6759621467241" Time_Out="5.06707709648735" View_Position="1.31581443169243" VisibleUnits="2" Zoom="0.4229158" Zoom_Max="10000" Zoom_Min="0.0005" />
@@ -416,6 +530,9 @@
                   </Item>
                   <Item Key="250.4376">
                     <Value Left_Pos="0.1" Main_Time_Positions="0.3363833, 1.097502, 1.858621, 2.61974, 3.380858, 4.141977, 4.903096, 5.664215, 6.425333, 7.186452, 7.947571, 8.70869" Right_Pos="8.969999" Snapping_Coef="5" Snapping_Coef_Index="12" Snapping_Size="1" Time_In="-3.31057345253518" Time_Locator="4.38253934420199" Time_Out="8.34332287925193" View_Position="2.51637471335837" VisibleUnits="2" Zoom="0.6569277" Zoom_Max="10000" Zoom_Min="0.0005" />
+                  </Item>
+                  <Item Key="790046.785204">
+                    <Value Left_Pos="0.1" Main_Time_Positions="0.4282417, 1.167055, 1.905869, 2.644682, 3.383495, 4.122309, 4.861122, 5.599936, 6.338749, 7.077563, 7.816376, 8.555189" Right_Pos="8.969999" Snapping_Coef="5" Snapping_Coef_Index="12" Snapping_Size="1" Time="3.75223259068889" Time_In="-2.44428221007547" Time_Out="9.56145414093771" View_Position="3.55858596543112" VisibleUnits="2" Zoom="0.6767609" Zoom_Max="10000" Zoom_Min="0.0005" />
                   </Item>
                   <Item Key="361323.361440">
                     <Value Left_Pos="0.1" Main_Time_Positions="0.1853614, 0.9062293, 1.627097, 2.347965, 3.068833, 3.789701, 4.510569, 5.231437, 5.952304, 6.673172, 7.394041, 8.114908, 8.835776" Right_Pos="8.969999" Snapping_Coef="10" Snapping_Coef_Index="11" Snapping_Size="0.5" Time_In="-1.05920734412029" Time_Out="5.09309825890705" View_Position="2.01694545739338" VisibleUnits="2" Zoom="0.3468042" Zoom_Max="10000" Zoom_Min="0.0005" />
@@ -449,85 +566,6 @@
             </Pin>
             <Pin Id="AP4jqLoOX2hNaiNAQI7kf2" Name="Update" Kind="InputPin" />
           </Node>
-          <Node Bounds="352,332,256,19" Id="Va1P6HSWIW9OIsxQrPzVXr">
-            <p:NodeReference LastCategoryFullName="Kairos" LastSymbolSource="VL.Kairos.Timeline.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Timeline" />
-            </p:NodeReference>
-            <Pin Id="FDfbGHkUjcwNaZGstt9qCP" Name="Model" Kind="InputPin">
-              <p:TypeAnnotation LastCategoryFullName="Kairos.Timeline" LastSymbolSource="VL.Kairos.Timeline.vl">
-                <Choice Kind="TypeFlag" Name="Timeline_M" />
-              </p:TypeAnnotation>
-              <p:DefaultValue xmlns:r="reflection" r:Version="2">
-                <Activation Delayed_Dispose_End="1.04294697905512" Delayed_Dispose_Start="0.284796689171344" Preparation_End="0.70434934238525" Sampling_End="1.04294697905512" Valid="True" Width="1.04294697905512" />
-                <Channels>
-                  <Item Key="ColorParam">
-                    <Value StructureParameter_Path="ColorParam">
-                      <Activation Delayed_Dispose_End="1.04294697905512" Delayed_Dispose_Start="0.284796689171344" Preparation_End="0.70434934238525" Sampling_End="1.04294697905512" Valid="True" Width="1.04294697905512" />
-                      <Author_IDs>
-                        <Item>Default</Item>
-                      </Author_IDs>
-                      <Sampler_Model>
-                        <Activation Delayed_Dispose_End="1.04294697905512" Delayed_Dispose_Start="0.284796689171344" Preparation_End="0.70434934238525" Sampling_End="1.04294697905512" Valid="True" Width="1.04294697905512" />
-                        <Clips>
-                          <Item Author_ID="Default" Duration="0.284796689171344" Key="abec55d9-931a-4b85-afd6-9e34aed904cb" r:Type="ConstantValueClip_M [Kairos.Clip]">
-                            <Blending_Model Alpha_Mult="1">
-                              <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
-                            </Blending_Model>
-                            <Value r:Type="RGBA [Color]">0.9500003, 0.7204156, 0.399, 1</Value>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.338597636669874" Key="83aa2171-f933-4c7d-9763-a0161e610430" LiveValue_Input_Pin_ID="16:47:58" Position="0.70434934238525" r:Type="LiveValueClip_M [Kairos.Clip]">
-                            <Blending_Model Alpha_Mult="1">
-                              <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
-                            </Blending_Model>
-                          </Item>
-                          <Item Author_ID="Default" Duration="0.5" Key="9e3480aa-8efd-4276-bc94-eebb3e4a8416" Layer_Input_Pin_ID="16:48:27" Position="1.65931427971363" r:Type="LayerClip_M [Kairos.Clip]">
-                            <Blending_Model Alpha_Mult="1">
-                              <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
-                            </Blending_Model>
-                            <Sampling_Model Method="Sample" Position_Out="1" Speed_Mult="1" />
-                          </Item>
-                        </Clips>
-                        <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </Sampler_Model>
-                      <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="78439703-5a5d-4189-be55-a249862add6d" Name="Color Param" Path="ColorParam">
-                        <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
-                    </Value>
-                  </Item>
-                </Channels>
-                <StructureParameter_Path_List>
-                  <Item>ColorParam</Item>
-                </StructureParameter_Path_List>
-              </p:DefaultValue>
-            </Pin>
-            <Pin Id="Aozlty5nDWRLlLVWZQpqJw" Name="16:47:58" Kind="InputPin" PinGroupName="Input Pins">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="RGBA" />
-                <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="V7uyZpGOBuIP6MuG4FBXng" Name="16:48:27" Kind="InputPin" PinGroupName="Input Pins">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="Layer" />
-                <CategoryReference Kind="Category" Name="Kairos" NeedsToBeDirectParent="true" />
-                <p:TypeArguments>
-                  <TypeReference>
-                    <Choice Kind="TypeFlag" Name="RGBA" />
-                    <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
-                  </TypeReference>
-                </p:TypeArguments>
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="SBFkkiKuPdXNo14bWonWqL" Name="Output" Kind="StateOutputPin" />
-            <Pin Id="U7LPCCcAViwM8R6xI5dSpE" Name="ColorParam" Kind="OutputPin" PinGroupName="Output Pins">
-              <p:TypeAnnotation>
-                <Choice Kind="TypeFlag" Name="RGBA" />
-                <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
-              </p:TypeAnnotation>
-            </Pin>
-          </Node>
           <Node Bounds="498,220,45,19" Id="Dt8Q03s3rrFPQ28JgEBOvI">
             <p:NodeReference LastCategoryFullName="Animation" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -549,10 +587,11 @@
             </p:Value>
           </Pad>
           <Node Bounds="698,266,77,19" Id="OESX30bR14DPIbUopx1uoB">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="HowTo Define a custom Layer Class.vl">
+            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="HowTo Composition inside Layer.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="MyLayerClass" />
             </p:NodeReference>
+            <Pin Id="U8JFebxNpebPeVyUMP1mUY" Name="Update" Kind="InputPin" />
             <Pin Id="Su7AtTuAtkePdzK3aO0lUA" Name="Output" Kind="StateOutputPin" />
           </Node>
           <Node Bounds="478,261,65,19" Id="VhHsuk68bIoNT8KIBdi5Ud">
@@ -579,6 +618,79 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="516,344" Id="TFoqXQp9qNTNmbhF3ugxCv">
+            <p:NodeReference LastCategoryFullName="Kairos" LastSymbolSource="VL.Kairos.Timeline.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Timeline" />
+            </p:NodeReference>
+            <Pin Id="AbOlXZxgFpaQEtgGYdZhJ0" Name="Model" Kind="InputPin">
+              <p:TypeAnnotation LastCategoryFullName="Kairos.Timeline" LastSymbolSource="VL.Kairos.Timeline.vl">
+                <Choice Kind="TypeFlag" Name="Timeline_M" />
+              </p:TypeAnnotation>
+              <p:DefaultValue xmlns:r="reflection" r:Version="2">
+                <Activation Delayed_Dispose_End="0.947357111180573" Delayed_Dispose_Start="0.947357111180573" Preparation_End="0.447357111180573" Preparation_Start="0.447357111180573" Sampling_End="0.947357111180573" Sampling_Start="0.447357111180573" Valid="True" Width="0.5" />
+                <Channels>
+                  <Item Key="2d8fd46f-26e0-472b-b59e-d9e1b990a552">
+                    <Value StructureParameter_Path="2d8fd46f-26e0-472b-b59e-d9e1b990a552">
+                      <Activation Delayed_Dispose_End="0.947357111180573" Delayed_Dispose_Start="0.947357111180573" Preparation_End="0.447357111180573" Preparation_Start="0.447357111180573" Sampling_End="0.947357111180573" Sampling_Start="0.447357111180573" Valid="True" Width="0.5" />
+                      <Author_IDs>
+                        <Item>Default</Item>
+                      </Author_IDs>
+                      <Sampler_Model>
+                        <Activation Delayed_Dispose_End="0.947357111180573" Delayed_Dispose_Start="0.947357111180573" Preparation_End="0.447357111180573" Preparation_Start="0.447357111180573" Sampling_End="0.947357111180573" Sampling_Start="0.447357111180573" Valid="True" Width="0.5" />
+                        <Clips>
+                          <Item Author_ID="Default" Duration="0.5" Key="9e9201c9-46ec-4af8-acfb-1491c75f1f29" LiveValue_Input_Pin_ID="16:11:32" Position="0.447357111180573" r:Type="LiveValueClip_M [Kairos.Clip]">
+                            <Blending_Model Alpha_Mult="1">
+                              <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
+                            </Blending_Model>
+                          </Item>
+                          <Item Author_ID="Default" Duration="3.93704101676121" Key="fd13edc8-3ed9-4b7f-bd6f-3f76cc916bbc" Layer_Input_Pin_ID="16:07:52" Position="3.59303248114884" r:Type="LayerClip_M [Kairos.Clip]">
+                            <Blending_Model Alpha_Mult="1">
+                              <Alpha_Function r:Type="ClipAlphaFunction_Flat [Kairos.Clip.Alpha]" />
+                            </Blending_Model>
+                            <Sampling_Model Method="Sample" Position_Out="1" Range_Mapping="Clamp" Speed_Mult="1" />
+                          </Item>
+                        </Clips>
+                        <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
+                      </Sampler_Model>
+                      <Settings Enabled="True" Output_Pin_Enabled="True" />
+                      <StructureParameter Key="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Name="Name" Path="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Type_Full_Name="RGBA [Color]">
+                        <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
+                      </StructureParameter>
+                    </Value>
+                  </Item>
+                </Channels>
+                <StructureParameter_Path_List>
+                  <Item>2d8fd46f-26e0-472b-b59e-d9e1b990a552</Item>
+                </StructureParameter_Path_List>
+              </p:DefaultValue>
+            </Pin>
+            <Pin Id="N3QE90fSZbzQGwVPCS6a8p" Name="16:07:52" Kind="InputPin" PinGroupName="Input Pins">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="Layer" />
+                <CategoryReference Kind="Category" Name="Kairos" NeedsToBeDirectParent="true" />
+                <p:TypeArguments>
+                  <TypeReference>
+                    <Choice Kind="TypeFlag" Name="RGBA" />
+                    <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="VrAx7zLs9NCLELjzBYo4Uk" Name="16:11:32" Kind="InputPin" PinGroupName="Input Pins">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="RGBA" />
+                <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
+              </p:TypeAnnotation>
+            </Pin>
+            <Pin Id="MQ3VV8wCxqkPrOQ1tFNdYR" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="GUcrNYG269pLOHU7VFP8yJ" Name="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Kind="OutputPin" PinGroupName="Output Pins">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="RGBA" />
+                <CategoryReference Kind="Category" Name="Color" NeedsToBeDirectParent="true" />
+              </p:TypeAnnotation>
+            </Pin>
+          </Node>
         </Canvas>
         <Patch Id="LLgkBpP5TCyQWskrmu1q5l" Name="Create" />
         <Patch Id="OoM0flkwIBONltOBAr4pCy" Name="Update" />
@@ -587,9 +699,9 @@
           <Fragment Id="FQxWOH1gFNXLJBrIuWhEEs" Patch="OoM0flkwIBONltOBAr4pCy" Enabled="true" />
         </ProcessDefinition>
         <Link Id="R6uTO4LjgdmQMBfHCkSz98" Ids="N8MG83dAVY5PWfUtdrGkwa,MklpvKBjRQrLfbgcJygOOC" />
-        <Link Id="OpdyzFEUdtsOLUAtlG2PnP" Ids="UAjOfQue2HULIc5EzkdICj,Aozlty5nDWRLlLVWZQpqJw" />
-        <Link Id="Jm1z83CGTWbQPPjb5MOoo1" Ids="Su7AtTuAtkePdzK3aO0lUA,V7uyZpGOBuIP6MuG4FBXng" />
-        <Link Id="HDC4DgMcHGTMSMPd0Z6WFW" Ids="U7LPCCcAViwM8R6xI5dSpE,FDzgssZ3DxKOFIqoyuSNzo" />
+        <Link Id="KXzlpuRdJg1MPIKt6hv7PG" Ids="Su7AtTuAtkePdzK3aO0lUA,N3QE90fSZbzQGwVPCS6a8p" />
+        <Link Id="PJIy87Ah6cCOFWWPN5JIdw" Ids="GUcrNYG269pLOHU7VFP8yJ,FDzgssZ3DxKOFIqoyuSNzo" />
+        <Link Id="DV9pngC56wuNr1nF3TDrWM" Ids="UAjOfQue2HULIc5EzkdICj,VrAx7zLs9NCLELjzBYo4Uk" />
       </Patch>
     </Node>
   </Patch>
