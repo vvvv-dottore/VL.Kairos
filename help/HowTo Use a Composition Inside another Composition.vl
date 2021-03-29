@@ -58,9 +58,9 @@
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="ba53336b-2308-4329-b7f5-9491a12d8150" Name="Name" Path="UpstreamParam">
+                      <Parameter [Kairos] Key="ba53336b-2308-4329-b7f5-9491a12d8150" Name="Name" Path="UpstreamParam">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="LocalParam">
@@ -87,9 +87,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="c1068d43-8766-4fd8-bd40-4240a0c4e958" Name="Local Param" Path="LocalParam">
+                      <Parameter [Kairos] Key="c1068d43-8766-4fd8-bd40-4240a0c4e958" Name="Local Param" Path="LocalParam">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>
@@ -244,9 +244,9 @@
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="ba53336b-2308-4329-b7f5-9491a12d8150" Name="Name" Path="UpstreamParam">
+                      <Parameter [Kairos] Key="ba53336b-2308-4329-b7f5-9491a12d8150" Name="Name" Path="UpstreamParam">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

@@ -1209,9 +1209,9 @@
                         <Default_Value Color="0, 0, 0, 1" r:Type="MyDatatype [Main]" />
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="0d83b2d2-9b2c-4065-9a13-116f6f9c40eb" Name="Name" Path="0d83b2d2-9b2c-4065-9a13-116f6f9c40eb" Type_Full_Name="MyDatatype [Main]">
+                      <Parameter [Kairos] Key="0d83b2d2-9b2c-4065-9a13-116f6f9c40eb" Name="Name" Path="0d83b2d2-9b2c-4065-9a13-116f6f9c40eb" Type_Full_Name="MyDatatype [Main]">
                         <Default_Value Color="0, 0, 0, 1" r:Type="MyDatatype [Main]" />
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

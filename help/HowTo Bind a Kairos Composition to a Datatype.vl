@@ -36,9 +36,9 @@
                         <Default_Value r:Type="Integer32 [Primitive]">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="2a1b83d3-f372-44b5-8fbc-0361e241b398" Name="Name" Path="w345">
+                      <Parameter [Kairos] Key="2a1b83d3-f372-44b5-8fbc-0361e241b398" Name="Name" Path="w345">
                         <Default_Value r:Type="Integer32 [Primitive]">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Alpha">
@@ -78,9 +78,9 @@
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="e3f4c5f5-cabc-40f5-939c-0ec447f4b0ab" Name="Alpha" Path="Alpha">
+                      <Parameter [Kairos] Key="e3f4c5f5-cabc-40f5-939c-0ec447f4b0ab" Name="Alpha" Path="Alpha">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Color">
@@ -114,9 +114,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="9a90915d-9693-40ec-b361-d704a6b36e84" Name="Color" Path="Color">
+                      <Parameter [Kairos] Key="9a90915d-9693-40ec-b361-d704a6b36e84" Name="Color" Path="Color">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Children&lt;0&gt;@Position">
@@ -143,9 +143,9 @@
                         <Default_Value r:Type="Vector2 [2D]">0, 0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="77070885-32ba-4897-a5c6-4ef5b96498a4" Name="Children&lt;0&gt;@Position" Path="Children&lt;0&gt;@Position">
+                      <Parameter [Kairos] Key="77070885-32ba-4897-a5c6-4ef5b96498a4" Name="Children&lt;0&gt;@Position" Path="Children&lt;0&gt;@Position">
                         <Default_Value r:Type="Vector2 [2D]">0, 0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Children&lt;1&gt;@Color">
@@ -179,9 +179,9 @@
                         <Default_Value r:Type="RGBA [Color]">0.02694952, 0.06103443, 0.3461893, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="3afa5e5e-429a-47ae-9645-d5287a8b053f" Name="Color" Path="Children&lt;1&gt;@Color">
+                      <Parameter [Kairos] Key="3afa5e5e-429a-47ae-9645-d5287a8b053f" Name="Color" Path="Children&lt;1&gt;@Color">
                         <Default_Value r:Type="RGBA [Color]">0.02694952, 0.06103443, 0.3461893, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

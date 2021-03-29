@@ -60,7 +60,7 @@
                         </Clips>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="3a77ee92-1c82-4c96-9a28-a6c2b94f6757" Name="My Skia Layer" Path="SkyaLayerParam" Type_Full_Name="Layer [Graphics.Skia]" />
+                      <Parameter [Kairos] Key="3a77ee92-1c82-4c96-9a28-a6c2b94f6757" Name="My Skia Layer" Path="SkyaLayerParam" Type_Full_Name="Layer [Graphics.Skia]" />
                     </Value>
                   </Item>
                   <Item Key="57ce3db4-14b6-479d-b212-b9320a480f6f">
@@ -87,9 +87,9 @@
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="57ce3db4-14b6-479d-b212-b9320a480f6f" Name="Name" Path="57ce3db4-14b6-479d-b212-b9320a480f6f" Type_Full_Name="Float32 [Primitive]">
+                      <Parameter [Kairos] Key="57ce3db4-14b6-479d-b212-b9320a480f6f" Name="Name" Path="57ce3db4-14b6-479d-b212-b9320a480f6f" Type_Full_Name="Float32 [Primitive]">
                         <Default_Value r:Type="Float32 [Primitive]">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

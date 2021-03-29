@@ -491,9 +491,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="78439703-5a5d-4189-be55-a249862add6d" Name="Color Param" Path="ColorParam">
+                      <Parameter [Kairos] Key="78439703-5a5d-4189-be55-a249862add6d" Name="Color Param" Path="ColorParam">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

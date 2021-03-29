@@ -130,11 +130,11 @@
                         </Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="b6cfdc53-62f8-48f2-9669-2df5fdadeb08" Name="ColorSpread" Path="ColorSpreadParam" Type_Full_Name="Spread [Collections]&lt;RGBA [Color]&gt;">
+                      <Parameter [Kairos] Key="b6cfdc53-62f8-48f2-9669-2df5fdadeb08" Name="ColorSpread" Path="ColorSpreadParam" Type_Full_Name="Spread [Collections]&lt;RGBA [Color]&gt;">
                         <Default_Value r:Type="Spread [Collections]&lt;RGBA [Color]&gt;">
                           <Item>1, 1, 1, 1</Item>
                         </Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="EnabledParam">
@@ -168,9 +168,9 @@
                         <Default_Value r:Type="Boolean [Primitive]">True</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="035ae2fb-07f6-4d6e-ac8a-2aeee37884a8" Name="Enabled" Path="EnabledParam" Type_Full_Name="Boolean [Primitive]">
+                      <Parameter [Kairos] Key="035ae2fb-07f6-4d6e-ac8a-2aeee37884a8" Name="Enabled" Path="EnabledParam" Type_Full_Name="Boolean [Primitive]">
                         <Default_Value r:Type="Boolean [Primitive]">True</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="MySpreadParam">
@@ -203,9 +203,9 @@
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="0ebf64be-ef6a-41f9-a893-211cb7f79263" Name="MySpread" Path="MySpreadParam" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
+                      <Parameter [Kairos] Key="0ebf64be-ef6a-41f9-a893-211cb7f79263" Name="MySpread" Path="MySpreadParam" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

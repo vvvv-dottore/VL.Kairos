@@ -49,7 +49,7 @@
                         </Clips>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="31574acf-408e-4b1d-83a7-5df4f834ecf1" Name="Scene 01" Path="SceneParam" Type_Full_Name="Entity [Stride.API.Engine]" />
+                      <Parameter [Kairos] Key="31574acf-408e-4b1d-83a7-5df4f834ecf1" Name="Scene 01" Path="SceneParam" Type_Full_Name="Entity [Stride.API.Engine]" />
                     </Value>
                   </Item>
                 </Channels>

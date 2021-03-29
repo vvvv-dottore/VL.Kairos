@@ -260,9 +260,9 @@
                           <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                         </Sampler_Model>
                         <Settings Enabled="True" Output_Pin_Enabled="True" />
-                        <StructureParameter Key="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Name="Name" Path="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Type_Full_Name="RGBA [Color]">
+                        <Parameter [Kairos] Key="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Name="Name" Path="c51bc999-1953-4cc2-8f62-c3daf85c6c02" Type_Full_Name="RGBA [Color]">
                           <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                        </StructureParameter>
+                        </Parameter [Kairos]>
                       </Value>
                     </Item>
                   </Channels>
@@ -654,9 +654,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" Output_Pin_Enabled="True" />
-                      <StructureParameter Key="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Name="Name" Path="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Type_Full_Name="RGBA [Color]">
+                      <Parameter [Kairos] Key="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Name="Name" Path="2d8fd46f-26e0-472b-b59e-d9e1b990a552" Type_Full_Name="RGBA [Color]">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>

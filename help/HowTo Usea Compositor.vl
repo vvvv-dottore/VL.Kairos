@@ -97,9 +97,9 @@
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
                       </Blender_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="7448e3d4-f797-4035-95e2-20d2dd26edfa" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
+                      <Parameter [Kairos] Key="7448e3d4-f797-4035-95e2-20d2dd26edfa" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Param2">
@@ -130,9 +130,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Blender_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="1f38c86b-73c4-46c0-94df-a2962f5199d1" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
+                      <Parameter [Kairos] Key="1f38c86b-73c4-46c0-94df-a2962f5199d1" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>
@@ -222,9 +222,9 @@
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="534d1a36-7766-4e74-af53-1b39550646c8" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
+                      <Parameter [Kairos] Key="534d1a36-7766-4e74-af53-1b39550646c8" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Param2">
@@ -257,9 +257,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="1f38c86b-73c4-46c0-94df-a2962f5199d1" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
+                      <Parameter [Kairos] Key="1f38c86b-73c4-46c0-94df-a2962f5199d1" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>
@@ -521,9 +521,9 @@
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="7448e3d4-f797-4035-95e2-20d2dd26edfa" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
+                      <Parameter [Kairos] Key="7448e3d4-f797-4035-95e2-20d2dd26edfa" Name="MyValues" Path="Param1" Type_Full_Name="Spread [Collections]&lt;Float32 [Primitive]&gt;">
                         <Default_Value r:Type="Spread [Collections]&lt;Float32 [Primitive]&gt;">0</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                   <Item Key="Param2">
@@ -550,9 +550,9 @@
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
                       </Sampler_Model>
                       <Settings Enabled="True" />
-                      <StructureParameter Key="7a86bab9-29ea-439a-b6aa-c02084a1e8fe" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
+                      <Parameter [Kairos] Key="7a86bab9-29ea-439a-b6aa-c02084a1e8fe" Name="Color" Path="Param2" Type_Full_Name="RGBA [Color]">
                         <Default_Value r:Type="RGBA [Color]">1, 1, 1, 1</Default_Value>
-                      </StructureParameter>
+                      </Parameter [Kairos]>
                     </Value>
                   </Item>
                 </Channels>
