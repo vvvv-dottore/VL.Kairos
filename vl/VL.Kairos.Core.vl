@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="QaFEz8nplaBQVATKTS2rKL" LanguageVersion="2021.3.3.127" Version="0.128">
-  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2021.3.3-proxies-0127-g118bd26470" />
+<Document xmlns:p="property" Id="QaFEz8nplaBQVATKTS2rKL" LanguageVersion="2021.4.0.87" Version="0.128">
+  <NugetDependency Id="FXn9n7R37p5O3WsDzrtUFM" Location="VL.CoreLib" Version="2021.4.0-proxies-0087-g8b6d0c18e8" />
   <Patch Id="Psv0au7NCNRNhP5X940Z5d">
     <Canvas Id="RPrWlmod17SPS9Gfp3kroA" DefaultCategory="Kairos" CanvasType="FullCategory">
       <Canvas Id="Oes9KqnEtOhOb9gLBh4uGM" Name="Container" Position="193,410">
@@ -25010,6 +25010,7 @@
                       </Node>
                     </Patch>
                     <Pin Id="M7UKz1HwK6BN3ahpO9rfVs" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="A0HLgmqHEIdMbl8KJGp9b4" Name="On Stop" Kind="InputPin" />
                     <Pin Id="VbNTWUBaQNkNW25kdHQcgN" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="Ee6PBwaGAIqP58tTDHfoBk" Ids="T6ieR5QldouLxIzzYbnr3H,UMhW32wNQarOwEIK9m0tij" IsHidden="true" />
@@ -25819,6 +25820,7 @@
                       </Node>
                     </Patch>
                     <Pin Id="GWyKWJ9CO9nPifFrQ3OIL6" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="JVwSUVqHns0Ni9QAFquZ04" Name="On Stop" Kind="InputPin" />
                     <Pin Id="DV2AbOeIdNPP22aqrpaCdd" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="PBAkn94z2m5P2JVBX7Jlv8" Ids="ICasmREBTODO0iqnQh06Im,Hszqc5iyqqBNBw1gRyxYBO" IsHidden="true" />
@@ -25985,6 +25987,7 @@
                       </Node>
                     </Patch>
                     <Pin Id="J4NjoUIeCjyQdJLMY1yp2u" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="AV7LCdFlcNtLzg7jgGWrnU" Name="On Stop" Kind="InputPin" />
                     <Pin Id="S867QT7EPigL1cK2ShjQwh" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="FpBXa7DukBdOKJnl3nbowK" Ids="Ix3OgF73dzeL5JNfJlyXic,URWw10xz5hnOuanNn85xuR" IsHidden="true" />
@@ -27814,6 +27817,7 @@
                       </Node>
                     </Patch>
                     <Pin Id="F2Sixy8eqkbPVEfxZobLzD" Name="Force New Instance" Kind="InputPin" />
+                    <Pin Id="OAGIC0JkodtM663ckgFEPz" Name="On Stop" Kind="InputPin" />
                     <Pin Id="Uim8GgYWiKGL3CCKKACE08" Name="Singleton" Kind="OutputPin" />
                   </Node>
                   <Link Id="J4jj6IIRQx5NdFvhJJPEFu" Ids="Lnqiijy6TrfPA0NIvL4hLJ,N7s2RvIAqb0QDBSFpIm17W" IsHidden="true" />
@@ -32890,6 +32894,7 @@
                     </Node>
                   </Patch>
                   <Pin Id="ACm4UcUdyTMPQ4PyIYqxL3" Name="Force New Instance" Kind="InputPin" />
+                  <Pin Id="UjsVKLtZmAPPsyl7Ybl5oK" Name="On Stop" Kind="InputPin" />
                   <Pin Id="HZ8e66ZAFOCOOave58jg60" Name="Singleton" Kind="OutputPin" />
                 </Node>
                 <Link Id="V6ZKXJxwTwpLckNEGi6l5b" Ids="N77O0Lisc7nOCHHaSzoYjk,Gjwgn8q7awwOB9H4poM7XN" IsHidden="true" />
@@ -37356,6 +37361,31 @@
                 <Pin Id="VxZyK0UMM6oLGzaYdMp7f7" Name="Success" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="I63IUegvUl9PaiN1A296Jv" Bounds="287,1034" />
+              <Node Bounds="182,1525,80,80" Id="UjzspwYrryTPRKm1K7qFj4">
+                <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="VL.CoreLib.dll">
+                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                  <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
+                  <CategoryReference Kind="Category" Name="Primitive" />
+                </p:NodeReference>
+                <Pin Id="QyL41XmcX10Occkd1sPNII" Name="Break" Kind="OutputPin" />
+                <Patch Id="UuWhEibGBrWPrHAx0RrXRK" ManuallySortedPins="true">
+                  <Patch Id="CRGEive7xDhNdASr1vEu4y" Name="Create" ManuallySortedPins="true" />
+                  <Patch Id="FzMrSC5lJUqOXghH9Hsw6i" Name="Update" ManuallySortedPins="true" />
+                  <Patch Id="IygXcBaNW29M1OX4UU8TsG" Name="Dispose" ManuallySortedPins="true" />
+                  <Node Bounds="208,1559" Id="NXsEuP69mBgMNFhrYkSZ3Z">
+                    <p:NodeReference LastCategoryFullName="Kairos.Binder.SampleChannelAndWriteProperty" LastSymbolSource="VL.Kairos.Core.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="GetSampledValue" />
+                    </p:NodeReference>
+                    <Pin Id="OVZKEzUIkptMjSLk2twWlV" Name="Input" Kind="StateInputPin" />
+                    <Pin Id="OS2RSD0KcJfLU4YqSrCfAa" Name="Output" Kind="StateOutputPin" />
+                    <Pin Id="DitW2ikFCcYPO6k5N4wD7d" Name="Sampled Value" Kind="OutputPin" />
+                  </Node>
+                </Patch>
+                <ControlPoint Id="LnyVUl4ctVAPpwM9hjHBVi" Bounds="200,1532" Alignment="Top" />
+                <ControlPoint Id="DmhaR6mP0z1NBV3D2OfPEc" Bounds="326,1606" Alignment="Bottom" />
+              </Node>
+              <ControlPoint Id="JPJArIUTgidLht9Tk3Kuwy" Bounds="321,1640" />
             </Canvas>
             <Patch Id="PlXA73DAHZIP8d5vBXOvnz" Name="Create" ParticipatingElements="BU4xQTpjpQpND0iFSLRFqO" />
             <Patch Id="JaKKqP8rCZpQbytgrxuac7" Name="Update" ParticipatingElements="M8JLuEgMWwoK9t1spq2IuR,KMEQ8UOCfCGPtxCfh3Ijnn" ManuallySortedPins="true">
@@ -37502,6 +37532,7 @@
               <Fragment Id="QlU87NFinmSMX0VDvhaMhd" Patch="CpazDv4h7WxLvGQBKHdlqx" Enabled="true" />
               <Fragment Id="HVpCgcnA53oOnbU5QnMoay" Patch="QtnsOBNZNsELRflAC6BRln" Enabled="true" />
               <Fragment Id="IaH0NAmiLfGNfsUfZXh3MO" Patch="AlwpnpsTE9uMBcymaNMTxz" />
+              <Fragment Id="A9v6YuPYrAmOwkMCg5hRLx" Patch="DgFKb4XvUeCPtpMTQieqmv" Enabled="true" />
             </ProcessDefinition>
             <Link Id="IthlPiKlC85No5K9jlWgd6" Ids="Hp0czExDrq2N1NMUiK9nOE,CFPzRxNnxaCNacJHmszVTW" />
             <Link Id="IRmi1wQbnmIPzCo6GUGEtR" Ids="J3umtCOgoHONLuS7QDc87I,KZbf35HWBWXNjbUOs0obVY" />
@@ -37556,6 +37587,14 @@
             <Link Id="SGlwk9mmaR5LYIrrwKf9XJ" Ids="G4UASeNJ3RJLtvfd61gTGn,UAFbagfKBfkQbXMBIggnus" />
             <Link Id="IKL6QBB8QtXPjxjQLNb8jI" Ids="UAFbagfKBfkQbXMBIggnus,I63IUegvUl9PaiN1A296Jv" />
             <Link Id="EMVifvsbQVpQS8cu3CA9OD" Ids="I63IUegvUl9PaiN1A296Jv,UFajmnpDIW0Ofwmmjwnawt" IsHidden="true" />
+            <Link Id="CUexN0Nd5ZpOCzqPyOcQrM" Ids="EcQVUtaqCQpMq2uw8coBya,LnyVUl4ctVAPpwM9hjHBVi" />
+            <Link Id="JGElwYJI2GvMHUeFwwQTsp" Ids="LnyVUl4ctVAPpwM9hjHBVi,OVZKEzUIkptMjSLk2twWlV" />
+            <Link Id="BG35t6WSw6pOHzYqgcNdGC" Ids="DitW2ikFCcYPO6k5N4wD7d,DmhaR6mP0z1NBV3D2OfPEc" />
+            <Link Id="JPVFlvc5bEENTjERbq0tMZ" Ids="DmhaR6mP0z1NBV3D2OfPEc,JPJArIUTgidLht9Tk3Kuwy" />
+            <Link Id="IPZgluB6HioMH53G5LEVLl" Ids="JPJArIUTgidLht9Tk3Kuwy,TEoD28wiDsjQNMsVQgfok0" IsHidden="true" />
+            <Patch Id="DgFKb4XvUeCPtpMTQieqmv" Name="GetSampledValues">
+              <Pin Id="TEoD28wiDsjQNMsVQgfok0" Name="Sampled Value" Kind="OutputPin" />
+            </Patch>
           </Patch>
         </Node>
         <Overlay Id="JjAXefrGipxMoKdewpeVux" Name="Registered Binder" Bounds="216,135,719,297">
@@ -42617,10 +42656,10 @@
       </p:TypeAnnotation>
     </Slot>
   </Patch>
-  <NugetDependency Id="NeYeysjB7uONj5awiuyEsi" Location="VL.Core" Version="2021.3.3-proxies-0127-g118bd26470" />
+  <NugetDependency Id="NeYeysjB7uONj5awiuyEsi" Location="VL.Core" Version="2021.4.0-proxies-0087-g8b6d0c18e8" />
   <PlatformDependency Id="O1A2Vfmjt1PLndMTI6Z9nJ" Location="mscorlib" />
-  <NugetDependency Id="OwdLbvKKtceOMCYdhZfqy6" Location="VL.EditingFramework" Version="2021.3.3-proxies-0127-g118bd26470" />
-  <NugetDependency Id="AUEU4yePsSbLwdSskw1U4v" Location="VL.Lang" Version="2021.3.3-proxies-0127-g118bd26470" />
+  <NugetDependency Id="OwdLbvKKtceOMCYdhZfqy6" Location="VL.EditingFramework" Version="2021.4.0-proxies-0087-g8b6d0c18e8" />
+  <NugetDependency Id="AUEU4yePsSbLwdSskw1U4v" Location="VL.Lang" Version="2021.4.0-proxies-0087-g8b6d0c18e8" />
   <PlatformDependency Id="SQapMoBLLHuPTa0oFPmxfY" Location="../lib/DynamicModel.dll" />
   <PlatformDependency Id="Ej7EKm0EFBUPVGhnbv0zSP" Location="../../VL.Elementa/src/Elementa/bin/Release/netstandard2.0/Elementa.dll" />
   <DocumentDependency Id="VYdMnIiQLf0NAM3LtLPQ7u" Location="./VL.Kairos.Blending.vl" />
